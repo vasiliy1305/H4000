@@ -1,0 +1,10 @@
+{
+    "Boolean":true,
+    "Boolean 2":false,
+    "String":"fgsfgf",
+    "Cluster":{
+        "Slide":5.85858585858586
+    },
+    "Boolean 3":false,
+    "Enum":1
+}
