@@ -1809,8 +1809,8 @@ AddOutputFilter chunkFilter
 						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
-						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/D/H4000/src/FPGA Bitfiles/hydrort_FPGATarget_MAINFPGAV2_ZQcTIcjWSFE.lvbitx</Property>
-						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/hydrort_FPGATarget_MAINFPGAV2_ZQcTIcjWSFE.lvbitx</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/D/GIT H4000/H4000/src/FPGA Bitfiles/hydrort_FPGATarget_MAINFPGAV2_tH1+BLPHhAg.lvbitx</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/hydrort_FPGATarget_MAINFPGAV2_tH1+BLPHhAg.lvbitx</Property>
 						<Property Name="ProjectPath" Type="Path">/D/H4000/src/Hydro RT.lvproj</Property>
 						<Property Name="RelativePath" Type="Bool">true</Property>
 						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
