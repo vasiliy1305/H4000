@@ -210,10 +210,10 @@
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">MB_ENGINE.lvclass:Settings.ctl</Property>
-		<Property Name="typedefName2" Type="Str">NVM Settings.ctl</Property>
+		<Property Name="typedefName2" Type="Str">Needle Valve Settings.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../modbus engine custom/MB_ENGINE_class/Settings.ctl</Property>
-		<Property Name="typedefPath2" Type="PathRel">../../TypeDef/NVM Settings.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;C8A%!!"E!A!!!!!!+!"F!"A!415.$)&amp;.U:8"T)&amp;"F=C"4:7.?-A!:1!9!%U2&amp;1S"4&gt;'6Q=S"1:8)A5W6D8D)!(U!'!"F.;7YA6G6M&lt;X.J&gt;(EA5X2F=#"1:8)A5W6D!"^!"A!:47&amp;Y)&amp;:F&lt;'^T;82Z)&amp;.U:8!A5'6S)&amp;.F9Q!01!9!#5VJ9X*P5X2F=!"(!0%!!!!!!!!!!B&amp;.1F^&amp;4E&gt;*4E5O&lt;(:D&lt;'&amp;T=QR4:82U;7ZH=SZD&gt;'Q!)%"1!!5!!!!"!!)!!Q!%#ENJ&lt;G6N982J9X-!!".!"A!.:G^S9W5A='6S9W6O&gt;!!21!I!#W2F&lt;(2B)("S:8.T!".!!Q!-98:F=G&amp;H:3"T;8JF!!!Z!0%!!!!!!!!!!2"/6EUA5W6U&gt;'FO:X-O9X2M!#"!5!!%!!5!"A!(!!A-4F:.)&amp;.F&gt;(2J&lt;G&gt;T!!!"!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefPath2" Type="PathRel">../../TypeDef/Needle Valve Settings.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(%Q!%!!"E!A!!!!!!,!".!!Q!-98:F=G&amp;H:3"T;8JF!!!21!9!#G^Q:7YA:G^S9W5!!"&amp;!"A!,9WRP=W5A:G^S9W5!'5!'!"."1U-A5X2F=(-A5'6S)&amp;.F9VYS!"F!"A!42%6$)&amp;.U:8"T)&amp;"F=C"4:7.?-A!@1!9!'5VJ&lt;C"7:7RP=WFU?3"4&gt;'6Q)&amp;"F=C"4:7-!(U!'!"F.98AA6G6M&lt;X.J&gt;(EA5X2F=#"1:8)A5W6D!!^!"A!*47FD=G^4&gt;'6Q!%E!]1!!!!!!!!!#%5V#8U6/2UF/23ZM&gt;G.M98.T$&amp;.F&gt;(2J&lt;G&gt;T,G.U&lt;!!C1&amp;!!"1!$!!1!"1!'!!=.&lt;X"F&lt;C"T:82U;7ZH=Q",!0%!!!!!!!!!!B&amp;.1F^&amp;4E&gt;*4E5O&lt;(:D&lt;'&amp;T=QR4:82U;7ZH=SZD&gt;'Q!*%"1!!5!!Q!%!!5!"A!($G.M&lt;X.F)(.F&gt;(2J&lt;G&gt;T!!"-!0%!!!!!!!!!!2F/:76E&lt;'5A6G&amp;M&gt;G5A5W6U&gt;'FO:X-O9X2M!#J!5!!&amp;!!!!!1!#!!A!#26/:76E&lt;'5A6G&amp;M&gt;G5A5W6U&gt;'FO:X-!!1!+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="PUMPS_DATA" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -239,7 +239,6 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"E!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="Sandbox_RtVar.vi" Type="VI" URL="../Sandbox_RtVar.vi"/>
 	<Item Name="SENSORS" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
@@ -253,18 +252,6 @@
 		<Property Name="typedefPath2" Type="PathRel">../../TypeDef/SensorCalibrationData.ctl</Property>
 		<Property Name="typedefPath3" Type="PathRel">../../TypeDef/SensorCalibrationData_Array.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;03Q%!!"E!A!!!!!!,!!Z!-0````]%4G&amp;N:1!!#5!(!!**2!!!#U!+!!64&lt;'^Q:1!01!I!#5FO&gt;'6S9W6Q&gt;!!*1!I!!V*"6Q!*1!I!!V.$4!!]!0%!!!!!!!!!!2.$97RC=G&amp;U;7^O5'^J&lt;H1O9X2M!#"!5!!#!!1!"2"$97RC=G&amp;U;7^O)&amp;"P;7ZU!!!91%!!!@````]!"AN$97RJ9H*B&gt;'FP&lt;A"-!0%!!!!!!!!!!2F4:7ZT&lt;X*$97RJ9H*B&gt;'FP&lt;E2B&gt;'%O9X2M!#J!5!!&amp;!!!!!1!#!!-!"R64:7ZT&lt;X*$97RJ9H*B&gt;'FP&lt;E2B&gt;'%!'%"!!!(`````!!A,5U6/5U^35V^"5F)!0!$R!!!!!!!!!!%@5W6O=W^S1W&amp;M;7*S982J&lt;WZ%982B8U&amp;S=G&amp;Z,G.U&lt;!!51&amp;!!!1!*"V.&amp;4F.05F-!!1!+!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="SET_CONFIG" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"E!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="STATE" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
