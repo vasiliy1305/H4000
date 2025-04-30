@@ -120,9 +120,11 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Signals" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="AI.lvclass" Type="LVClass" URL="../AI_class/AI.lvclass"/>
 			<Item Name="AnalogComparator.lvclass" Type="LVClass" URL="../AnalogComparator_class/AnalogComparator.lvclass"/>
 			<Item Name="DO.lvclass" Type="LVClass" URL="../DO_class/DO.lvclass"/>
-			<Item Name="Sig_AI.lvclass" Type="LVClass" URL="../Sig_AI_class/Sig_AI.lvclass"/>
+			<Item Name="Scale.lvclass" Type="LVClass" URL="../Scale_class/Scale.lvclass"/>
+			<Item Name="Scale_PiecedLinear.lvclass" Type="LVClass" URL="../PiecedLinearScale_class/Scale_PiecedLinear.lvclass"/>
 			<Item Name="Sig_AO.lvclass" Type="LVClass" URL="../Sig_AO_class/Sig_AO.lvclass"/>
 			<Item Name="Sig_DA.lvclass" Type="LVClass" URL="../Sig_DA_class/Sig_DA.lvclass"/>
 			<Item Name="Sig_DI_Simple.lvclass" Type="LVClass" URL="../Sig_DI_Simple_class/Sig_DI_Simple.lvclass"/>
@@ -1349,7 +1351,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
 				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
 				<Item Name="MGI Average Type Enum.ctl" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Average Type Enum.ctl"/>
-				<Item Name="MGI Boolean Debounce.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Boolean/MGI Boolean Debounce.vi"/>
 				<Item Name="MGI Milliseconds Since Last Call.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Timing/MGI Milliseconds Since Last Call.vi"/>
 				<Item Name="MGI Running Average(DBL).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Running Average/MGI Running Average(DBL).vi"/>
 				<Item Name="MGI Running Average(DBL[]).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Running Average/MGI Running Average(DBL[]).vi"/>
@@ -1399,8 +1400,10 @@ AddOutputFilter chunkFilter
 				<Item Name="Network Protocol.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Protocol.lvclass"/>
 				<Item Name="Network Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/Network Slave.lvclass"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="RTU Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/RTU/RTU Data Unit.lvclass"/>
@@ -1427,6 +1430,9 @@ AddOutputFilter chunkFilter
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="ProcMsg.vi" Type="VI" URL="../Proccess_class/ProcMsg.vi"/>
+			<Item Name="Read ConfigInterface.vi" Type="VI" URL="../Proccess_class/Read ConfigInterface.vi"/>
+			<Item Name="Read MessageInterface.vi" Type="VI" URL="../Proccess_class/Read MessageInterface.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Real-Time Application" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
