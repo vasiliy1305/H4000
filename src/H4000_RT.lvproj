@@ -1,12 +1,11 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
-	<Property Name="varPersistentID:{03126485-B9D5-4C9D-96DE-1C5AB3264F8C}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NVM_SETTINGS_1</Property>
 	<Property Name="varPersistentID:{0A214AE1-2361-4B05-B6E6-60BF46D153E2}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/PUMPS_DATA</Property>
 	<Property Name="varPersistentID:{0EDFED18-A010-419C-9019-A19F3B3016F1}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/AI_DATA_ARRAY</Property>
 	<Property Name="varPersistentID:{1011531F-DCA8-46F5-A384-DDFF56A64378}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/DA_ENG_1</Property>
 	<Property Name="varPersistentID:{1AD3C53B-BD7D-4857-B127-2AB5B6002917}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/ALARM_CUSTOMER</Property>
 	<Property Name="varPersistentID:{33B86C1A-91B8-4FDB-81F8-798C2F825EA0}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/DO_ARRAY_IN</Property>
-	<Property Name="varPersistentID:{3AA15B29-2F46-439E-903E-ADE08B02DEA9}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NVM_DATA_1</Property>
+	<Property Name="varPersistentID:{3AA15B29-2F46-439E-903E-ADE08B02DEA9}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NVM_1_DATA</Property>
 	<Property Name="varPersistentID:{4203DDEC-100A-4415-9527-5CE3C59B4EAF}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/ALARM_DEVELOPER</Property>
 	<Property Name="varPersistentID:{435FD3C1-C289-4142-B8D0-126960EA7BE6}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/AO_ARRAY_OUT</Property>
 	<Property Name="varPersistentID:{4DE208B5-B77B-4E8D-96AE-2B244093347C}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/CHANNELS</Property>
@@ -136,7 +135,7 @@
 			<Item Name="GUI Step.ctl" Type="VI" URL="../TypeDef/GUI Step.ctl"/>
 			<Item Name="Numeric with alarm.ctl" Type="VI" URL="../TypeDef/Numeric with alarm.ctl"/>
 			<Item Name="Needle Valve Settings.ctl" Type="VI" URL="../TypeDef/Needle Valve Settings.ctl"/>
-			<Item Name="NVM Data.ctl" Type="VI" URL="../TypeDef/NVM Data.ctl"/>
+			<Item Name="Needle Valve Data.ctl" Type="VI" URL="../TypeDef/Needle Valve Data.ctl"/>
 			<Item Name="OutOfRange.ctl" Type="VI" URL="../TypeDef/OutOfRange.ctl"/>
 			<Item Name="PumpData.ctl" Type="VI" URL="../TypeDef/PumpData.ctl"/>
 			<Item Name="Range.ctl" Type="VI" URL="../TypeDef/Range.ctl"/>
@@ -283,6 +282,7 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MB_ENGINE.lvclass" Type="LVClass" URL="../modbus engine custom/MB_ENGINE_class/MB_ENGINE.lvclass"/>
 			<Item Name="MB_MODULE.lvclass" Type="LVClass" URL="../modbus engine custom/MB_MODULE_class/MB_MODULE.lvclass"/>
+			<Item Name="Needle Valve State.ctl" Type="VI" URL="../TypeDef/Needle Valve State.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -290,7 +290,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="State HI_PERESS_TEST.ctl" Type="VI" URL="../TypeDef/State HI_PERESS_TEST.ctl"/>
-			<Item Name="StateValveModbus.ctl" Type="VI" URL="../TypeDef/StateValveModbus.ctl"/>
 			<Item Name="Variant To Str.vi" Type="VI" URL="../MessageInterface_class/Variant To Str.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -465,7 +464,6 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="sandboxes" Type="Folder">
 			<Item Name="SanboxEngine.vi" Type="VI" URL="../modbus engine custom/SanboxEngine.vi"/>
-			<Item Name="SanboxVAlveModbus.vi" Type="VI" URL="../modbus engine custom/SanboxVAlveModbus.vi"/>
 			<Item Name="Test DI.vi" Type="VI" URL="../Sanboxes/Test DI.vi"/>
 			<Item Name="test shift.vi" Type="VI" URL="../Sanboxes/test shift.vi"/>
 		</Item>
@@ -524,7 +522,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Config_Scale.ctl" Type="VI" URL="../TypeDef/Config_Scale.ctl"/>
 			<Item Name="ConfigAnalogComp.ctl" Type="VI" URL="../TypeDef/ConfigAnalogComp.ctl"/>
 			<Item Name="DA_Data.ctl" Type="VI" URL="../TypeDef/DA_Data.ctl"/>
-			<Item Name="Devices.ctl" Type="VI" URL="../TypeDef/Devices.ctl"/>
 			<Item Name="Direction.ctl" Type="VI" URL="../TypeDef/Direction.ctl"/>
 			<Item Name="engineering units.ctl" Type="VI" URL="../TypeDef/engineering units.ctl"/>
 			<Item Name="Global State.ctl" Type="VI" URL="../TypeDef/Global State.ctl"/>
@@ -537,9 +534,10 @@ AddOutputFilter chunkFilter
 			<Item Name="GUI Pop Out.ctl" Type="VI" URL="../TypeDef/GUI Pop Out.ctl"/>
 			<Item Name="GUI Setting Channel.ctl" Type="VI" URL="../TypeDef/GUI Setting Channel.ctl"/>
 			<Item Name="GUI Step.ctl" Type="VI" URL="../TypeDef/GUI Step.ctl"/>
+			<Item Name="Needle Valve Data.ctl" Type="VI" URL="../TypeDef/Needle Valve Data.ctl"/>
 			<Item Name="Needle Valve Settings.ctl" Type="VI" URL="../TypeDef/Needle Valve Settings.ctl"/>
+			<Item Name="Needle Valve State.ctl" Type="VI" URL="../TypeDef/Needle Valve State.ctl"/>
 			<Item Name="Numeric with alarm.ctl" Type="VI" URL="../TypeDef/Numeric with alarm.ctl"/>
-			<Item Name="NVM Data.ctl" Type="VI" URL="../TypeDef/NVM Data.ctl"/>
 			<Item Name="OutOfRange.ctl" Type="VI" URL="../TypeDef/OutOfRange.ctl"/>
 			<Item Name="PumpData.ctl" Type="VI" URL="../TypeDef/PumpData.ctl"/>
 			<Item Name="Range.ctl" Type="VI" URL="../TypeDef/Range.ctl"/>
@@ -551,7 +549,6 @@ AddOutputFilter chunkFilter
 			<Item Name="State OIL_FILLING.ctl" Type="VI" URL="../TypeDef/State OIL_FILLING.ctl"/>
 			<Item Name="State.ctl" Type="VI" URL="../TypeDef/State.ctl"/>
 			<Item Name="StatePump.ctl" Type="VI" URL="../TypeDef/StatePump.ctl"/>
-			<Item Name="StateValveModbus.ctl" Type="VI" URL="../TypeDef/StateValveModbus.ctl"/>
 			<Item Name="Step.ctl" Type="VI" URL="../TypeDef/Step.ctl"/>
 			<Item Name="Unit.ctl" Type="VI" URL="../TypeDef/Unit.ctl"/>
 		</Item>
@@ -1770,7 +1767,14 @@ AddOutputFilter chunkFilter
 				<Item Name="Get PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get PString__ogtk.vi"/>
 				<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
 				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
+				<Item Name="MGI Average Type Enum.ctl" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Average Type Enum.ctl"/>
 				<Item Name="MGI Boolean Debounce.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Boolean/MGI Boolean Debounce.vi"/>
+				<Item Name="MGI Milliseconds Since Last Call.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Timing/MGI Milliseconds Since Last Call.vi"/>
+				<Item Name="MGI Running Average(DBL).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Running Average/MGI Running Average(DBL).vi"/>
+				<Item Name="MGI Running Average(DBL[]).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Running Average/MGI Running Average(DBL[]).vi"/>
+				<Item Name="MGI Running Average(DBL[][]).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Running Average/MGI Running Average(DBL[][]).vi"/>
+				<Item Name="MGI Running Average(SGL).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Running Average/MGI Running Average(SGL).vi"/>
+				<Item Name="MGI Running Average.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Running Average.vi"/>
 				<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
 				<Item Name="Reshape 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape 1D Array__ogtk.vi"/>
 				<Item Name="Reshape Array to 1D VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape Array to 1D VArray__ogtk.vi"/>
@@ -1788,21 +1792,41 @@ AddOutputFilter chunkFilter
 				<Item Name="API Main.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Wrapper/API Main.lvlib"/>
 				<Item Name="ASCII Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/ASCII/ASCII Data Unit.lvclass"/>
 				<Item Name="Bits to Bytes.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/Bits to Bytes.vi"/>
+				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Bytes to Bits.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/Bytes to Bits.vi"/>
 				<Item Name="Bytes to U16s.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/Bytes to U16s.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
+				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="Device Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Data Model/Device Data Model.lvclass"/>
+				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
+				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
+				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Generate UUID.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/Generate UUID.vi"/>
+				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
+				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
+				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="IP Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/IP/IP Data Unit.lvclass"/>
 				<Item Name="Is Value Changed.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Is Value Changed.vim"/>
 				<Item Name="JKI JSON Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/JSON/JKI JSON Serialization.lvlib"/>
 				<Item Name="JKI Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/Core/JKI Serialization.lvlib"/>
 				<Item Name="JKI Unicode.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Unicode/JKI Unicode.lvlib"/>
+				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Master Function Definition.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Master Function Definition/Master Function Definition.lvclass"/>
 				<Item Name="MD5Checksum core.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum core.vi"/>
 				<Item Name="MD5Checksum format message-digest.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum format message-digest.vi"/>
@@ -1820,17 +1844,25 @@ AddOutputFilter chunkFilter
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
+				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="RTU Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/RTU/RTU Data Unit.lvclass"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Serial Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/Serial Interface/Serial Data Unit.lvclass"/>
 				<Item Name="Serial Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/Serial/Serial Master.lvclass"/>
 				<Item Name="Serial Shared Components.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Serial Shared Components/Serial Shared Components.lvlib"/>
 				<Item Name="Serial Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/Serial/Serial Slave.lvclass"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 				<Item Name="Standard Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Data Model/Standard Data Model/Standard Data Model.lvclass"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
+				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="TCP Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/TCP/TCP Master.lvclass"/>
 				<Item Name="TCP Shared Components.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/TCP Shared Components/TCP Shared Components.lvlib"/>
 				<Item Name="TCP Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/TCP/TCP Slave.lvclass"/>
+				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
+				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Tools_KeyedArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Tools_KeyedArray.lvlib"/>
 				<Item Name="Tools_String.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/String/Tools_String.lvlib"/>
 				<Item Name="Transmission Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/Transmission Data Unit.lvclass"/>
@@ -1843,8 +1875,7 @@ AddOutputFilter chunkFilter
 			<Item Name="bool_change.vi" Type="VI" URL="../subvis/bool_change.vi"/>
 			<Item Name="Check Folder or Create.vi" Type="VI" URL="../subvis/Check Folder or Create.vi"/>
 			<Item Name="ClassNotDefineError.vi" Type="VI" URL="../subvis/ClassNotDefineError.vi"/>
-			<Item Name="CLOSE.vi" Type="VI" URL="../ValveModbus_class/CLOSE.vi"/>
-			<Item Name="CloseDetector.vi" Type="VI" URL="../ValveModbus_class/private/CloseDetector.vi"/>
+			<Item Name="CLOSE.vi" Type="VI" URL="../NeedleValve_class/CLOSE.vi"/>
 			<Item Name="Cluster_Connection_Info.ctl" Type="VI" URL="../Neosoft Technologies/NeoDB for PostgreSQL/Postgres Connector/Ctrls/Cluster_Connection_Info.ctl"/>
 			<Item Name="ConvertTimeStampFormatLvToDb.vi" Type="VI" URL="../subvis/ConvertTimeStampFormatLvToDb.vi"/>
 			<Item Name="DO index.ctl" Type="VI" URL="../FPGA/TypeDef/DO index.ctl"/>
@@ -1855,19 +1886,13 @@ AddOutputFilter chunkFilter
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="OPEN.vi" Type="VI" URL="../ValveModbus_class/OPEN.vi"/>
-			<Item Name="Read State.vi" Type="VI" URL="../ValveModbus_class/Read State.vi"/>
+			<Item Name="OPEN.vi" Type="VI" URL="../NeedleValve_class/OPEN.vi"/>
 			<Item Name="Scale_Raw_to_EU.vi" Type="VI" URL="../subvis/Scale_Raw_to_EU.vi"/>
 			<Item Name="SHaredVariableSaver.vi" Type="VI" URL="../subvis/SHaredVariableSaver.vi"/>
 			<Item Name="State HI_PERESS_TEST.ctl" Type="VI" URL="../TypeDef/State HI_PERESS_TEST.ctl"/>
-			<Item Name="STOP.vi" Type="VI" URL="../ValveModbus_class/STOP.vi"/>
 			<Item Name="Tick Count (ms) with inout.vim" Type="VI" URL="../subvis/Tick Count (ms) with inout.vim"/>
-			<Item Name="UpdatePump.vi" Type="VI" URL="../ValveModbus_class/UpdatePump.vi"/>
-			<Item Name="ValveModbus.ctl" Type="VI" URL="../ValveModbus_class/ValveModbus.lvclass/ValveModbus.ctl"/>
-			<Item Name="ValveModbus.lvclass" Type="LVClass" URL="../ValveModbus_class/ValveModbus.lvclass"/>
 			<Item Name="Variant To Str.vi" Type="VI" URL="../MessageInterface_class/Variant To Str.vi"/>
-			<Item Name="Write average.vi" Type="VI" URL="../ValveModbus_class/Write average.vi"/>
-			<Item Name="Write delta pres.vi" Type="VI" URL="../ValveModbus_class/Write delta pres.vi"/>
+			<Item Name="Write delta pres.vi" Type="VI" URL="../NeedleValve_class/Write delta pres.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Real-Time Application" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">

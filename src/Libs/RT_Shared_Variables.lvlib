@@ -178,42 +178,28 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"#0A!!!"E!A!!!!!!#!!R!)1&gt;#&lt;W^M:7&amp;O!"Z!1!!"`````Q!!%%&amp;S=G&amp;Z)'^G)%*P&lt;WRF97Y!!!%!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="NVM_DATA_1" Type="Variable">
+	<Item Name="NVM_1_DATA" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">5</Property>
+		<Property Name="numTypedefs" Type="UInt">6</Property>
 		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
 		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">MB_ENGINE.lvclass:Engine Alarms.ctl</Property>
 		<Property Name="typedefName2" Type="Str">MB_ENGINE.lvclass:Engine State.ctl</Property>
-		<Property Name="typedefName3" Type="Str">MB_ENGINE.lvclass:Settings.ctl</Property>
-		<Property Name="typedefName4" Type="Str">NVM Data.ctl</Property>
-		<Property Name="typedefName5" Type="Str">StateValveModbus.ctl</Property>
+		<Property Name="typedefName3" Type="Str">MB_ENGINE.lvclass:Limits Status.ctl</Property>
+		<Property Name="typedefName4" Type="Str">MB_ENGINE.lvclass:Settings.ctl</Property>
+		<Property Name="typedefName5" Type="Str">Needle Valve Data.ctl</Property>
+		<Property Name="typedefName6" Type="Str">Needle Valve State.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../modbus engine custom/MB_ENGINE_class/Engine Alarms.ctl</Property>
 		<Property Name="typedefPath2" Type="PathRel">../../modbus engine custom/MB_ENGINE_class/Engine State.ctl</Property>
-		<Property Name="typedefPath3" Type="PathRel">../../modbus engine custom/MB_ENGINE_class/Settings.ctl</Property>
-		<Property Name="typedefPath4" Type="PathRel">../../TypeDef/NVM Data.ctl</Property>
-		<Property Name="typedefPath5" Type="PathRel">../../TypeDef/StateValveModbus.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!-D(Q-!!"E!A!!!!!!?!!B!)1*04!!!#%!B!F2'!!!)1#%$5V2-!!B!)1.01V!!#E!B"%.1669!!!J!)1266ER0!!!/1#%*5V"*8U635E^3!!J!)16'986M&gt;!!+1#%%4UQA-A!!#E!B"&amp;2')$)!!!J!)1646%QA-A!+1#%&amp;4U.1)$)!$%!B"E.1669A-A!!$%!B"F674%]A-A!!$E!B#(*F=W6S&gt;G6E!!!/1#%)37ZJ&gt;%2P&lt;G5!!&amp;Y!]?1KI3!!!!!#%5V#8U6/2UF/23ZM&gt;G.M98.T%56O:WFO:3""&lt;'&amp;S&lt;8-O9X2M!$*!5!!1!!!!!1!#!!-!"!!&amp;!!9!"Q!)!!E!#A!,!!Q!$1!/!!]'17RB=GVT!!"#!0(AR'0-!!!!!B&amp;.1F^&amp;4E&gt;*4E5O&lt;(:D&lt;'&amp;T=R"&amp;&lt;G&gt;J&lt;G5A5X2B&gt;'5O9X2M!"&gt;!"A!-27ZH;7ZF)&amp;.U982F!!!41!-!$6*"6S"1&lt;X.T;82J&lt;WY!9!$R!!!!!!!!!!%55X2B&gt;'6797RW:5VP:'*V=SZD&gt;'Q!1U!7!!9%352-21205%6/"5.-4V.&amp;"U^125Z*4E=(1UR05UF/2Q246%^1!!!15X2B&gt;'6797RW:5VP:'*V=Q!!$5!+!!:"&lt;G&gt;F&lt;'5!!!N!!Q!%5X2F=!!!$5!$!!&gt;&amp;&lt;G.P:'6S!"F!"A!415.$)&amp;.U:8"T)&amp;"F=C"4:7.?-A!:1!9!%U2&amp;1S"4&gt;'6Q=S"1:8)A5W6D8D)!(U!'!"F.;7YA6G6M&lt;X.J&gt;(EA5X2F=#"1:8)A5W6D!"^!"A!:47&amp;Y)&amp;:F&lt;'^T;82Z)&amp;.U:8!A5'6S)&amp;.F9Q!01!9!#5VJ9X*P5X2F=!"&amp;!0%!!!!!!!!!!B&amp;.1F^&amp;4E&gt;*4E5O&lt;(:D&lt;'&amp;T=QR4:82U;7ZH=SZD&gt;'Q!(E"1!!5!&amp;Q!9!"E!'A!&lt;#5NJ&lt;G6N982J9Q!Z!0%!!!!!!!!!!1R/6EUA2'&amp;U93ZD&gt;'Q!*%"1!!A!%!!2!")!%Q!5!"5!&amp;A!=#%Z743"%982B!!!"!"U!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="NVM_SETTINGS_1" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">2</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typedefName1" Type="Str">MB_ENGINE.lvclass:Settings.ctl</Property>
-		<Property Name="typedefName2" Type="Str">Needle Valve Settings.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../../modbus engine custom/MB_ENGINE_class/Settings.ctl</Property>
-		<Property Name="typedefPath2" Type="PathRel">../../TypeDef/Needle Valve Settings.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(%Q!%!!"E!A!!!!!!,!".!!Q!-98:F=G&amp;H:3"T;8JF!!!21!9!#G^Q:7YA:G^S9W5!!"&amp;!"A!,9WRP=W5A:G^S9W5!'5!'!"."1U-A5X2F=(-A5'6S)&amp;.F9VYS!"F!"A!42%6$)&amp;.U:8"T)&amp;"F=C"4:7.?-A!@1!9!'5VJ&lt;C"7:7RP=WFU?3"4&gt;'6Q)&amp;"F=C"4:7-!(U!'!"F.98AA6G6M&lt;X.J&gt;(EA5X2F=#"1:8)A5W6D!!^!"A!*47FD=G^4&gt;'6Q!%E!]1!!!!!!!!!#%5V#8U6/2UF/23ZM&gt;G.M98.T$&amp;.F&gt;(2J&lt;G&gt;T,G.U&lt;!!C1&amp;!!"1!$!!1!"1!'!!=.&lt;X"F&lt;C"T:82U;7ZH=Q",!0%!!!!!!!!!!B&amp;.1F^&amp;4E&gt;*4E5O&lt;(:D&lt;'&amp;T=QR4:82U;7ZH=SZD&gt;'Q!*%"1!!5!!Q!%!!5!"A!($G.M&lt;X.F)(.F&gt;(2J&lt;G&gt;T!!"-!0%!!!!!!!!!!2F/:76E&lt;'5A6G&amp;M&gt;G5A5W6U&gt;'FO:X-O9X2M!#J!5!!&amp;!!!!!1!#!!A!#26/:76E&lt;'5A6G&amp;M&gt;G5A5W6U&gt;'FO:X-!!1!+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefPath3" Type="PathRel">../../modbus engine custom/MB_ENGINE_class/Limits Status.ctl</Property>
+		<Property Name="typedefPath4" Type="PathRel">../../modbus engine custom/MB_ENGINE_class/Settings.ctl</Property>
+		<Property Name="typedefPath5" Type="PathRel">../../TypeDef/Needle Valve Data.ctl</Property>
+		<Property Name="typedefPath6" Type="PathRel">../../TypeDef/Needle Valve State.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!0,RQ-!!"E!A!!!!!!E!%)!]?$%9]Q!!!!#%5V#8U6/2UF/23ZM&gt;G.M98.T%%6O:WFO:3"4&gt;'&amp;U:3ZD&gt;'Q!&amp;U!'!!R&amp;&lt;G&gt;J&lt;G5A5X2B&gt;'5!!&amp;9!]1!!!!!!!!!"&amp;EZF:72M:3"797RW:3"4&gt;'&amp;U:3ZD&gt;'Q!.U!7!!1%352-21&gt;05%6/35Z("U.-4V.*4E=%5V205!!15X2B&gt;'6797RW:5VP:'*V=Q!!#%!B!E^-!!!)1#%#6%9!!!B!)1.46%Q!#%!B!U^$5!!+1#%%1V"66A!!#E!B"&amp;674%]!!!Z!)1F45%F@26*34V)!#E!B"5:B&gt;7RU!!J!)1204#!S!!!+1#%%6%9A-A!!#E!B"6.54#!S!!J!)1601V!A-A!-1#%'1V"66C!S!!!-1#%'66:-4S!S!!!/1#%)=G6T:8*W:71!!!Z!)1B*&lt;GFU2'^O:1!!8A$RZ#KB)!!!!!)245*@25Z(35Z&amp;,GRW9WRB=X-227ZH;7ZF)%&amp;M98*N=SZD&gt;'Q!-E"1!"!!!A!$!!1!"1!'!!=!#!!*!!I!#Q!-!!U!$A!0!"!!%1:"&lt;'&amp;S&lt;8-!!".!!Q!.5E&amp;8)&amp;"P=X.J&gt;'FP&lt;A!.1!I!"E&amp;O:W6M:1!!#U!$!!24&gt;'6Q!!!.1!-!"U6O9W^E:8)!'5!'!"."1U-A5X2F=(-A5'6S)&amp;.F9VYS!"F!"A!42%6$)&amp;.U:8"T)&amp;"F=C"4:7.?-A!@1!9!'5VJ&lt;C"7:7RP=WFU?3"4&gt;'6Q)&amp;"F=C"4:7-!(U!'!"F.98AA6G6M&lt;X.J&gt;(EA5X2F=#"1:8)A5W6D!!^!"A!*47FD=G^4&gt;'6Q!%5!]1!!!!!!!!!#%5V#8U6/2UF/23ZM&gt;G.M98.T$&amp;.F&gt;(2J&lt;G&gt;T,G.U&lt;!!?1&amp;!!"1!8!"A!'1!;!"M*3WFO:7VB&gt;'FD!"2!)1Z'986M&gt;#!S)&amp;.X;82D;!!!&amp;%!B$E:B&gt;7RU)$%A5X&gt;J&gt;'.I!!!31#%-1W6O&gt;'6S+%BP&lt;75J!!!11#%,4'^X:8)A4'FN;81!%%!B#V6Q='6S)%RJ&lt;7FU!%A!]1!!!!!!!!!#%5V#8U6/2UF/23ZM&gt;G.M98.T%5RJ&lt;7FU=S"4&gt;'&amp;U&gt;8-O9X2M!"R!5!!&amp;!"U!(A!@!#!!)1:-;7VJ&gt;(-!!%1!]1!!!!!!!!!"&amp;5ZF:72M:3"797RW:3"%982B,G.U&lt;!!G1&amp;!!#1!!!!%!%A!4!"1!&amp;1!7!"Q!)AB/6EUA2'&amp;U91!!!1!D!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="PUMPS_DATA" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
