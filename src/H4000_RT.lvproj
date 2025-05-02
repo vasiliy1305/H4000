@@ -1,5 +1,18 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
+	<Property Name="varPersistentID:{228BFF02-D614-4310-BC44-CB1657D170BC}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/ALARM_CUSTOMER</Property>
+	<Property Name="varPersistentID:{356D440D-96A4-4A35-88D0-33C015902511}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV_1_DATA</Property>
+	<Property Name="varPersistentID:{4E4BC064-E0FA-4672-88CF-9CE7F8D9B928}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/DI_ARRAY</Property>
+	<Property Name="varPersistentID:{55C8E251-AB3F-4426-BD3B-FADA4DB7CB01}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/STATE</Property>
+	<Property Name="varPersistentID:{602F551A-1122-48D4-9EC2-367B83393C6F}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/DO_ARRAY</Property>
+	<Property Name="varPersistentID:{89580593-2759-4DF0-A6CE-0B65C6DCE8AE}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/CALIBRATION_DATA</Property>
+	<Property Name="varPersistentID:{92B0DF8A-CA54-4B10-9547-CDE085EF4FB3}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV_2_DATA</Property>
+	<Property Name="varPersistentID:{92C049D8-BD20-4990-8912-D4C044B2A9A2}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/ALARM_DEVELOPER</Property>
+	<Property Name="varPersistentID:{BEFDC495-0D15-4A92-A87A-088EEC7579BB}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/AO_ARRAY</Property>
+	<Property Name="varPersistentID:{C3D6D3A7-E5C4-45BD-BDBE-F63B73A51895}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/AI_ARRAY</Property>
+	<Property Name="varPersistentID:{C87A6665-2C69-4FB0-9051-67AE1FC9F3D3}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV_1_SETTING</Property>
+	<Property Name="varPersistentID:{DDCDCB42-CF5B-4B33-95EF-78571EBFCDDE}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV_2_SETTING</Property>
+	<Property Name="varPersistentID:{E447D0D2-5B23-4CD1-B5A5-4F5A25DA57CC}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/CommCounter</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -10,6 +23,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="rutune.txt" Type="Document" URL="../rutune.txt"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -117,6 +131,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Libs" Type="Folder">
 			<Item Name="hashlib.lvlib" Type="Library" URL="../Neosoft Technologies/NeoDB for PostgreSQL/Postgres Connector/hashlib/hashlib/hashlib.lvlib"/>
 			<Item Name="PG_LIB.lvlib" Type="Library" URL="../Neosoft Technologies/PG_LIB.lvlib"/>
+			<Item Name="RT_Shared_Variables.lvlib" Type="Library" URL="../Libs/RT_Shared_Variables.lvlib"/>
 		</Item>
 		<Item Name="Signals" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
@@ -154,8 +169,7 @@ AddOutputFilter chunkFilter
 			<Item Name="AI_Data.ctl" Type="VI" URL="../TypeDef/AI_Data.ctl"/>
 			<Item Name="bool_data.ctl" Type="VI" URL="../TypeDef/bool_data.ctl"/>
 			<Item Name="bool_setting.ctl" Type="VI" URL="../TypeDef/bool_setting.ctl"/>
-			<Item Name="CalbrationPoint.ctl" Type="VI" URL="../TypeDef/CalbrationPoint.ctl"/>
-			<Item Name="Channel Setting Array.ctl" Type="VI" URL="../TypeDef/Channel Setting Array.ctl"/>
+			<Item Name="CalibrationData.ctl" Type="VI" URL="../TypeDef/CalibrationData.ctl"/>
 			<Item Name="Cluster_Connection_Info.ctl" Type="VI" URL="../Neosoft Technologies/NeoDB for PostgreSQL/Postgres Connector/Ctrls/Cluster_Connection_Info.ctl"/>
 			<Item Name="Config_Scale.ctl" Type="VI" URL="../TypeDef/Config_Scale.ctl"/>
 			<Item Name="ConfigAnalogComp.ctl" Type="VI" URL="../TypeDef/ConfigAnalogComp.ctl"/>
@@ -1425,6 +1439,7 @@ AddOutputFilter chunkFilter
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="AI_Data_Array.ctl" Type="VI" URL="../TypeDef/AI_Data_Array.ctl"/>
 			<Item Name="hydrort_FPGATarget_MAINFPGAV2_ZQcTIcjWSFE.lvbitx" Type="Document" URL="../FPGA Bitfiles/hydrort_FPGATarget_MAINFPGAV2_ZQcTIcjWSFE.lvbitx"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">

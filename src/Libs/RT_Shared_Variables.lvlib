@@ -62,17 +62,19 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"E!A!!!!!!#!!V!#A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"%&lt;X6C&lt;'5!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="CHANNELS" Type="Variable">
+	<Item Name="CALIBRATION_DATA" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">2</Property>
+		<Property Name="numTypedefs" Type="UInt">3</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typedefName1" Type="Str">Channel Setting Array.ctl</Property>
+		<Property Name="typedefName1" Type="Str">CalibrationData.ctl</Property>
 		<Property Name="typedefName2" Type="Str">GUI Setting Channel.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/Channel Setting Array.ctl</Property>
+		<Property Name="typedefName3" Type="Str">SensorCalibrationData.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/CalibrationData.ctl</Property>
 		<Property Name="typedefPath2" Type="PathRel">../../TypeDef/GUI Setting Channel.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$6U1!!!"E!A!!!!!!&amp;!!Z!-0````]%4G&amp;N:1!!$U!(!!B4:7ZT&lt;X**2!!!1A$R!!!!!!!!!!%82V6*)&amp;.F&gt;(2J&lt;G=A1WBB&lt;GZF&lt;#ZD&gt;'Q!)E"1!!)!!!!"%U&gt;633"$;'&amp;O&lt;G6M)&amp;.F&gt;(2J&lt;G=!'E"!!!(`````!!).1WBB&lt;GZF&lt;(-A:'&amp;U91"%!0%!!!!!!!!!!2F$;'&amp;O&lt;G6M)&amp;.F&gt;(2J&lt;G=A18*S98EO9X2M!#*!5!!"!!-61WBB&lt;GZF&lt;#"4:82U;7ZH)%&amp;S=G&amp;Z!!%!"!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefPath3" Type="PathRel">../../TypeDef/SensorCalibrationData.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;651%!!"E!A!!!!!!,!!Z!-0````]%4G&amp;N:1!!$U!(!!B4:7ZT&lt;X**2!!!1A$R!!!!!!!!!!%82V6*)&amp;.F&gt;(2J&lt;G=A1WBB&lt;GZF&lt;#ZD&gt;'Q!)E"1!!)!!!!"%U&gt;633"$;'&amp;O&lt;G6M)&amp;.F&gt;(2J&lt;G=!&amp;E"!!!(`````!!))1WBB&lt;GZF&lt;(-!!!F!"Q!#351!!!&gt;!#A!"7!!/1%!!!@````]!"1&amp;9!!Z!1!!"`````Q!&amp;!6E!3A$R!!!!!!!!!!%:5W6O=W^S1W&amp;M;7*S982J&lt;WZ%982B,G.U&lt;!!I1&amp;!!"!!%!!!!"A!(&amp;6.F&lt;H.P=E.B&lt;'FC=G&amp;U;7^O2'&amp;U91!51%!!!@````]!#!&gt;4:7ZT&lt;X*T!$I!]1!!!!!!!!!"%U.B&lt;'FC=G&amp;U;7^O2'&amp;U93ZD&gt;'Q!(E"1!!)!!Q!*$U.B&lt;'FC=G&amp;U;7^O2'&amp;U91!"!!I!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="CommCounter" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
@@ -187,20 +189,6 @@
 		<Property Name="typedefPath1" Type="PathRel">../../modbus engine custom/MB_ENGINE_class/Settings.ctl</Property>
 		<Property Name="typedefPath2" Type="PathRel">../../TypeDef/Needle Valve Settings.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(%Q!%!!"E!A!!!!!!,!".!!Q!-98:F=G&amp;H:3"T;8JF!!!21!9!#G^Q:7YA:G^S9W5!!"&amp;!"A!,9WRP=W5A:G^S9W5!'5!'!"."1U-A5X2F=(-A5'6S)&amp;.F9VYS!"F!"A!42%6$)&amp;.U:8"T)&amp;"F=C"4:7.?-A!@1!9!'5VJ&lt;C"7:7RP=WFU?3"4&gt;'6Q)&amp;"F=C"4:7-!(U!'!"F.98AA6G6M&lt;X.J&gt;(EA5X2F=#"1:8)A5W6D!!^!"A!*47FD=G^4&gt;'6Q!%E!]1!!!!!!!!!#%5V#8U6/2UF/23ZM&gt;G.M98.T$&amp;.F&gt;(2J&lt;G&gt;T,G.U&lt;!!C1&amp;!!"1!$!!1!"1!'!!=.&lt;X"F&lt;C"T:82U;7ZH=Q",!0%!!!!!!!!!!B&amp;.1F^&amp;4E&gt;*4E5O&lt;(:D&lt;'&amp;T=QR4:82U;7ZH=SZD&gt;'Q!*%"1!!5!!Q!%!!5!"A!($G.M&lt;X.F)(.F&gt;(2J&lt;G&gt;T!!"-!0%!!!!!!!!!!2F/:76E&lt;'5A6G&amp;M&gt;G5A5W6U&gt;'FO:X-O9X2M!#J!5!!&amp;!!!!!1!#!!A!#26/:76E&lt;'5A6G&amp;M&gt;G5A5W6U&gt;'FO:X-!!1!+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="SENSORS" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">3</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typedefName1" Type="Str">CalbrationPoint.ctl</Property>
-		<Property Name="typedefName2" Type="Str">SensorCalibrationData.ctl</Property>
-		<Property Name="typedefName3" Type="Str">SensorCalibrationData_Array.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/CalbrationPoint.ctl</Property>
-		<Property Name="typedefPath2" Type="PathRel">../../TypeDef/SensorCalibrationData.ctl</Property>
-		<Property Name="typedefPath3" Type="PathRel">../../TypeDef/SensorCalibrationData_Array.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;03Q%!!"E!A!!!!!!,!!Z!-0````]%4G&amp;N:1!!#5!(!!**2!!!#U!+!!64&lt;'^Q:1!01!I!#5FO&gt;'6S9W6Q&gt;!!*1!I!!V*"6Q!*1!I!!V.$4!!]!0%!!!!!!!!!!2.$97RC=G&amp;U;7^O5'^J&lt;H1O9X2M!#"!5!!#!!1!"2"$97RC=G&amp;U;7^O)&amp;"P;7ZU!!!91%!!!@````]!"AN$97RJ9H*B&gt;'FP&lt;A"-!0%!!!!!!!!!!2F4:7ZT&lt;X*$97RJ9H*B&gt;'FP&lt;E2B&gt;'%O9X2M!#J!5!!&amp;!!!!!1!#!!-!"R64:7ZT&lt;X*$97RJ9H*B&gt;'FP&lt;E2B&gt;'%!'%"!!!(`````!!A,5U6/5U^35V^"5F)!0!$R!!!!!!!!!!%@5W6O=W^S1W&amp;M;7*S982J&lt;WZ%982B8U&amp;S=G&amp;Z,G.U&lt;!!51&amp;!!!1!*"V.&amp;4F.05F-!!1!+!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="STATE" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>

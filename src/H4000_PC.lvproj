@@ -1,5 +1,18 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
+	<Property Name="varPersistentID:{59C74835-016C-470F-A316-1CE00033A2F1}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/ALARM_CUSTOMER</Property>
+	<Property Name="varPersistentID:{6F23820B-208D-448C-B048-7E0272BF2C5C}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/AI_ARRAY</Property>
+	<Property Name="varPersistentID:{745CC21B-FCA9-4FF5-A224-EADFE8BDED42}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/DO_ARRAY</Property>
+	<Property Name="varPersistentID:{8426CFAD-3401-45C6-8478-6C1DBF1508DC}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/NV_1_DATA</Property>
+	<Property Name="varPersistentID:{96B24040-4CA0-4C2A-99AC-2E21FEDC4D91}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/ALARM_DEVELOPER</Property>
+	<Property Name="varPersistentID:{9ABDFCAC-4E18-4532-B49B-F8DCD54D8778}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/NV_2_SETTING</Property>
+	<Property Name="varPersistentID:{9D268BC5-D023-496C-98DC-D122C89CBD5C}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/DI_ARRAY</Property>
+	<Property Name="varPersistentID:{B34CDFA2-C99E-413E-B3CD-9536A5526B72}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/AO_ARRAY</Property>
+	<Property Name="varPersistentID:{B9CAA52D-E161-49DF-A56A-577703D9CD1E}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/CommCounter</Property>
+	<Property Name="varPersistentID:{C6C7DB36-EEFB-46F7-9732-329AB0A65A01}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/NV_2_DATA</Property>
+	<Property Name="varPersistentID:{DA2530B7-8A98-4C28-A088-27B01161BA08}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/NV_1_SETTING</Property>
+	<Property Name="varPersistentID:{E56D4D2D-262A-40AF-B6EC-1F9A54BC11B6}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/STATE</Property>
+	<Property Name="varPersistentID:{F7A8B977-4EC0-4249-B61B-E1028F818363}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/CALIBRATION_DATA</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -20,6 +33,7 @@
 			<Item Name="MB_MODULE.lvclass" Type="LVClass" URL="../modbus engine custom/MB_MODULE_class/MB_MODULE.lvclass"/>
 			<Item Name="MessageAMC.lvclass" Type="LVClass" URL="../MessageAMC_class/MessageAMC.lvclass"/>
 			<Item Name="MessageInterface.lvclass" Type="LVClass" URL="../MessageInterface_class/MessageInterface.lvclass"/>
+			<Item Name="SharedVariableWrapper.lvclass" Type="LVClass" URL="../SV_Wrap/SharedVariableWrapper.lvclass"/>
 			<Item Name="ConfigJSON.lvclass" Type="LVClass" URL="../ConfigJSON_class/ConfigJSON.lvclass"/>
 		</Item>
 		<Item Name="GUIs" Type="Folder">
@@ -35,7 +49,9 @@
 			<Item Name="GUI Test HIPRESS.lvclass" Type="LVClass" URL="../GUI Test HIPRESS_class/GUI Test HIPRESS.lvclass"/>
 			<Item Name="GUI.lvclass" Type="LVClass" URL="../GUI_class/GUI.lvclass"/>
 			<Item Name="GUI_Report.lvclass" Type="LVClass" URL="../GUI_Report_class/GUI_Report.lvclass"/>
-			<Item Name="SharedVariableWrapper.lvclass" Type="LVClass" URL="../SV_Wrap/SharedVariableWrapper.lvclass"/>
+		</Item>
+		<Item Name="Sandbox" Type="Folder">
+			<Item Name="sandbox noise.vi" Type="VI" URL="../Sanboxes/sandbox noise.vi"/>
 		</Item>
 		<Item Name="Subvis" Type="Folder">
 			<Item Name="Check Folder or Create.vi" Type="VI" URL="../subvis/Check Folder or Create.vi"/>
@@ -59,7 +75,7 @@
 		<Item Name="Typedef" Type="Folder">
 			<Item Name="AI_Data.ctl" Type="VI" URL="../TypeDef/AI_Data.ctl"/>
 			<Item Name="AI_Data_Array.ctl" Type="VI" URL="../TypeDef/AI_Data_Array.ctl"/>
-			<Item Name="CalbrationPoint.ctl" Type="VI" URL="../TypeDef/CalbrationPoint.ctl"/>
+			<Item Name="CalibrationData.ctl" Type="VI" URL="../TypeDef/CalibrationData.ctl"/>
 			<Item Name="Direction.ctl" Type="VI" URL="../TypeDef/Direction.ctl"/>
 			<Item Name="GUI Alarm customer settings.ctl" Type="VI" URL="../TypeDef/GUI Alarm customer settings.ctl"/>
 			<Item Name="GUI Alarm developer settings.ctl" Type="VI" URL="../TypeDef/GUI Alarm developer settings.ctl"/>
@@ -77,6 +93,7 @@
 			<Item Name="Step.ctl" Type="VI" URL="../TypeDef/Step.ctl"/>
 		</Item>
 		<Item Name="MAIN_UI.vi" Type="VI" URL="../MAIN_UI.vi"/>
+		<Item Name="RT_Shared_Variables.lvlib" Type="Library" URL="../Libs/RT_Shared_Variables.lvlib"/>
 		<Item Name="rutune.txt" Type="Document" URL="../rutune.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -158,7 +175,7 @@
 				<Item Name="Network Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/Network Master.lvclass"/>
 				<Item Name="Network Protocol.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Protocol.lvclass"/>
 				<Item Name="Network Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/Network Slave.lvclass"/>
-				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
