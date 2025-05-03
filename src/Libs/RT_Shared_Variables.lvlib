@@ -69,12 +69,14 @@
 		<Property Name="numTypedefs" Type="UInt">3</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">CalibrationData.ctl</Property>
-		<Property Name="typedefName2" Type="Str">GUI Setting Channel.ctl</Property>
-		<Property Name="typedefName3" Type="Str">SensorCalibrationData.ctl</Property>
+		<Property Name="typedefName2" Type="Str">GUI AI Ranges.ctl</Property>
+		<Property Name="typedefName3" Type="Str">GUI Setting Channel.ctl</Property>
+		<Property Name="typedefName4" Type="Str">SensorCalibrationData.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/CalibrationData.ctl</Property>
-		<Property Name="typedefPath2" Type="PathRel">../../TypeDef/GUI Setting Channel.ctl</Property>
-		<Property Name="typedefPath3" Type="PathRel">../../TypeDef/SensorCalibrationData.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;651%!!"E!A!!!!!!,!!Z!-0````]%4G&amp;N:1!!$U!(!!B4:7ZT&lt;X**2!!!1A$R!!!!!!!!!!%82V6*)&amp;.F&gt;(2J&lt;G=A1WBB&lt;GZF&lt;#ZD&gt;'Q!)E"1!!)!!!!"%U&gt;633"$;'&amp;O&lt;G6M)&amp;.F&gt;(2J&lt;G=!&amp;E"!!!(`````!!))1WBB&lt;GZF&lt;(-!!!F!"Q!#351!!!&gt;!#A!"7!!/1%!!!@````]!"1&amp;9!!Z!1!!"`````Q!&amp;!6E!3A$R!!!!!!!!!!%:5W6O=W^S1W&amp;M;7*S982J&lt;WZ%982B,G.U&lt;!!I1&amp;!!"!!%!!!!"A!(&amp;6.F&lt;H.P=E.B&lt;'FC=G&amp;U;7^O2'&amp;U91!51%!!!@````]!#!&gt;4:7ZT&lt;X*T!$I!]1!!!!!!!!!"%U.B&lt;'FC=G&amp;U;7^O2'&amp;U93ZD&gt;'Q!(E"1!!)!!Q!*$U.B&lt;'FC=G&amp;U;7^O2'&amp;U91!"!!I!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefPath2" Type="PathRel">../../TypeDef/GUI AI Ranges.ctl</Property>
+		<Property Name="typedefPath3" Type="PathRel">../../TypeDef/GUI Setting Channel.ctl</Property>
+		<Property Name="typedefPath4" Type="PathRel">../../TypeDef/SensorCalibrationData.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'\NQ%!!"E!A!!!!!!5!!Z!-0````]%4G&amp;N:1!!#%!B!EB*!!!+1#%%3%F)31!!#%!B!ER0!!!+1#%%4%^-4Q!!$U!+!!B)35B*)&amp;:"4!!!$5!+!!:)33"715Q!!!V!#A!'4%]A6E&amp;-!!!01!I!#%R04%]A6E&amp;-!!!.1!I!"UV"7#"316=!$5!+!!&gt;.35YA5E&amp;8!"&amp;!#A!+45&amp;9)&amp;.$15R&amp;2!!!%5!+!!J.35YA5U."4%6%!!"'!0(E/`V3!!!!!2&amp;(65EA15EA5G&amp;O:W6T,G.U&lt;!!M1&amp;!!$!!"!!)!!Q!%!!5!"A!(!!A!#1!+!!M!$!F"33"397ZH:8-!"U!+!!&amp;9!!Z!1!!"`````Q!/!6A!$E"!!!(`````!!Y"71"'!0%!!!!!!!!!!2&gt;(65EA5W6U&gt;'FO:S"$;'&amp;O&lt;G6M,G.U&lt;!!G1&amp;!!"!!!!!U!$Q!1%U&gt;633"$;'&amp;O&lt;G6M)&amp;.F&gt;(2J&lt;G=!&amp;E"!!!(`````!"%)1WBB&lt;GZF&lt;(-!!$A!]1!!!!!!!!!"%U.B&lt;'FC=G&amp;U;7^O2'&amp;U93ZD&gt;'Q!(%"1!!%!%A^$97RJ9H*B&gt;'FP&lt;E2B&gt;'%!!1!4!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="CommCounter" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>

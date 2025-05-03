@@ -68,6 +68,7 @@
 			<Item Name="Script to Graph.vi" Type="VI" URL="../subvis/Script/Script to Graph.vi"/>
 			<Item Name="Script to Tbl.vi" Type="VI" URL="../subvis/Script/Script to Tbl.vi"/>
 			<Item Name="Sec to Time Str.vi" Type="VI" URL="../subvis/Script/Sec to Time Str.vi"/>
+			<Item Name="Set Color Zones.vim" Type="VI" URL="../subvis/Set Color Zones.vim"/>
 			<Item Name="SetValueWithDisable.vim" Type="VI" URL="../subvis/SetValueWithDisable.vim"/>
 			<Item Name="UpdateNumericWithScale.vi" Type="VI" URL="../subvis/UpdateNumericWithScale.vi"/>
 			<Item Name="Variant To Str.vi" Type="VI" URL="../MessageInterface_class/Variant To Str.vi"/>
@@ -77,6 +78,7 @@
 			<Item Name="AI_Data_Array.ctl" Type="VI" URL="../TypeDef/AI_Data_Array.ctl"/>
 			<Item Name="CalibrationData.ctl" Type="VI" URL="../TypeDef/CalibrationData.ctl"/>
 			<Item Name="Direction.ctl" Type="VI" URL="../TypeDef/Direction.ctl"/>
+			<Item Name="GUI AI Ranges.ctl" Type="VI" URL="../TypeDef/GUI AI Ranges.ctl"/>
 			<Item Name="GUI Alarm customer settings.ctl" Type="VI" URL="../TypeDef/GUI Alarm customer settings.ctl"/>
 			<Item Name="GUI Alarm developer settings.ctl" Type="VI" URL="../TypeDef/GUI Alarm developer settings.ctl"/>
 			<Item Name="GUI Paths.ctl" Type="VI" URL="../TypeDef/GUI Paths.ctl"/>
