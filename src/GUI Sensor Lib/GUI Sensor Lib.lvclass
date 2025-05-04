@@ -39,15 +39,6 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1350574592</Property>
 	</Item>
-	<Item Name="edit sensor.vi" Type="VI" URL="../edit sensor.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+$!!!!'Q!/1$$`````"%ZB&lt;75!!!B!)1*)31!!#E!B"%B*3%E!!!B!)1*-4Q!!#E!B"%R04%]!!!^!#A!)3%F)33"715Q!!!V!#A!'3%EA6E&amp;-!!!.1!I!"ER0)&amp;:"4!!!$U!+!!B-4UR0)&amp;:"4!!!$5!+!!&gt;.16AA5E&amp;8!!V!#A!(45F/)&amp;*"6Q!21!I!#EV"7#"41U&amp;-251!!"&amp;!#A!+45F/)&amp;.$15R&amp;2!!!2A$RZ$P^5A!!!!%22V6*)%&amp;*)&amp;*B&lt;G&gt;F=SZD&gt;'Q!,%"1!!Q!!1!#!!-!"!!&amp;!!9!"Q!)!!E!#A!,!!Q*15EA5G&amp;O:W6T!!&gt;!#A!"7!!/1%!!!@````]!$A&amp;9!!Z!1!!"`````Q!/!6E!2A$R!!!!!!!!!!%82V6*)&amp;.F&gt;(2J&lt;G=A1WBB&lt;GZF&lt;#ZD&gt;'Q!*E"1!!1!!!!.!!]!%".(65EA1WBB&lt;GZF&lt;#"4:82U;7ZH!":!1!!"`````Q!2#%.I97ZO:7RT!!!]!0%!!!!!!!!!!2.$97RJ9H*B&gt;'FP&lt;E2B&gt;'%O9X2M!#"!5!!"!")31W&amp;M;7*S982J&lt;WZ%982B)'FO!!!)1#%$&lt;G6X!!1!!!!]!0%!!!!!!!!!!2.$97RJ9H*B&gt;'FP&lt;E2B&gt;'%O9X2M!#"!5!!"!")41W&amp;M;7*S982J&lt;WZ%982B)'^V&gt;!!*1!=!!GFE!!!/1#%)9W&amp;O9W6M:71!!!F!!Q!$=G^X!'Q!]!!1!"-!&amp;!!6!"5!&amp;A!8!"A!&amp;1!:!"5!&amp;1!6!"5!&amp;1!6!"5$!!%)!!!3!!!!%A!!!!!!!!!!!!!!$1!!!")!!!!*!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!'A!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">295232</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
-	</Item>
 	<Item Name="UI.vi" Type="VI" URL="../UI.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;$!!!!#1!G1(!!(A!!'":(65EA5W6O=W^S)%RJ9CZM&gt;G.M98.T!!!$2V6*!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!#!!-!"".F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!9&amp;E&gt;633"4:7ZT&lt;X)A4'FC,GRW9WRB=X-!!!VS:7:F=G6O9W5A&lt;X6U!":!5!!$!!)!!Q!%#76S=G^S)'^V&gt;!#%!0!!&amp;!!!!!%!!1!"!!%!"1!"!!%!!1!"!!%!!1!"!!%!"A!"!!%!!1!"!!=$!!%1!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)U!!!!!!!!!!!!!!!!!!!!!!!!!#1!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
