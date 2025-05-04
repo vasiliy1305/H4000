@@ -38,6 +38,7 @@
 			<Item Name="GUI Alarm Setting.lvclass" Type="LVClass" URL="../GUI Alarm Setting/GUI Alarm Setting.lvclass"/>
 			<Item Name="GUI Data Viewer.lvclass" Type="LVClass" URL="../GUI Data Viewer_class/GUI Data Viewer.lvclass"/>
 			<Item Name="GUI NVM.lvclass" Type="LVClass" URL="../GUI NVM_class/GUI NVM.lvclass"/>
+			<Item Name="GUI PumpMotor.lvclass" Type="LVClass" URL="../GUI PumpMotor_class/GUI PumpMotor.lvclass"/>
 			<Item Name="GUI Script Editor.lvclass" Type="LVClass" URL="../GUI Script Editor_class/GUI Script Editor.lvclass"/>
 			<Item Name="GUI Script Player.lvclass" Type="LVClass" URL="../GUI Script Player_class/GUI Script Player.lvclass"/>
 			<Item Name="GUI Script Viewer.lvclass" Type="LVClass" URL="../GUI Script Viewer_class/GUI Script Viewer.lvclass"/>
@@ -91,7 +92,6 @@
 			<Item Name="State.ctl" Type="VI" URL="../TypeDef/State.ctl"/>
 			<Item Name="Step.ctl" Type="VI" URL="../TypeDef/Step.ctl"/>
 		</Item>
-		<Item Name="GUI PumpMotor.lvclass" Type="LVClass" URL="../GUI PumpMotor_class/GUI PumpMotor.lvclass"/>
 		<Item Name="MAIN_UI.vi" Type="VI" URL="../MAIN_UI.vi"/>
 		<Item Name="RT_Shared_Variables.lvlib" Type="Library" URL="../Libs/RT_Shared_Variables.lvlib"/>
 		<Item Name="rutune.txt" Type="Document" URL="../rutune.txt"/>
@@ -157,7 +157,6 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="HIST_ALM_FILTER_RING.ctl" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/alarm/HIST_ALM_FILTER_RING.ctl"/>
 				<Item Name="IP Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/IP/IP Data Unit.lvclass"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="Is Value Changed.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Is Value Changed.vim"/>

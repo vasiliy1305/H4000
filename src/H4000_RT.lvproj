@@ -122,8 +122,9 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Devices" Type="Folder">
 			<Item Name="Device.lvclass" Type="LVClass" URL="../Device_class/Device.lvclass"/>
-			<Item Name="Engine_1DI_2DO.lvclass" Type="LVClass" URL="../Engine_1DI_2DO_class/Engine_1DI_2DO.lvclass"/>
+			<Item Name="Engine_1DO_2DI.lvclass" Type="LVClass" URL="../Engine_1DO_2DI_class/Engine_1DO_2DI.lvclass"/>
 			<Item Name="NeedleValve.lvclass" Type="LVClass" URL="../NeedleValve_class/NeedleValve.lvclass"/>
+			<Item Name="PM_Group.lvclass" Type="LVClass" URL="../PM_Group_class/PM_Group.lvclass"/>
 			<Item Name="Stand.lvclass" Type="LVClass" URL="../Stand_class/Stand.lvclass"/>
 		</Item>
 		<Item Name="Libs" Type="Folder">
@@ -164,16 +165,17 @@ AddOutputFilter chunkFilter
 		<Item Name="Typedef" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="AI_Data.ctl" Type="VI" URL="../TypeDef/AI_Data.ctl"/>
+			<Item Name="AI_Data_Array.ctl" Type="VI" URL="../TypeDef/AI_Data_Array.ctl"/>
 			<Item Name="bool_data.ctl" Type="VI" URL="../TypeDef/bool_data.ctl"/>
 			<Item Name="bool_setting.ctl" Type="VI" URL="../TypeDef/bool_setting.ctl"/>
 			<Item Name="CalibrationData.ctl" Type="VI" URL="../TypeDef/CalibrationData.ctl"/>
 			<Item Name="Cluster_Connection_Info.ctl" Type="VI" URL="../Neosoft Technologies/NeoDB for PostgreSQL/Postgres Connector/Ctrls/Cluster_Connection_Info.ctl"/>
 			<Item Name="Config_Scale.ctl" Type="VI" URL="../TypeDef/Config_Scale.ctl"/>
 			<Item Name="ConfigAnalogComp.ctl" Type="VI" URL="../TypeDef/ConfigAnalogComp.ctl"/>
+			<Item Name="DI index.ctl" Type="VI" URL="../FPGA/TypeDef/DI index.ctl"/>
 			<Item Name="DO index.ctl" Type="VI" URL="../FPGA/TypeDef/DO index.ctl"/>
 			<Item Name="engineering units.ctl" Type="VI" URL="../TypeDef/engineering units.ctl"/>
-			<Item Name="GUI Alarm customer settings.ctl" Type="VI" URL="../TypeDef/GUI Alarm customer settings.ctl"/>
-			<Item Name="GUI Alarm developer settings.ctl" Type="VI" URL="../TypeDef/GUI Alarm developer settings.ctl"/>
+			<Item Name="GUI AI Ranges.ctl" Type="VI" URL="../TypeDef/GUI AI Ranges.ctl"/>
 			<Item Name="GUI Setting Channel.ctl" Type="VI" URL="../TypeDef/GUI Setting Channel.ctl"/>
 			<Item Name="Needle Valve Data.ctl" Type="VI" URL="../TypeDef/Needle Valve Data.ctl"/>
 			<Item Name="Needle Valve Settings.ctl" Type="VI" URL="../TypeDef/Needle Valve Settings.ctl"/>
@@ -1436,8 +1438,6 @@ AddOutputFilter chunkFilter
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="AI_Data_Array.ctl" Type="VI" URL="../TypeDef/AI_Data_Array.ctl"/>
-			<Item Name="GUI AI Ranges.ctl" Type="VI" URL="../TypeDef/GUI AI Ranges.ctl"/>
 			<Item Name="hydrort_FPGATarget_MAINFPGAV2_ZQcTIcjWSFE.lvbitx" Type="Document" URL="../FPGA Bitfiles/hydrort_FPGATarget_MAINFPGAV2_ZQcTIcjWSFE.lvbitx"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
