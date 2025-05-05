@@ -141,13 +141,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 	</Item>
 	<Item Name="Read Encoder Value.vi" Type="VI" URL="../Read Encoder Value.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;P!!!!$1!K1(!!(A!!%R&amp;.1F^&amp;4E&gt;*4E5O&lt;(:D&lt;'&amp;T=Q!.9WRB=X-A:'&amp;U93"J&lt;A!+1#%%;7ZJ&gt;!!!"!!!!#R!=!!?!!!4%5V#8U6/2UF/23ZM&gt;G.M98.T!!ZD&lt;'&amp;T=S"E982B)'^V&gt;!!!#U!'!!2U?8"F!!!.1!-!"U6O9W^E:8)!%5!+!!N"&lt;G&gt;F&lt;#!I=G&amp;E+1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!(!!A!#2.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!":!5!!$!!=!#!!*#76S=G^S)'^V&gt;!"^!0!!%!!!!!%!!A!#!!-!!A!%!!)!"1!#!!9!#A!#!!)!!A!,!Q!"#!!!%A!!!"!!!!!!!!!!!!!!!!U!!!!!!!!!#1!!!!!!!!!*!!!!!!!!!!E!!!!+!!!!!!!!!!!!!!!!!!!!$1M!%1!!!!!"!!!!!!!!!!!!!!!!!!%!$!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;P!!!!$1!K1(!!(A!!%R&amp;.1F^&amp;4E&gt;*4E5O&lt;(:D&lt;'&amp;T=Q!.9WRB=X-A:'&amp;U93"J&lt;A!+1#%%;7ZJ&gt;!!!"!!!!#R!=!!?!!!4%5V#8U6/2UF/23ZM&gt;G.M98.T!!ZD&lt;'&amp;T=S"E982B)'^V&gt;!!!#U!'!!2U?8"F!!!.1!-!"U6O9W^E:8)!%5!+!!N"&lt;G&gt;F&lt;#!I=G&amp;E+1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!(!!A!#2.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!":!5!!$!!=!#!!*#76S=G^S)'^V&gt;!"^!0!!%!!!!!%!!A!#!!-!!A!%!!)!"1!#!!9!#A!#!!)!!A!,!Q!"#!!!%A!!!")!!!!!!!!!!!!!!!U!!!!!!!!!#1!!!!!!!!!*!!!!!!!!!!E!!!!+!!!!!!!!!!!!!!!!!!!!$1M!%1!!!!!"!!!!!!!!!!!!!!!!!!%!$!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">528</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">41943568</Property>
 	</Item>
 	<Item Name="Read Engine Alarms.vi" Type="VI" URL="../Read Engine Alarms.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*#!!!!'A!K1(!!(A!!%R&amp;.1F^&amp;4E&gt;*4E5O&lt;(:D&lt;'&amp;T=Q!.9WRB=X-A:'&amp;U93"J&lt;A!%!!!!,%"Q!"Y!!"-245*@25Z(35Z&amp;,GRW9WRB=X-!$G.M98.T)'2B&gt;'%A&lt;X6U!!!)1#%#4UQ!!!B!)1*52A!!#%!B!V.54!!)1#%$4U.1!!J!)12$5&amp;67!!!+1#%%66:-4Q!!$E!B#6.136^&amp;5F*05A!+1#%&amp;2G&amp;V&lt;(1!#E!B"%^-)$)!!!J!)1252C!S!!!+1#%&amp;5V2-)$)!#E!B"5^$5#!S!!R!)1:$5&amp;67)$)!!!R!)1:66ER0)$)!!!Z!)1BS:8.F=H:F:!!!$E!B#%FO;82%&lt;WZF!!"?!0(E+K%A!!!!!B&amp;.1F^&amp;4E&gt;*4E5O&lt;(:D&lt;'&amp;T=R&amp;&amp;&lt;G&gt;J&lt;G5A17RB=GVT,G.U&lt;!!S1&amp;!!%!!$!!1!"1!'!!=!#!!*!!I!#Q!-!!U!$A!0!"!!%1!3"E&amp;M98*N=Q!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!)%"1!!-!&amp;!!6!"94:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!71&amp;!!!Q!5!"5!&amp;AFF=H*P=C"P&gt;81!@1$Q!"!!!!!"!!%!!1!#!!%!%Q!"!!%!!1!"!"=!!1!"!!%!'!-!!1A!!"!!!!!!!!!!!!!!!!!!!!!.!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!U,!"%!!!!!!1!!!!!!!!!!!!!!!!!"!"E!!!!!</Property>
