@@ -37,8 +37,8 @@
 		<Item Name="GUIs" Type="Folder">
 			<Item Name="GUI Alarm Setting.lvclass" Type="LVClass" URL="../GUI Alarm Setting/GUI Alarm Setting.lvclass"/>
 			<Item Name="GUI Data Viewer.lvclass" Type="LVClass" URL="../GUI Data Viewer_class/GUI Data Viewer.lvclass"/>
-			<Item Name="GUI NVM.lvclass" Type="LVClass" URL="../GUI NVM_class/GUI NVM.lvclass"/>
-			<Item Name="GUI PumpMotor.lvclass" Type="LVClass" URL="../GUI PumpMotor_class/GUI PumpMotor.lvclass"/>
+			<Item Name="GUI NV.lvclass" Type="LVClass" URL="../GUI NV class/GUI NV.lvclass"/>
+			<Item Name="GUI PumpMotorGroup.lvclass" Type="LVClass" URL="../PumpMotorGroup_class/GUI PumpMotorGroup.lvclass"/>
 			<Item Name="GUI Script Editor.lvclass" Type="LVClass" URL="../GUI Script Editor_class/GUI Script Editor.lvclass"/>
 			<Item Name="GUI Script Player.lvclass" Type="LVClass" URL="../GUI Script Player_class/GUI Script Player.lvclass"/>
 			<Item Name="GUI Script Viewer.lvclass" Type="LVClass" URL="../GUI Script Viewer_class/GUI Script Viewer.lvclass"/>
