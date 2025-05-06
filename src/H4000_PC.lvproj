@@ -216,6 +216,14 @@
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="2 way energized.ctl" Type="VI" URL="../../../../ARCHIVE/Hydro4000/Old/LabVIEW 2019 Software 2022-02-22/Software/Graphics/Custom Valves/2 way energized.ctl"/>
+			<Item Name="2 way_R.ctl" Type="VI" URL="../../../../ARCHIVE/Hydro4000/Old/LabVIEW 2019 Software 2022-02-22/Software/Graphics/Custom Valves/2 way_R.ctl"/>
+			<Item Name="3 way energized.ctl" Type="VI" URL="../../../../ARCHIVE/Hydro4000/Old/LabVIEW 2019 Software 2022-02-22/Software/Graphics/Custom Valves/3 way energized.ctl"/>
+			<Item Name="3 way valve.ctl" Type="VI" URL="../../../../ARCHIVE/Hydro4000/Old/LabVIEW 2019 Software 2022-02-22/Software/Graphics/Custom Valves/3 way valve.ctl"/>
+			<Item Name="3Way_B_90degrees.ctl" Type="VI" URL="../../../../ARCHIVE/Hydro4000/Old/LabVIEW 2019 Software 2022-02-22/Software/Graphics/Custom Valves/3Way_B_90degrees.ctl"/>
+			<Item Name="3Way_BR.ctl" Type="VI" URL="../../../../ARCHIVE/Hydro4000/Old/LabVIEW 2019 Software 2022-02-22/Software/Graphics/Custom Valves/3Way_BR.ctl"/>
+			<Item Name="3Way_MV.ctl" Type="VI" URL="../../../../ARCHIVE/Hydro4000/Old/LabVIEW 2019 Software 2022-02-22/Software/Graphics/Custom Valves/3Way_MV.ctl"/>
+			<Item Name="3Way_UR_R.ctl" Type="VI" URL="../../../../ARCHIVE/Hydro4000/Old/LabVIEW 2019 Software 2022-02-22/Software/Graphics/Custom Valves/3Way_UR_R.ctl"/>
 			<Item Name="GUI Alarm customer settings.ctl" Type="VI" URL="../TypeDef/GUI Alarm customer settings.ctl"/>
 			<Item Name="GUI Alarm developer settings.ctl" Type="VI" URL="../TypeDef/GUI Alarm developer settings.ctl"/>
 		</Item>
