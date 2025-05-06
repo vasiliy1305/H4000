@@ -164,6 +164,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Typedef" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="AI index.ctl" Type="VI" URL="../FPGA/TypeDef/AI index.ctl"/>
 			<Item Name="AI_Data.ctl" Type="VI" URL="../TypeDef/AI_Data.ctl"/>
 			<Item Name="AI_Data_Array.ctl" Type="VI" URL="../TypeDef/AI_Data_Array.ctl"/>
 			<Item Name="bool_data.ctl" Type="VI" URL="../TypeDef/bool_data.ctl"/>
@@ -183,10 +184,11 @@ AddOutputFilter chunkFilter
 			<Item Name="PMG Setting.ctl" Type="VI" URL="../PM_Group_class/PMG Setting.ctl"/>
 			<Item Name="SensorCalibrationData.ctl" Type="VI" URL="../TypeDef/SensorCalibrationData.ctl"/>
 			<Item Name="SensorCalibrationData_Array.ctl" Type="VI" URL="../TypeDef/SensorCalibrationData_Array.ctl"/>
+			<Item Name="State Engine.ctl" Type="VI" URL="../TypeDef/State Engine.ctl"/>
 			<Item Name="State HI_PERESS_TEST.ctl" Type="VI" URL="../TypeDef/State HI_PERESS_TEST.ctl"/>
 			<Item Name="State OIL_FILLING.ctl" Type="VI" URL="../TypeDef/State OIL_FILLING.ctl"/>
+			<Item Name="State PMG.ctl" Type="VI" URL="../TypeDef/State PMG.ctl"/>
 			<Item Name="State.ctl" Type="VI" URL="../TypeDef/State.ctl"/>
-			<Item Name="StatePump.ctl" Type="VI" URL="../TypeDef/StatePump.ctl"/>
 		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
@@ -1439,6 +1441,7 @@ AddOutputFilter chunkFilter
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Config.ctl" Type="VI" URL="../PM_Group_class/Config.ctl"/>
 			<Item Name="hydrort_FPGATarget_MAINFPGAV2_ZQcTIcjWSFE.lvbitx" Type="Document" URL="../FPGA Bitfiles/hydrort_FPGATarget_MAINFPGAV2_ZQcTIcjWSFE.lvbitx"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">

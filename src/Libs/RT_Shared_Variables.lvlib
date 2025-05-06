@@ -18,7 +18,7 @@
 		<Property Name="typedefName2" Type="Str">AI_Data_Array.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/AI_Data.ctl</Property>
 		<Property Name="typedefPath2" Type="PathRel">../../TypeDef/AI_Data_Array.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;75A%!!"E!A!!!!!!1!!F!#A!$5G&amp;X!!V!#A!'5W.B&lt;'6E!!!31#%.4X6U4W:397ZH:5VB?!!31#%.4X6U4W:397ZH:5VJ&lt;A!+1#%%3%F)31!!#%!B!EB*!!!)1#%#4%]!!!J!)12-4UR0!!!81!I!%5^V&gt;%^G5G&amp;O:W6.98B@&gt;G&amp;M!"&gt;!#A!24X6U4W:397ZH:5VJ&lt;F^W97Q!$U!+!!B)35B*8X:B&lt;!!!$5!+!!:)36^W97Q!!!V!#A!'4%^@&gt;G&amp;M!!!01!I!#%R04%^@&gt;G&amp;M!!"#!0%!!!!!!!!!!1N"36^%982B,G.U&lt;!!O1&amp;!!$A!!!!%!!A!$!!1!"1!'!!=!#!!*!!I!#Q!-!!U(15F@2'&amp;U91!Y!0%!!!!!!!!!!2&amp;"36^%982B8U&amp;S=G&amp;Z,G.U&lt;!!?1%!!!@````]!$AV"36^%982B8U&amp;S=G&amp;Z!!%!$Q!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'#@A%!!"E!A!!!!!!3!!F!#A!$5G&amp;X!!V!#A!'5W.B&lt;'6E!!!31#%.4X6U4W:397ZH:5VB?!!31#%.4X6U4W:397ZH:5VJ&lt;A!+1#%%3%F)31!!#%!B!EB*!!!)1#%#4%]!!!J!)12-4UR0!!!81!I!%5^V&gt;%^G5G&amp;O:W6.98B@&gt;G&amp;M!"&gt;!#A!24X6U4W:397ZH:5VJ&lt;F^W97Q!$U!+!!B)35B*8X:B&lt;!!!$5!+!!:)36^W97Q!!!V!#A!'4%^@&gt;G&amp;M!!!01!I!#%R04%^@&gt;G&amp;M!!!41!I!$&amp;*B&gt;S"';7RU:8*F:!!!&amp;5!+!!^49W&amp;M:71A2GFM&gt;'6S:71!2A$R!!!!!!!!!!%,15F@2'&amp;U93ZD&gt;'Q!-E"1!"!!!!!"!!)!!Q!%!!5!"A!(!!A!#1!+!!M!$!!.!!Y!$Q&gt;"36^%982B!$A!]1!!!!!!!!!"%5&amp;*8U2B&gt;'&amp;@18*S98EO9X2M!"Z!1!!"`````Q!1$5&amp;*8U2B&gt;'&amp;@18*S98E!!1!2!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="AO_ARRAY" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
