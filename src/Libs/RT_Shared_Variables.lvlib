@@ -153,16 +153,36 @@
 		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!0,RQ-!!"E!A!!!!!!E!%)!]?$%9]Q!!!!#%5V#8U6/2UF/23ZM&gt;G.M98.T%%6O:WFO:3"4&gt;'&amp;U:3ZD&gt;'Q!&amp;U!'!!R&amp;&lt;G&gt;J&lt;G5A5X2B&gt;'5!!&amp;9!]1!!!!!!!!!"&amp;EZF:72M:3"797RW:3"4&gt;'&amp;U:3ZD&gt;'Q!.U!7!!1%352-21&gt;05%6/35Z("U.-4V.*4E=%5V205!!15X2B&gt;'6797RW:5VP:'*V=Q!!#%!B!E^-!!!)1#%#6%9!!!B!)1.46%Q!#%!B!U^$5!!+1#%%1V"66A!!#E!B"&amp;674%]!!!Z!)1F45%F@26*34V)!#E!B"5:B&gt;7RU!!J!)1204#!S!!!+1#%%6%9A-A!!#E!B"6.54#!S!!J!)1601V!A-A!-1#%'1V"66C!S!!!-1#%'66:-4S!S!!!/1#%)=G6T:8*W:71!!!Z!)1B*&lt;GFU2'^O:1!!8A$RZ#KB)!!!!!)245*@25Z(35Z&amp;,GRW9WRB=X-227ZH;7ZF)%&amp;M98*N=SZD&gt;'Q!-E"1!"!!!A!$!!1!"1!'!!=!#!!*!!I!#Q!-!!U!$A!0!"!!%1:"&lt;'&amp;S&lt;8-!!".!!Q!.5E&amp;8)&amp;"P=X.J&gt;'FP&lt;A!.1!I!"E&amp;O:W6M:1!!#U!$!!24&gt;'6Q!!!.1!-!"U6O9W^E:8)!'5!'!"."1U-A5X2F=(-A5'6S)&amp;.F9VYS!"F!"A!42%6$)&amp;.U:8"T)&amp;"F=C"4:7.?-A!@1!9!'5VJ&lt;C"7:7RP=WFU?3"4&gt;'6Q)&amp;"F=C"4:7-!(U!'!"F.98AA6G6M&lt;X.J&gt;(EA5X2F=#"1:8)A5W6D!!^!"A!*47FD=G^4&gt;'6Q!%5!]1!!!!!!!!!#%5V#8U6/2UF/23ZM&gt;G.M98.T$&amp;.F&gt;(2J&lt;G&gt;T,G.U&lt;!!?1&amp;!!"1!8!"A!'1!;!"M*3WFO:7VB&gt;'FD!"2!)1Z'986M&gt;#!S)&amp;.X;82D;!!!&amp;%!B$E:B&gt;7RU)$%A5X&gt;J&gt;'.I!!!31#%-1W6O&gt;'6S+%BP&lt;75J!!!11#%,4'^X:8)A4'FN;81!%%!B#V6Q='6S)%RJ&lt;7FU!%A!]1!!!!!!!!!#%5V#8U6/2UF/23ZM&gt;G.M98.T%5RJ&lt;7FU=S"4&gt;'&amp;U&gt;8-O9X2M!"R!5!!&amp;!"U!(A!@!#!!)1:-;7VJ&gt;(-!!%1!]1!!!!!!!!!"&amp;5ZF:72M:3"797RW:3"%982B,G.U&lt;!!G1&amp;!!#1!!!!%!%A!4!"1!&amp;1!7!"Q!)AB/6EUA2'&amp;U91!!!1!D!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="NV_2_SETTING" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">2</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">MB_ENGINE.lvclass:Settings.ctl</Property>
 		<Property Name="typedefName2" Type="Str">Needle Valve Settings.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../modbus engine custom/MB_ENGINE_class/Settings.ctl</Property>
 		<Property Name="typedefPath2" Type="PathRel">../../TypeDef/Needle Valve Settings.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(%Q!%!!"E!A!!!!!!,!".!!Q!-98:F=G&amp;H:3"T;8JF!!!21!9!#G^Q:7YA:G^S9W5!!"&amp;!"A!,9WRP=W5A:G^S9W5!'5!'!"."1U-A5X2F=(-A5'6S)&amp;.F9VYS!"F!"A!42%6$)&amp;.U:8"T)&amp;"F=C"4:7.?-A!@1!9!'5VJ&lt;C"7:7RP=WFU?3"4&gt;'6Q)&amp;"F=C"4:7-!(U!'!"F.98AA6G6M&lt;X.J&gt;(EA5X2F=#"1:8)A5W6D!!^!"A!*47FD=G^4&gt;'6Q!%E!]1!!!!!!!!!#%5V#8U6/2UF/23ZM&gt;G.M98.T$&amp;.F&gt;(2J&lt;G&gt;T,G.U&lt;!!C1&amp;!!"1!$!!1!"1!'!!=.&lt;X"F&lt;C"T:82U;7ZH=Q",!0%!!!!!!!!!!B&amp;.1F^&amp;4E&gt;*4E5O&lt;(:D&lt;'&amp;T=QR4:82U;7ZH=SZD&gt;'Q!*%"1!!5!!Q!%!!5!"A!($G.M&lt;X.F)(.F&gt;(2J&lt;G&gt;T!!"-!0(E00HK!!!!!2F/:76E&lt;'5A6G&amp;M&gt;G5A5W6U&gt;'FO:X-O9X2M!#J!5!!&amp;!!!!!1!#!!A!#26/:76E&lt;'5A6G&amp;M&gt;G5A5W6U&gt;'FO:X-!!1!+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="PMG_SETTING" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">GUI Setting PMG.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/GUI Setting PMG.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'JJ1%!!"E!A!!!!!!-!"&gt;!#A!16'6N=#"5&gt;8*O)%^/)%US.!!!&amp;U!+!"&amp;5:7VQ)&amp;2V=GYA4U:')%US.!!:1!I!%V2F&lt;8!A4X"F&lt;C"8982F=C".-D1!'U!+!"25:7VQ)%.M&lt;X.F)&amp;&gt;B&gt;'6S)%US.!!!'5!+!".5:7VQ)%^Q:7YA6W&amp;U:8)A44)R!"N!#A!56'6N=#"$&lt;'^T:3"8982F=C".-D%!!"6!#A!/3&amp;]V-6^P&lt;C!I9W^P&lt;#E!!"6!#A!04&amp;]V-6^P:G9A+'.P&lt;WQJ!"6!#A!/3&amp;]V-F^P:G9A+'^J&lt;#E!!".!#A!.4&amp;]V-F^P&lt;C!I&lt;WFM+1!.1!I!"X2J&lt;76P&gt;81!3!$R!!!!!!!!!!%42V6*)&amp;.F&gt;(2J&lt;G=A5%V(,G.U&lt;!!M1&amp;!!#Q!!!!%!!A!$!!1!"1!'!!=!#!!*!!I,5W6U&gt;'FO:S"145=!!1!,!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="STATE" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>

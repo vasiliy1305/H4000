@@ -1,16 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
-	<Property Name="varPersistentID:{6F23820B-208D-448C-B048-7E0272BF2C5C}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/AI_ARRAY</Property>
-	<Property Name="varPersistentID:{745CC21B-FCA9-4FF5-A224-EADFE8BDED42}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/DO_ARRAY</Property>
-	<Property Name="varPersistentID:{8426CFAD-3401-45C6-8478-6C1DBF1508DC}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/NV_1_DATA</Property>
-	<Property Name="varPersistentID:{9ABDFCAC-4E18-4532-B49B-F8DCD54D8778}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/NV_2_SETTING</Property>
-	<Property Name="varPersistentID:{9D268BC5-D023-496C-98DC-D122C89CBD5C}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/DI_ARRAY</Property>
-	<Property Name="varPersistentID:{B34CDFA2-C99E-413E-B3CD-9536A5526B72}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/AO_ARRAY</Property>
-	<Property Name="varPersistentID:{B9CAA52D-E161-49DF-A56A-577703D9CD1E}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/CommCounter</Property>
-	<Property Name="varPersistentID:{C6C7DB36-EEFB-46F7-9732-329AB0A65A01}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/NV_2_DATA</Property>
-	<Property Name="varPersistentID:{DA2530B7-8A98-4C28-A088-27B01161BA08}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/NV_1_SETTING</Property>
-	<Property Name="varPersistentID:{E56D4D2D-262A-40AF-B6EC-1F9A54BC11B6}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/STATE</Property>
-	<Property Name="varPersistentID:{F7A8B977-4EC0-4249-B61B-E1028F818363}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/CALIBRATION_DATA</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -84,20 +73,20 @@
 			<Item Name="GUI Paths.ctl" Type="VI" URL="../TypeDef/GUI Paths.ctl"/>
 			<Item Name="GUI Pop Out.ctl" Type="VI" URL="../TypeDef/GUI Pop Out.ctl"/>
 			<Item Name="GUI Setting Channel.ctl" Type="VI" URL="../TypeDef/GUI Setting Channel.ctl"/>
+			<Item Name="GUI Setting PMG.ctl" Type="VI" URL="../TypeDef/GUI Setting PMG.ctl"/>
 			<Item Name="GUI Step.ctl" Type="VI" URL="../TypeDef/GUI Step.ctl"/>
 			<Item Name="Needle Valve Data.ctl" Type="VI" URL="../TypeDef/Needle Valve Data.ctl"/>
 			<Item Name="Needle Valve Settings.ctl" Type="VI" URL="../TypeDef/Needle Valve Settings.ctl"/>
 			<Item Name="Needle Valve State.ctl" Type="VI" URL="../TypeDef/Needle Valve State.ctl"/>
 			<Item Name="Script.ctl" Type="VI" URL="../TypeDef/Script.ctl"/>
 			<Item Name="SensorCalibrationData.ctl" Type="VI" URL="../TypeDef/SensorCalibrationData.ctl"/>
+			<Item Name="Slide With Level.ctl" Type="VI" URL="../TypeDef/Slide With Level.ctl"/>
 			<Item Name="State HI_PERESS_TEST.ctl" Type="VI" URL="../TypeDef/State HI_PERESS_TEST.ctl"/>
 			<Item Name="State.ctl" Type="VI" URL="../TypeDef/State.ctl"/>
 			<Item Name="Step.ctl" Type="VI" URL="../TypeDef/Step.ctl"/>
 		</Item>
 		<Item Name="MAIN_UI.vi" Type="VI" URL="../MAIN_UI.vi"/>
-		<Item Name="RT_Shared_Variables.lvlib" Type="Library" URL="../Libs/RT_Shared_Variables.lvlib"/>
 		<Item Name="rutune.txt" Type="Document" URL="../rutune.txt"/>
-		<Item Name="Slide With Level.ctl" Type="VI" URL="../TypeDef/Slide With Level.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
