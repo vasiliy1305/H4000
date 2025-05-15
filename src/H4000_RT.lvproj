@@ -127,6 +127,7 @@ AddOutputFilter chunkFilter
 			<Item Name="NeedleValve.lvclass" Type="LVClass" URL="../NeedleValve_class/NeedleValve.lvclass"/>
 			<Item Name="PM_Group.lvclass" Type="LVClass" URL="../PM_Group_class/PM_Group.lvclass"/>
 			<Item Name="Stand.lvclass" Type="LVClass" URL="../Stand_class/Stand.lvclass"/>
+			<Item Name="Valve_2DO_2DI.lvclass" Type="LVClass" URL="../Valve_2DO_2DI_class/Valve_2DO_2DI.lvclass"/>
 		</Item>
 		<Item Name="Libs" Type="Folder">
 			<Item Name="hashlib.lvlib" Type="Library" URL="../Neosoft Technologies/NeoDB for PostgreSQL/Postgres Connector/hashlib/hashlib/hashlib.lvlib"/>
@@ -190,6 +191,8 @@ AddOutputFilter chunkFilter
 			<Item Name="State OIL_FILLING.ctl" Type="VI" URL="../TypeDef/State OIL_FILLING.ctl"/>
 			<Item Name="State PMG.ctl" Type="VI" URL="../TypeDef/State PMG.ctl"/>
 			<Item Name="State.ctl" Type="VI" URL="../TypeDef/State.ctl"/>
+			<Item Name="Step_Name.ctl" Type="VI" URL="../TypeDef/Step_Name.ctl"/>
+			<Item Name="valveState.ctl" Type="VI" URL="../FPGA/TypeDef/valveState.ctl"/>
 		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
@@ -1442,7 +1445,6 @@ AddOutputFilter chunkFilter
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Config.ctl" Type="VI" URL="../PM_Group_class/Config.ctl"/>
 			<Item Name="GUI Setting PMG.ctl" Type="VI" URL="../TypeDef/GUI Setting PMG.ctl"/>
 			<Item Name="hydrort_FPGATarget_MAINFPGAV2_ZQcTIcjWSFE.lvbitx" Type="Document" URL="../FPGA Bitfiles/hydrort_FPGATarget_MAINFPGAV2_ZQcTIcjWSFE.lvbitx"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
