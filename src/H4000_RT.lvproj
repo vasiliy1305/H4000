@@ -148,6 +148,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Subvis" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="ArrayToSet.vim" Type="VI" URL="../subvis/ArrayToSet.vim"/>
 			<Item Name="Average.vi" Type="VI" URL="../subvis/Average.vi"/>
 			<Item Name="bool_change.vi" Type="VI" URL="../subvis/bool_change.vi"/>
 			<Item Name="Check Folder or Create.vi" Type="VI" URL="../subvis/Check Folder or Create.vi"/>
@@ -176,6 +177,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Cluster_Connection_Info.ctl" Type="VI" URL="../Neosoft Technologies/NeoDB for PostgreSQL/Postgres Connector/Ctrls/Cluster_Connection_Info.ctl"/>
 			<Item Name="Config_Scale.ctl" Type="VI" URL="../TypeDef/Config_Scale.ctl"/>
 			<Item Name="ConfigAnalogComp.ctl" Type="VI" URL="../TypeDef/ConfigAnalogComp.ctl"/>
+			<Item Name="Data Avr.ctl" Type="VI" URL="../subvis/Data Avr.ctl"/>
 			<Item Name="DI index.ctl" Type="VI" URL="../FPGA/TypeDef/DI index.ctl"/>
 			<Item Name="DO index.ctl" Type="VI" URL="../FPGA/TypeDef/DO index.ctl"/>
 			<Item Name="engineering units.ctl" Type="VI" URL="../TypeDef/engineering units.ctl"/>
@@ -1353,7 +1355,6 @@ AddOutputFilter chunkFilter
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="Data Avr.ctl" Type="VI" URL="../subvis/Data Avr.ctl"/>
 		<Item Name="MAIN_RT.vi" Type="VI" URL="../MAIN_RT.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -1421,6 +1422,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Network Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/Network Master.lvclass"/>
 				<Item Name="Network Protocol.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Protocol.lvclass"/>
 				<Item Name="Network Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/Network Slave.lvclass"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
@@ -1432,6 +1434,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Serial Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/Serial/Serial Master.lvclass"/>
 				<Item Name="Serial Shared Components.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Serial Shared Components/Serial Shared Components.lvlib"/>
 				<Item Name="Serial Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/Serial/Serial Slave.lvclass"/>
+				<Item Name="Set Difference.vim" Type="VI" URL="/&lt;vilib&gt;/set operations/Set Difference.vim"/>
 				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 				<Item Name="Standard Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Data Model/Standard Data Model/Standard Data Model.lvclass"/>
 				<Item Name="TCP Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/TCP/TCP Master.lvclass"/>

@@ -20,7 +20,7 @@
 		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/AI Statistics Data.ctl</Property>
 		<Property Name="typedefPath2" Type="PathRel">../../TypeDef/AI_Data.ctl</Property>
 		<Property Name="typedefPath3" Type="PathRel">../../TypeDef/AI_Data_Array.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(1T!%!!"E!A!!!!!!5!"&amp;!#A!+5E&amp;88T%Q-$")?A!!%5!+!!J41UR@-4!Q-%B[!!!01!I!#&amp;*"6V]V-%B[!!!01!I!#&amp;.$4&amp;]V-%B[!!!21!I!#F*"6V^G;7RU:8)!!"&amp;!#A!+5U.-8W:J&lt;(2F=A!!&amp;U!+!""316&gt;@&gt;7RU=G&amp;@:GFM&gt;'6S!!!81!I!%&amp;.$4&amp;^V&lt;(2S96^G;7RU:8)!!!F!#A!$47FO!!F!#A!$47&amp;Y!"F!#A!35X2B&lt;G2B=G1A2'6W;7&amp;U;7^O!!"*!0%!!!!!!!!!!2:"33"4&gt;'&amp;U;8.U;7.T)%2B&gt;'%O9X2M!#J!5!!,!!!!!1!#!!-!"!!&amp;!!9!"Q!)!!E!#AF4&gt;'&amp;U)%2B&gt;'%!%E!B$5^V&gt;%^G5G&amp;O:W6.98A!%E!B$5^V&gt;%^G5G&amp;O:W6.;7Y!#E!B"%B*3%E!!!B!)1*)31!!#%!B!ER0!!!+1#%%4%^-4Q!!.!$R!!!!!!!!!!%,15F@2'&amp;U93ZD&gt;'Q!)%"1!!=!#Q!-!!U!$A!0!"!!%1&gt;"36^%982B!$A!]1!!!!!!!!!"%5&amp;*8U2B&gt;'&amp;@18*S98EO9X2M!"Z!1!!"`````Q!3$5&amp;*8U2B&gt;'&amp;@18*S98E!!1!4!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'5E!%!!"E!A!!!!!!1!!^!#A!)=G&amp;X)'VF97Y!!!^!#A!)=W.M)'VF97Y!!".!#A!-=G&amp;X)'VF97YA-5B[!!!41!I!$(.D&lt;#"N:7&amp;O)$&amp;)?A!!(5!+!":S98=A=X2B&lt;G2B=G1A:'6W;7&amp;U;7^O!!!41!I!$8*B&gt;S"N98AA&gt;G&amp;M&gt;75!%U!+!!VS98=A&lt;7FO)(:B&lt;(6F!%%!]?2-_+-!!!!"&amp;E&amp;*)&amp;.U982J=X2J9X-A2'&amp;U93ZD&gt;'Q!)E"1!!=!!!!"!!)!!Q!%!!5!"AF4&gt;'&amp;U)%2B&gt;'%!%E!B$5^V&gt;%^G5G&amp;O:W6.98A!%E!B$5^V&gt;%^G5G&amp;O:W6.;7Y!#E!B"%B*3%E!!!B!)1*)31!!#%!B!ER0!!!+1#%%4%^-4Q!!.!$R!!!!!!!!!!%,15F@2'&amp;U93ZD&gt;'Q!)%"1!!=!"Q!)!!E!#A!,!!Q!$1&gt;"36^%982B!$A!]1!!!!!!!!!"%5&amp;*8U2B&gt;'&amp;@18*S98EO9X2M!"Z!1!!"`````Q!/$5&amp;*8U2B&gt;'&amp;@18*S98E!!1!0!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="AO_ARRAY" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
@@ -198,6 +198,6 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">State.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/State.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#8EQ!!!"E!A!!!!!!"!)%!]1!!!!!!!!!"#6.U982F,G.U&lt;!"P1"9!#!2*4EF5"%F%4%501UB"4EZ&amp;4&amp;^526.535Z(#U^*4&amp;^'35R-35Z(%V"326""5E6@6%^@3%F@5&amp;*&amp;5V-,3%F@5&amp;*&amp;5V.65E5&amp;15R"5EU13%EA5&amp;*&amp;5V.65E5A6%646!!!"6.U982F!!%!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!\.Q!!!"E!A!!!!!!"!#5!]1!!!!!!!!!"#6.U982F,G.U&lt;!!41"9!!1!!!!64&gt;'&amp;U:1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
