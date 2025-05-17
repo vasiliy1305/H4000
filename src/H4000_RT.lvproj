@@ -3,10 +3,14 @@
 	<Property Name="varPersistentID:{356D440D-96A4-4A35-88D0-33C015902511}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV_1_DATA</Property>
 	<Property Name="varPersistentID:{4E4BC064-E0FA-4672-88CF-9CE7F8D9B928}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/DI_ARRAY</Property>
 	<Property Name="varPersistentID:{55C8E251-AB3F-4426-BD3B-FADA4DB7CB01}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/STATE</Property>
+	<Property Name="varPersistentID:{57AF72BC-6BC4-46BF-89DB-C0FFCC5771A0}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/STATE_M21</Property>
 	<Property Name="varPersistentID:{602F551A-1122-48D4-9EC2-367B83393C6F}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/DO_ARRAY</Property>
+	<Property Name="varPersistentID:{7DF77FCF-AEEE-49F4-8A1B-0586C557ACBA}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/STATE_PMG</Property>
 	<Property Name="varPersistentID:{89580593-2759-4DF0-A6CE-0B65C6DCE8AE}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/CALIBRATION_DATA</Property>
 	<Property Name="varPersistentID:{92B0DF8A-CA54-4B10-9547-CDE085EF4FB3}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV_2_DATA</Property>
+	<Property Name="varPersistentID:{A36E6774-32A3-446A-B796-E86D5E2319E3}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/STATE_M12</Property>
 	<Property Name="varPersistentID:{AB2A1F65-41FD-4A06-9A65-5B75A0842AFB}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/PMG_SETTING</Property>
+	<Property Name="varPersistentID:{BED5CBD2-9629-45D2-A0C0-AED22C451B49}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/STATE_M24</Property>
 	<Property Name="varPersistentID:{BEFDC495-0D15-4A92-A87A-088EEC7579BB}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/AO_ARRAY</Property>
 	<Property Name="varPersistentID:{C3D6D3A7-E5C4-45BD-BDBE-F63B73A51895}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/AI_ARRAY</Property>
 	<Property Name="varPersistentID:{C87A6665-2C69-4FB0-9051-67AE1FC9F3D3}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV_1_SETTING</Property>
@@ -22,8 +26,15 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Logger Table.vi" Type="VI" URL="../Sanboxes/Logger Table.vi"/>
 		<Item Name="rutune.txt" Type="Document" URL="../rutune.txt"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+			</Item>
+			<Item Name="1_10_filter (delete).vi" Type="VI" URL="../Sanboxes/1_10_filter (delete).vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="RT CompactRIO Target" Type="RT CompactRIO">
@@ -158,7 +169,9 @@ AddOutputFilter chunkFilter
 			<Item Name="Const Variable to Save.vi" Type="VI" URL="../Stand_class/private/Const Variable to Save.vi"/>
 			<Item Name="ConvertTimeStampFormatLvToDb.vi" Type="VI" URL="../subvis/ConvertTimeStampFormatLvToDb.vi"/>
 			<Item Name="Create Do Cmd.vi" Type="VI" URL="../FPGA/SubVI/Create Do Cmd.vi"/>
+			<Item Name="Events to table.vi" Type="VI" URL="../subvis/Events to table.vi"/>
 			<Item Name="Init Sv.vi" Type="VI" URL="../subvis/Init Sv.vi"/>
+			<Item Name="Objects to table.vi" Type="VI" URL="../subvis/Objects to table.vi"/>
 			<Item Name="OPEN.vi" Type="VI" URL="../NeedleValve_class/OPEN.vi"/>
 			<Item Name="ReadVariablesFromFile.vi" Type="VI" URL="../Stand_class/private/ReadVariablesFromFile.vi"/>
 			<Item Name="Scale_Raw_to_EU.vi" Type="VI" URL="../subvis/Scale_Raw_to_EU.vi"/>
@@ -1311,6 +1324,8 @@ AddOutputFilter chunkFilter
 						<Item Name="FxpSim.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/FXPMathLib/sim/FxpSim.dll"/>
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+						<Item Name="niFPGA I32xI32 MAC - FXP.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA I32xI32 MAC - FXP.vi"/>
+						<Item Name="niLvFpgaNotchCU(32-bit).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/measure/notch/templates/niLvFpgaNotchCU(32-bit).vi"/>
 					</Item>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
@@ -1342,7 +1357,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
-						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/D/GIT H4000/H4000/src/FPGA Bitfiles/MAIN_FPGA.lvbitx</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/H4001/Documents/GitHub/H4000/src/FPGA Bitfiles/MAIN_FPGA.lvbitx</Property>
 						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/MAIN_FPGA.lvbitx</Property>
 						<Property Name="ProjectPath" Type="Path">/D/GIT H4000/H4000/src/Hydro RT.lvproj</Property>
 						<Property Name="RelativePath" Type="Bool">true</Property>
@@ -1451,8 +1466,8 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="AI Statistics Data.ctl" Type="VI" URL="../TypeDef/AI Statistics Data.ctl"/>
 			<Item Name="GUI Setting PMG.ctl" Type="VI" URL="../TypeDef/GUI Setting PMG.ctl"/>
-			<Item Name="hydrort_FPGATarget_MAINFPGAV2_ZQcTIcjWSFE.lvbitx" Type="Document" URL="../FPGA Bitfiles/hydrort_FPGATarget_MAINFPGAV2_ZQcTIcjWSFE.lvbitx"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="MAIN_FPGA.lvbitx" Type="Document" URL="../FPGA Bitfiles/MAIN_FPGA.lvbitx"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

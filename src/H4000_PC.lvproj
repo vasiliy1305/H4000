@@ -81,7 +81,9 @@
 			<Item Name="Script.ctl" Type="VI" URL="../TypeDef/Script.ctl"/>
 			<Item Name="SensorCalibrationData.ctl" Type="VI" URL="../TypeDef/SensorCalibrationData.ctl"/>
 			<Item Name="Slide With Level.ctl" Type="VI" URL="../TypeDef/Slide With Level.ctl"/>
+			<Item Name="State Engine.ctl" Type="VI" URL="../TypeDef/State Engine.ctl"/>
 			<Item Name="State HI_PERESS_TEST.ctl" Type="VI" URL="../TypeDef/State HI_PERESS_TEST.ctl"/>
+			<Item Name="State PMG.ctl" Type="VI" URL="../TypeDef/State PMG.ctl"/>
 			<Item Name="State.ctl" Type="VI" URL="../TypeDef/State.ctl"/>
 			<Item Name="Step.ctl" Type="VI" URL="../TypeDef/Step.ctl"/>
 		</Item>
@@ -206,6 +208,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="AI Statistics Data.ctl" Type="VI" URL="../TypeDef/AI Statistics Data.ctl"/>
+			<Item Name="Step_Name.ctl" Type="VI" URL="../TypeDef/Step_Name.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

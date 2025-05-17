@@ -6,10 +6,12 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="AI_ARRAY" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">3</Property>
+		<Property Name="Path" Type="Str">/H4000_RT.lvproj/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/</Property>
 		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
 		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
@@ -24,10 +26,12 @@
 	</Item>
 	<Item Name="AO_ARRAY" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/H4000_RT.lvproj/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/</Property>
 		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
 		<Property Name="Real-Time Features:ArrayLength" Type="Str">8</Property>
 		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
@@ -38,9 +42,12 @@
 	</Item>
 	<Item Name="CALIBRATION_DATA" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">3</Property>
+		<Property Name="Path" Type="Str">/H4000_RT.lvproj/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">CalibrationData.ctl</Property>
 		<Property Name="typedefName2" Type="Str">GUI AI Ranges.ctl</Property>
@@ -199,5 +206,67 @@
 		<Property Name="typedefName1" Type="Str">State.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/State.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!\.Q!!!"E!A!!!!!!"!#5!]1!!!!!!!!!"#6.U982F,G.U&lt;!!41"9!!1!!!!64&gt;'&amp;U:1!"!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="STATE_M12" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">State Engine.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/State Engine.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"A8!!!!"E!A!!!!!!"!%I!]1!!!!!!!!!"%&amp;.U982F)%6O:WFO:3ZD&gt;'Q!-5!7!!1$4W:G#62V='ZJ&lt;G&gt;0&lt;A*0&lt;AJ5&gt;8*O;7ZH4W:G!!B&amp;&lt;G&gt;4&gt;'&amp;U:1!!!1!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="STATE_M21" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">State Engine.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/State Engine.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"A8!!!!"E!A!!!!!!"!%I!]1!!!!!!!!!"%&amp;.U982F)%6O:WFO:3ZD&gt;'Q!-5!7!!1$4W:G#62V='ZJ&lt;G&gt;0&lt;A*0&lt;AJ5&gt;8*O;7ZH4W:G!!B&amp;&lt;G&gt;4&gt;'&amp;U:1!!!1!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="STATE_M24" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">State Engine.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/State Engine.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"A8!!!!"E!A!!!!!!"!%I!]1!!!!!!!!!"%&amp;.U982F)%6O:WFO:3ZD&gt;'Q!-5!7!!1$4W:G#62V='ZJ&lt;G&gt;0&lt;A*0&lt;AJ5&gt;8*O;7ZH4W:G!!B&amp;&lt;G&gt;4&gt;'&amp;U:1!!!1!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="STATE_PMG" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">State PMG.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/State PMG.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"&gt;71!!!"E!A!!!!!!"!%=!]1!!!!!!!!!"$6.U982F)&amp;".2SZD&gt;'Q!-5!7!!1*4E^5)&amp;*&amp;152:"%F%4%5'15.536:&amp;"5635E^3!!F4&gt;'&amp;U:3"145=!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
