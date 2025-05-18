@@ -29,11 +29,7 @@
 		<Item Name="Logger Table.vi" Type="VI" URL="../Sanboxes/Logger Table.vi"/>
 		<Item Name="rutune.txt" Type="Document" URL="../rutune.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="vi.lib" Type="Folder">
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-			</Item>
-			<Item Name="1_10_filter (delete).vi" Type="VI" URL="../Sanboxes/1_10_filter (delete).vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="FPGA Debounce Digital.vi" Type="VI" URL="../FPGA/SubVI/FPGA Debounce Digital.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -192,6 +188,7 @@ AddOutputFilter chunkFilter
 			<Item Name="ConfigAnalogComp.ctl" Type="VI" URL="../TypeDef/ConfigAnalogComp.ctl"/>
 			<Item Name="Data Avr.ctl" Type="VI" URL="../subvis/Data Avr.ctl"/>
 			<Item Name="DI index.ctl" Type="VI" URL="../FPGA/TypeDef/DI index.ctl"/>
+			<Item Name="Direction.ctl" Type="VI" URL="../TypeDef/Direction.ctl"/>
 			<Item Name="DO index.ctl" Type="VI" URL="../FPGA/TypeDef/DO index.ctl"/>
 			<Item Name="engineering units.ctl" Type="VI" URL="../TypeDef/engineering units.ctl"/>
 			<Item Name="GUI AI Ranges.ctl" Type="VI" URL="../TypeDef/GUI AI Ranges.ctl"/>
@@ -1465,6 +1462,8 @@ AddOutputFilter chunkFilter
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="AI Statistics Data.ctl" Type="VI" URL="../TypeDef/AI Statistics Data.ctl"/>
+			<Item Name="Config Close Outlet.vi" Type="VI" URL="../FPGA_API_class/Config Close Outlet.vi"/>
+			<Item Name="Config Stop Drive.vi" Type="VI" URL="../FPGA_API_class/Config Stop Drive.vi"/>
 			<Item Name="GUI Setting PMG.ctl" Type="VI" URL="../TypeDef/GUI Setting PMG.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MAIN_FPGA.lvbitx" Type="Document" URL="../FPGA Bitfiles/MAIN_FPGA.lvbitx"/>
