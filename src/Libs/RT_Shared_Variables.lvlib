@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="_Init Sv.vi" Type="VI" URL="../../subvis/_Init Sv.vi"/>
 	<Item Name="AI_ARRAY" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
@@ -203,9 +204,9 @@
 		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typedefName1" Type="Str">State.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/State.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!\.Q!!!"E!A!!!!!!"!#5!]1!!!!!!!!!"#6.U982F,G.U&lt;!!41"9!!1!!!!64&gt;'&amp;U:1!"!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">Logger.lvclass:State.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../Logger_class/State.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"K:A!!!"E!A!!!!!!"!&amp;1!]1!!!!!!!!!#$ERP:W&gt;F=CZM&gt;G.M98.T#6.U982F,G.U&lt;!!T1"9!"!&gt;$&lt;WZO:7.U#%FO;82J982F"EBB&lt;G2M:1F%;8.D&lt;WZF9X1!"6.U982F!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="STATE_M12" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>

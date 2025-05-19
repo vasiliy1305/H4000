@@ -1,21 +1,21 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
-	<Property Name="varPersistentID:{356D440D-96A4-4A35-88D0-33C015902511}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV_1_DATA</Property>
-	<Property Name="varPersistentID:{4E4BC064-E0FA-4672-88CF-9CE7F8D9B928}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/DI_ARRAY</Property>
-	<Property Name="varPersistentID:{55C8E251-AB3F-4426-BD3B-FADA4DB7CB01}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/STATE</Property>
-	<Property Name="varPersistentID:{57AF72BC-6BC4-46BF-89DB-C0FFCC5771A0}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/STATE_M21</Property>
-	<Property Name="varPersistentID:{602F551A-1122-48D4-9EC2-367B83393C6F}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/DO_ARRAY</Property>
-	<Property Name="varPersistentID:{7DF77FCF-AEEE-49F4-8A1B-0586C557ACBA}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/STATE_PMG</Property>
-	<Property Name="varPersistentID:{89580593-2759-4DF0-A6CE-0B65C6DCE8AE}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/CALIBRATION_DATA</Property>
-	<Property Name="varPersistentID:{92B0DF8A-CA54-4B10-9547-CDE085EF4FB3}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV_2_DATA</Property>
-	<Property Name="varPersistentID:{A36E6774-32A3-446A-B796-E86D5E2319E3}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/STATE_M12</Property>
-	<Property Name="varPersistentID:{AB2A1F65-41FD-4A06-9A65-5B75A0842AFB}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/PMG_SETTING</Property>
-	<Property Name="varPersistentID:{BED5CBD2-9629-45D2-A0C0-AED22C451B49}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/STATE_M24</Property>
-	<Property Name="varPersistentID:{BEFDC495-0D15-4A92-A87A-088EEC7579BB}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/AO_ARRAY</Property>
-	<Property Name="varPersistentID:{C3D6D3A7-E5C4-45BD-BDBE-F63B73A51895}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/AI_ARRAY</Property>
-	<Property Name="varPersistentID:{C87A6665-2C69-4FB0-9051-67AE1FC9F3D3}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV_1_SETTING</Property>
-	<Property Name="varPersistentID:{DDCDCB42-CF5B-4B33-95EF-78571EBFCDDE}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV_2_SETTING</Property>
-	<Property Name="varPersistentID:{E447D0D2-5B23-4CD1-B5A5-4F5A25DA57CC}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/CommCounter</Property>
+	<Property Name="varPersistentID:{07841C0D-5AEB-4933-9D33-F989D7CF9A8A}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/DO_ARRAY</Property>
+	<Property Name="varPersistentID:{0C9E6741-05F6-44D0-98C4-97B4B7DC2501}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/DI_ARRAY</Property>
+	<Property Name="varPersistentID:{0E2D81D7-569C-406D-B5BC-C267509F4830}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/STATE_PMG</Property>
+	<Property Name="varPersistentID:{16B0F10F-DEBE-4A34-95E7-5724E97FECDB}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/STATE</Property>
+	<Property Name="varPersistentID:{2E981632-612E-4E8B-A33B-ED0B028250D3}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV_2_DATA</Property>
+	<Property Name="varPersistentID:{61208B3F-C073-45CC-9259-3BC0C6BCDC18}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/AO_ARRAY</Property>
+	<Property Name="varPersistentID:{69D4F517-98FC-4AA4-A1CB-943602D8D373}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV_2_SETTING</Property>
+	<Property Name="varPersistentID:{6F976847-62FB-4F35-9A63-1C892E821DA7}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/CommCounter</Property>
+	<Property Name="varPersistentID:{888A45F1-406E-4E8C-B339-33B8DB9E28A0}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/STATE_M21</Property>
+	<Property Name="varPersistentID:{8E18605F-8307-43A9-A02A-540B1ACC1E43}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV_1_DATA</Property>
+	<Property Name="varPersistentID:{94E662A4-66EF-4FE6-BAFD-57DB5908E859}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/CALIBRATION_DATA</Property>
+	<Property Name="varPersistentID:{EFB1F824-23E2-4C58-8AB0-649AE9F833AC}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/AI_ARRAY</Property>
+	<Property Name="varPersistentID:{F0B05030-B6A0-48FB-9ED2-3A213DFA0A18}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/PMG_SETTING</Property>
+	<Property Name="varPersistentID:{F386DED8-7999-469F-99F2-E02C93D81DC0}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/STATE_M24</Property>
+	<Property Name="varPersistentID:{F74AB67A-8F45-4F5B-975F-233682C4A3C9}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV_1_SETTING</Property>
+	<Property Name="varPersistentID:{FC28B83D-E419-4677-A848-E4F12C9A7226}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/STATE_M12</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -110,7 +110,6 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Classes" Type="Folder">
-			<Item Name="ConfigInterface.lvclass" Type="LVClass" URL="../ConfigInterface_class/ConfigInterface.lvclass"/>
 			<Item Name="ConfigJSON.lvclass" Type="LVClass" URL="../ConfigJSON_class/ConfigJSON.lvclass"/>
 			<Item Name="Database_Postgress.lvclass" Type="LVClass" URL="../Database_Postgress_class/Database_Postgress.lvclass"/>
 			<Item Name="DatabaseInterface.lvclass" Type="LVClass" URL="../DatabaseInterface_class/DatabaseInterface.lvclass"/>
@@ -125,6 +124,7 @@ AddOutputFilter chunkFilter
 			<Item Name="SV_Publisher.lvclass" Type="LVClass" URL="../SV_Puplisher_class/SV_Publisher.lvclass"/>
 		</Item>
 		<Item Name="Devices" Type="Folder">
+			<Item Name="ConfigInterface.lvclass" Type="LVClass" URL="../ConfigInterface_class/ConfigInterface.lvclass"/>
 			<Item Name="Device.lvclass" Type="LVClass" URL="../Device_class/Device.lvclass"/>
 			<Item Name="Engine_1DO_2DI.lvclass" Type="LVClass" URL="../Engine_1DO_2DI_class/Engine_1DO_2DI.lvclass"/>
 			<Item Name="NeedleValve.lvclass" Type="LVClass" URL="../NeedleValve_class/NeedleValve.lvclass"/>
@@ -141,10 +141,8 @@ AddOutputFilter chunkFilter
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="AI.lvclass" Type="LVClass" URL="../AI_class/AI.lvclass"/>
 			<Item Name="AnalogComparator.lvclass" Type="LVClass" URL="../AnalogComparator_class/AnalogComparator.lvclass"/>
-			<Item Name="AO.lvclass" Type="LVClass" URL="../AO_class/AO.lvclass"/>
 			<Item Name="DA.lvclass" Type="LVClass" URL="../DA_class/DA.lvclass"/>
 			<Item Name="DI.lvclass" Type="LVClass" URL="../DI_class/DI.lvclass"/>
-			<Item Name="DO.lvclass" Type="LVClass" URL="../DO_class/DO.lvclass"/>
 			<Item Name="Scale.lvclass" Type="LVClass" URL="../Scale_class/Scale.lvclass"/>
 			<Item Name="Scale_PiecedLinear.lvclass" Type="LVClass" URL="../PiecedLinearScale_class/Scale_PiecedLinear.lvclass"/>
 			<Item Name="Signal.lvclass" Type="LVClass" URL="../Signal_class/Signal.lvclass"/>
@@ -161,11 +159,7 @@ AddOutputFilter chunkFilter
 			<Item Name="ConvertTimeStampFormatLvToDb.vi" Type="VI" URL="../subvis/ConvertTimeStampFormatLvToDb.vi"/>
 			<Item Name="Create Do Cmd.vi" Type="VI" URL="../FPGA/SubVI/Create Do Cmd.vi"/>
 			<Item Name="Events to table.vi" Type="VI" URL="../subvis/Events to table.vi"/>
-			<Item Name="Init Sv.vi" Type="VI" URL="../subvis/Init Sv.vi"/>
 			<Item Name="Objects to table.vi" Type="VI" URL="../subvis/Objects to table.vi"/>
-			<Item Name="OPEN.vi" Type="VI" URL="../NeedleValve_class/OPEN.vi"/>
-			<Item Name="ReadVariablesFromFile.vi" Type="VI" URL="../Stand_class/private/ReadVariablesFromFile.vi"/>
-			<Item Name="Scale_Raw_to_EU.vi" Type="VI" URL="../subvis/Scale_Raw_to_EU.vi"/>
 			<Item Name="SHaredVariableSaver.vi" Type="VI" URL="../subvis/SHaredVariableSaver.vi"/>
 			<Item Name="Tick Count (ms) with inout.vim" Type="VI" URL="../subvis/Tick Count (ms) with inout.vim"/>
 			<Item Name="Variant To Str.vi" Type="VI" URL="../MessageInterface_class/Variant To Str.vi"/>
@@ -175,12 +169,10 @@ AddOutputFilter chunkFilter
 			<Item Name="AI index.ctl" Type="VI" URL="../FPGA/TypeDef/AI index.ctl"/>
 			<Item Name="AI Statistics Data.ctl" Type="VI" URL="../TypeDef/AI Statistics Data.ctl"/>
 			<Item Name="AI_Data.ctl" Type="VI" URL="../TypeDef/AI_Data.ctl"/>
-			<Item Name="AI_Data_Array.ctl" Type="VI" URL="../TypeDef/AI_Data_Array.ctl"/>
 			<Item Name="bool_data.ctl" Type="VI" URL="../TypeDef/bool_data.ctl"/>
 			<Item Name="bool_setting.ctl" Type="VI" URL="../TypeDef/bool_setting.ctl"/>
 			<Item Name="CalibrationData.ctl" Type="VI" URL="../TypeDef/CalibrationData.ctl"/>
 			<Item Name="Cluster_Connection_Info.ctl" Type="VI" URL="../Neosoft Technologies/NeoDB for PostgreSQL/Postgres Connector/Ctrls/Cluster_Connection_Info.ctl"/>
-			<Item Name="Config_Scale.ctl" Type="VI" URL="../TypeDef/Config_Scale.ctl"/>
 			<Item Name="ConfigAnalogComp.ctl" Type="VI" URL="../TypeDef/ConfigAnalogComp.ctl"/>
 			<Item Name="Data Avr.ctl" Type="VI" URL="../subvis/Data Avr.ctl"/>
 			<Item Name="DI index.ctl" Type="VI" URL="../FPGA/TypeDef/DI index.ctl"/>
@@ -193,14 +185,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Needle Valve Data.ctl" Type="VI" URL="../TypeDef/Needle Valve Data.ctl"/>
 			<Item Name="Needle Valve Settings.ctl" Type="VI" URL="../TypeDef/Needle Valve Settings.ctl"/>
 			<Item Name="Needle Valve State.ctl" Type="VI" URL="../TypeDef/Needle Valve State.ctl"/>
-			<Item Name="PMG Setting.ctl" Type="VI" URL="../PM_Group_class/PMG Setting.ctl"/>
-			<Item Name="SensorCalibrationData.ctl" Type="VI" URL="../TypeDef/SensorCalibrationData.ctl"/>
-			<Item Name="SensorCalibrationData_Array.ctl" Type="VI" URL="../TypeDef/SensorCalibrationData_Array.ctl"/>
 			<Item Name="State Engine.ctl" Type="VI" URL="../TypeDef/State Engine.ctl"/>
-			<Item Name="State HI_PERESS_TEST.ctl" Type="VI" URL="../TypeDef/State HI_PERESS_TEST.ctl"/>
-			<Item Name="State OIL_FILLING.ctl" Type="VI" URL="../TypeDef/State OIL_FILLING.ctl"/>
 			<Item Name="State PMG.ctl" Type="VI" URL="../TypeDef/State PMG.ctl"/>
-			<Item Name="State.ctl" Type="VI" URL="../TypeDef/State.ctl"/>
 			<Item Name="Step_Name.ctl" Type="VI" URL="../TypeDef/Step_Name.ctl"/>
 			<Item Name="valveState.ctl" Type="VI" URL="../FPGA/TypeDef/valveState.ctl"/>
 		</Item>
@@ -1139,7 +1125,6 @@ AddOutputFilter chunkFilter
 				</Item>
 				<Item Name="FPGA" Type="Folder" URL="../FPGA">
 					<Property Name="NI.DISK" Type="Bool">true</Property>
-					<Property Name="NI.SortType" Type="Int">0</Property>
 				</Item>
 				<Item Name="40 MHz Onboard Clock" Type="FPGA Base Clock">
 					<Property Name="FPGA.PersistentID" Type="Str">{7AFEE6F9-C05E-4A3C-ACB1-DC61F6A3B114}</Property>
@@ -1316,10 +1301,10 @@ AddOutputFilter chunkFilter
 				<Item Name="Dependencies" Type="Dependencies">
 					<Item Name="vi.lib" Type="Folder">
 						<Item Name="FxpSim.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/FXPMathLib/sim/FxpSim.dll"/>
-						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
-						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-						<Item Name="niFPGA I32xI32 MAC - FXP.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA I32xI32 MAC - FXP.vi"/>
 						<Item Name="niLvFpgaNotchCU(32-bit).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/measure/notch/templates/niLvFpgaNotchCU(32-bit).vi"/>
+						<Item Name="niFPGA I32xI32 MAC - FXP.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA I32xI32 MAC - FXP.vi"/>
+						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					</Item>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
@@ -1353,7 +1338,7 @@ AddOutputFilter chunkFilter
 						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
 						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/H4001/Documents/GitHub/H4000/src/FPGA Bitfiles/MAIN_FPGA.lvbitx</Property>
 						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/MAIN_FPGA.lvbitx</Property>
-						<Property Name="ProjectPath" Type="Path">/D/GIT H4000/H4000/src/Hydro RT.lvproj</Property>
+						<Property Name="ProjectPath" Type="Path">/C/Users/H4001/Documents/GitHub/H4000/src/H4000_RT.lvproj</Property>
 						<Property Name="RelativePath" Type="Bool">true</Property>
 						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
 						<Property Name="SupportDownload" Type="Bool">true</Property>
@@ -1458,6 +1443,7 @@ AddOutputFilter chunkFilter
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="AI_Data_Array.ctl" Type="VI" URL="../TypeDef/AI_Data_Array.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MAIN_FPGA.lvbitx" Type="Document" URL="../FPGA Bitfiles/MAIN_FPGA.lvbitx"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
@@ -1492,23 +1478,13 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{61BBDE9C-50FA-4698-9980-999E36E34C44}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F127AE7A-1AB3-463C-9241-11C98A3421A4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/Stand.lvclass/MAIN_RT.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target/Libs/PG_LIB.lvlib</Property>
-				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">Library</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref"></Property>
-				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">My Real-Time Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">My Real-Time Application</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 </Property>

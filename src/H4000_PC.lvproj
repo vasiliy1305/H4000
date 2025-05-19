@@ -16,12 +16,12 @@
 		<Item Name="Classes" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="ConfigInterface.lvclass" Type="LVClass" URL="../ConfigInterface_class/ConfigInterface.lvclass"/>
+			<Item Name="ConfigJSON.lvclass" Type="LVClass" URL="../ConfigJSON_class/ConfigJSON.lvclass"/>
 			<Item Name="MB_ENGINE.lvclass" Type="LVClass" URL="../modbus engine custom/MB_ENGINE_class/MB_ENGINE.lvclass"/>
 			<Item Name="MB_MODULE.lvclass" Type="LVClass" URL="../modbus engine custom/MB_MODULE_class/MB_MODULE.lvclass"/>
 			<Item Name="MessageAMC.lvclass" Type="LVClass" URL="../MessageAMC_class/MessageAMC.lvclass"/>
 			<Item Name="MessageInterface.lvclass" Type="LVClass" URL="../MessageInterface_class/MessageInterface.lvclass"/>
 			<Item Name="SharedVariableWrapper.lvclass" Type="LVClass" URL="../SV_Wrap/SharedVariableWrapper.lvclass"/>
-			<Item Name="ConfigJSON.lvclass" Type="LVClass" URL="../ConfigJSON_class/ConfigJSON.lvclass"/>
 		</Item>
 		<Item Name="GUIs" Type="Folder">
 			<Item Name="GUI Alarm Setting.lvclass" Type="LVClass" URL="../GUI Alarm Setting/GUI Alarm Setting.lvclass"/>
@@ -38,14 +38,11 @@
 			<Item Name="GUI.lvclass" Type="LVClass" URL="../GUI_class/GUI.lvclass"/>
 			<Item Name="GUI_Report.lvclass" Type="LVClass" URL="../GUI_Report_class/GUI_Report.lvclass"/>
 		</Item>
-		<Item Name="Sandbox" Type="Folder">
-			<Item Name="sandbox noise.vi" Type="VI" URL="../Sanboxes/sandbox noise.vi"/>
-		</Item>
+		<Item Name="Sandbox" Type="Folder"/>
 		<Item Name="Subvis" Type="Folder">
 			<Item Name="Check Folder or Create.vi" Type="VI" URL="../subvis/Check Folder or Create.vi"/>
 			<Item Name="ClassNotDefineError.vi" Type="VI" URL="../subvis/ClassNotDefineError.vi"/>
 			<Item Name="Const - Cannel Names.vi" Type="VI" URL="../subvis/Const - Cannel Names.vi"/>
-			<Item Name="controls.vi" Type="VI" URL="../subvis/controls.vi"/>
 			<Item Name="deleteStep.vi" Type="VI" URL="../subvis/Script/deleteStep.vi"/>
 			<Item Name="DisableControls.vim" Type="VI" URL="../subvis/DisableControls.vim"/>
 			<Item Name="Edit Step.vi" Type="VI" URL="../subvis/Script/Edit Step.vi"/>
@@ -63,15 +60,14 @@
 			<Item Name="Variant To Str.vi" Type="VI" URL="../MessageInterface_class/Variant To Str.vi"/>
 		</Item>
 		<Item Name="Typedef" Type="Folder">
+			<Item Name="AI Statistics Data.ctl" Type="VI" URL="../TypeDef/AI Statistics Data.ctl"/>
 			<Item Name="AI_Data.ctl" Type="VI" URL="../TypeDef/AI_Data.ctl"/>
 			<Item Name="AI_Data_Array.ctl" Type="VI" URL="../TypeDef/AI_Data_Array.ctl"/>
 			<Item Name="blue screan PMG.ctl" Type="VI" URL="../FPGA/TypeDef/blue screan PMG.ctl"/>
 			<Item Name="CalibrationData.ctl" Type="VI" URL="../TypeDef/CalibrationData.ctl"/>
 			<Item Name="Direction.ctl" Type="VI" URL="../TypeDef/Direction.ctl"/>
-			<Item Name="DO index.ctl" Type="VI" URL="../FPGA/TypeDef/DO index.ctl"/>
 			<Item Name="GUI AI Ranges.ctl" Type="VI" URL="../TypeDef/GUI AI Ranges.ctl"/>
 			<Item Name="GUI Paths.ctl" Type="VI" URL="../TypeDef/GUI Paths.ctl"/>
-			<Item Name="GUI Pop Out.ctl" Type="VI" URL="../TypeDef/GUI Pop Out.ctl"/>
 			<Item Name="GUI Setting Channel.ctl" Type="VI" URL="../TypeDef/GUI Setting Channel.ctl"/>
 			<Item Name="GUI Setting PMG.ctl" Type="VI" URL="../TypeDef/GUI Setting PMG.ctl"/>
 			<Item Name="GUI Step.ctl" Type="VI" URL="../TypeDef/GUI Step.ctl"/>
@@ -79,13 +75,10 @@
 			<Item Name="Needle Valve Settings.ctl" Type="VI" URL="../TypeDef/Needle Valve Settings.ctl"/>
 			<Item Name="Needle Valve State.ctl" Type="VI" URL="../TypeDef/Needle Valve State.ctl"/>
 			<Item Name="Script.ctl" Type="VI" URL="../TypeDef/Script.ctl"/>
-			<Item Name="SensorCalibrationData.ctl" Type="VI" URL="../TypeDef/SensorCalibrationData.ctl"/>
-			<Item Name="Slide With Level.ctl" Type="VI" URL="../TypeDef/Slide With Level.ctl"/>
 			<Item Name="State Engine.ctl" Type="VI" URL="../TypeDef/State Engine.ctl"/>
-			<Item Name="State HI_PERESS_TEST.ctl" Type="VI" URL="../TypeDef/State HI_PERESS_TEST.ctl"/>
 			<Item Name="State PMG.ctl" Type="VI" URL="../TypeDef/State PMG.ctl"/>
-			<Item Name="State.ctl" Type="VI" URL="../TypeDef/State.ctl"/>
 			<Item Name="Step.ctl" Type="VI" URL="../TypeDef/Step.ctl"/>
+			<Item Name="Step_Name.ctl" Type="VI" URL="../TypeDef/Step_Name.ctl"/>
 		</Item>
 		<Item Name="MAIN_UI.vi" Type="VI" URL="../MAIN_UI.vi"/>
 		<Item Name="rutune.txt" Type="Document" URL="../rutune.txt"/>
@@ -207,8 +200,6 @@
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="AI Statistics Data.ctl" Type="VI" URL="../TypeDef/AI Statistics Data.ctl"/>
-			<Item Name="Step_Name.ctl" Type="VI" URL="../TypeDef/Step_Name.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
