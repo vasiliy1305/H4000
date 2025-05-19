@@ -26,11 +26,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Logger Table.vi" Type="VI" URL="../Sanboxes/Logger Table.vi"/>
 		<Item Name="rutune.txt" Type="Document" URL="../rutune.txt"/>
-		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="FPGA Debounce Digital.vi" Type="VI" URL="../FPGA/SubVI/FPGA Debounce Digital.vi"/>
-		</Item>
+		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="RT CompactRIO Target" Type="RT CompactRIO">
@@ -124,7 +121,6 @@ AddOutputFilter chunkFilter
 			<Item Name="MessageAMC.lvclass" Type="LVClass" URL="../MessageAMC_class/MessageAMC.lvclass"/>
 			<Item Name="MessageInterface.lvclass" Type="LVClass" URL="../MessageInterface_class/MessageInterface.lvclass"/>
 			<Item Name="ModbusSp.lvclass" Type="LVClass" URL="../Modbus_class/ModbusSp.lvclass"/>
-			<Item Name="Proccess.lvclass" Type="LVClass" URL="../Proccess_class/Proccess.lvclass"/>
 			<Item Name="SharedVariableWrapper.lvclass" Type="LVClass" URL="../SV_Wrap/SharedVariableWrapper.lvclass"/>
 			<Item Name="SV_Publisher.lvclass" Type="LVClass" URL="../SV_Puplisher_class/SV_Publisher.lvclass"/>
 		</Item>
@@ -133,6 +129,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Engine_1DO_2DI.lvclass" Type="LVClass" URL="../Engine_1DO_2DI_class/Engine_1DO_2DI.lvclass"/>
 			<Item Name="NeedleValve.lvclass" Type="LVClass" URL="../NeedleValve_class/NeedleValve.lvclass"/>
 			<Item Name="PM_Group.lvclass" Type="LVClass" URL="../PM_Group_class/PM_Group.lvclass"/>
+			<Item Name="Proccess.lvclass" Type="LVClass" URL="../Proccess_class/Proccess.lvclass"/>
 			<Item Name="Stand.lvclass" Type="LVClass" URL="../Stand_class/Stand.lvclass"/>
 			<Item Name="Valve_2DO_2DI.lvclass" Type="LVClass" URL="../Valve_2DO_2DI_class/Valve_2DO_2DI.lvclass"/>
 		</Item>
@@ -145,12 +142,12 @@ AddOutputFilter chunkFilter
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="AI.lvclass" Type="LVClass" URL="../AI_class/AI.lvclass"/>
 			<Item Name="AnalogComparator.lvclass" Type="LVClass" URL="../AnalogComparator_class/AnalogComparator.lvclass"/>
+			<Item Name="AO.lvclass" Type="LVClass" URL="../AO_class/AO.lvclass"/>
+			<Item Name="DA.lvclass" Type="LVClass" URL="../DA_class/DA.lvclass"/>
+			<Item Name="DI.lvclass" Type="LVClass" URL="../DI_class/DI.lvclass"/>
 			<Item Name="DO.lvclass" Type="LVClass" URL="../DO_class/DO.lvclass"/>
 			<Item Name="Scale.lvclass" Type="LVClass" URL="../Scale_class/Scale.lvclass"/>
 			<Item Name="Scale_PiecedLinear.lvclass" Type="LVClass" URL="../PiecedLinearScale_class/Scale_PiecedLinear.lvclass"/>
-			<Item Name="Sig_AO.lvclass" Type="LVClass" URL="../Sig_AO_class/Sig_AO.lvclass"/>
-			<Item Name="Sig_DA.lvclass" Type="LVClass" URL="../Sig_DA_class/Sig_DA.lvclass"/>
-			<Item Name="Sig_DI_Simple.lvclass" Type="LVClass" URL="../Sig_DI_Simple_class/Sig_DI_Simple.lvclass"/>
 			<Item Name="Signal.lvclass" Type="LVClass" URL="../Signal_class/Signal.lvclass"/>
 		</Item>
 		<Item Name="Subvis" Type="Folder">
@@ -160,7 +157,6 @@ AddOutputFilter chunkFilter
 			<Item Name="bool_change.vi" Type="VI" URL="../subvis/bool_change.vi"/>
 			<Item Name="Check Folder or Create.vi" Type="VI" URL="../subvis/Check Folder or Create.vi"/>
 			<Item Name="ClassNotDefineError.vi" Type="VI" URL="../subvis/ClassNotDefineError.vi"/>
-			<Item Name="CLOSE.vi" Type="VI" URL="../NeedleValve_class/CLOSE.vi"/>
 			<Item Name="ConfigFolder.vi" Type="VI" URL="../Stand_class/private/ConfigFolder.vi"/>
 			<Item Name="Const Variable to Save.vi" Type="VI" URL="../Stand_class/private/Const Variable to Save.vi"/>
 			<Item Name="ConvertTimeStampFormatLvToDb.vi" Type="VI" URL="../subvis/ConvertTimeStampFormatLvToDb.vi"/>
@@ -178,6 +174,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Typedef" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="AI index.ctl" Type="VI" URL="../FPGA/TypeDef/AI index.ctl"/>
+			<Item Name="AI Statistics Data.ctl" Type="VI" URL="../TypeDef/AI Statistics Data.ctl"/>
 			<Item Name="AI_Data.ctl" Type="VI" URL="../TypeDef/AI_Data.ctl"/>
 			<Item Name="AI_Data_Array.ctl" Type="VI" URL="../TypeDef/AI_Data_Array.ctl"/>
 			<Item Name="bool_data.ctl" Type="VI" URL="../TypeDef/bool_data.ctl"/>
@@ -193,6 +190,7 @@ AddOutputFilter chunkFilter
 			<Item Name="engineering units.ctl" Type="VI" URL="../TypeDef/engineering units.ctl"/>
 			<Item Name="GUI AI Ranges.ctl" Type="VI" URL="../TypeDef/GUI AI Ranges.ctl"/>
 			<Item Name="GUI Setting Channel.ctl" Type="VI" URL="../TypeDef/GUI Setting Channel.ctl"/>
+			<Item Name="GUI Setting PMG.ctl" Type="VI" URL="../TypeDef/GUI Setting PMG.ctl"/>
 			<Item Name="Needle Valve Data.ctl" Type="VI" URL="../TypeDef/Needle Valve Data.ctl"/>
 			<Item Name="Needle Valve Settings.ctl" Type="VI" URL="../TypeDef/Needle Valve Settings.ctl"/>
 			<Item Name="Needle Valve State.ctl" Type="VI" URL="../TypeDef/Needle Valve State.ctl"/>
@@ -1367,7 +1365,6 @@ AddOutputFilter chunkFilter
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="MAIN_RT.vi" Type="VI" URL="../MAIN_RT.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -1461,10 +1458,6 @@ AddOutputFilter chunkFilter
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="AI Statistics Data.ctl" Type="VI" URL="../TypeDef/AI Statistics Data.ctl"/>
-			<Item Name="Config Close Outlet.vi" Type="VI" URL="../FPGA_API_class/Config Close Outlet.vi"/>
-			<Item Name="Config Stop Drive.vi" Type="VI" URL="../FPGA_API_class/Config Stop Drive.vi"/>
-			<Item Name="GUI Setting PMG.ctl" Type="VI" URL="../TypeDef/GUI Setting PMG.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MAIN_FPGA.lvbitx" Type="Document" URL="../FPGA Bitfiles/MAIN_FPGA.lvbitx"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
@@ -1502,7 +1495,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Source[0].itemID" Type="Str">{61BBDE9C-50FA-4698-9980-999E36E34C44}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/MAIN_RT.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/Devices/Stand.lvclass/MAIN_RT.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
