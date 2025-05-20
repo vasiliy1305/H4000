@@ -208,51 +208,6 @@
 		<Property Name="typedefPath1" Type="PathRel">../../Logger_class/State.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"K:A!!!"E!A!!!!!!"!&amp;1!]1!!!!!!!!!#$ERP:W&gt;F=CZM&gt;G.M98.T#6.U982F,G.U&lt;!!T1"9!"!&gt;$&lt;WZO:7.U#%FO;82J982F"EBB&lt;G2M:1F%;8.D&lt;WZF9X1!"6.U982F!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="STATE_M12" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">1</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typedefName1" Type="Str">State Engine.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/State Engine.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"I:!!!!"E!A!!!!!!"!&amp;)!]1!!!!!!!!!"%&amp;.U982F)%6O:WFO:3ZD&gt;'Q!/5!7!!5(67ZL&lt;G^X&lt;A.0:G9*6(6Q&lt;GFO:U^O!E^O#F2V=GZJ&lt;G&gt;0:G9!#%6O:V.U982F!!!"!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="STATE_M21" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">1</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typedefName1" Type="Str">State Engine.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/State Engine.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"I:!!!!"E!A!!!!!!"!&amp;)!]1!!!!!!!!!"%&amp;.U982F)%6O:WFO:3ZD&gt;'Q!/5!7!!5(67ZL&lt;G^X&lt;A.0:G9*6(6Q&lt;GFO:U^O!E^O#F2V=GZJ&lt;G&gt;0:G9!#%6O:V.U982F!!!"!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="STATE_M24" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">1</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typedefName1" Type="Str">State Engine.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/State Engine.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"I:!!!!"E!A!!!!!!"!&amp;)!]1!!!!!!!!!"%&amp;.U982F)%6O:WFO:3ZD&gt;'Q!/5!7!!5(67ZL&lt;G^X&lt;A.0:G9*6(6Q&lt;GFO:U^O!E^O#F2V=GZJ&lt;G&gt;0:G9!#%6O:V.U982F!!!"!!!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="STATE_PMG" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
@@ -261,13 +216,19 @@
 		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="numTypedefs" Type="UInt">4</Property>
 		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
 		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typedefName1" Type="Str">State PMG.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/State PMG.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"&gt;71!!!"E!A!!!!!!"!%=!]1!!!!!!!!!"$6.U982F)&amp;".2SZD&gt;'Q!-5!7!!1*4E^5)&amp;*&amp;152:"%F%4%5'15.536:&amp;"5635E^3!!F4&gt;'&amp;U:3"145=!!1!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">PMG Mode.ctl</Property>
+		<Property Name="typedefName2" Type="Str">State Engine 2.ctl</Property>
+		<Property Name="typedefName3" Type="Str">State Engine.ctl</Property>
+		<Property Name="typedefName4" Type="Str">State PMG.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/PMG Mode.ctl</Property>
+		<Property Name="typedefPath2" Type="PathRel">../../TypeDef/State Engine 2.ctl</Property>
+		<Property Name="typedefPath3" Type="PathRel">../../TypeDef/State Engine.ctl</Property>
+		<Property Name="typedefPath4" Type="PathRel">../../TypeDef/State PMG.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'RL1%!!"E!A!!!!!!+!%1!]1!!!!!!!!!"$&amp;".2S".&lt;W2F,G.U&lt;!!P1"9!!Q&gt;.;7ZJ&lt;86N"V:P&lt;(2B:W5)5(*F=X.V=G5!!!B145=A47^E:1!!5A$R!!!!!!!!!!%15X2B&gt;'5A27ZH;7ZF,G.U&lt;!!Z1"9!"1&gt;6&lt;GNO&lt;X&gt;O!U^G:AF5&gt;8"O;7ZH4WY#4WY+6(6S&lt;GFO:U^G:A!)27ZH5X2B&gt;'5!!!R!)1:"9X2J&gt;G5!!!Z!)1F$&lt;WZU97.U&lt;X)!#%!B!U..2!!-1#%(186U&lt;WVB&gt;!!T!0(E5CN&amp;!!!!!2*4&gt;'&amp;U:3"&amp;&lt;G&gt;J&lt;G5A-CZD&gt;'Q!'%"1!!5!!1!#!!-!"!!&amp;!UUR-A!T!0(E5CN&amp;!!!!!2*4&gt;'&amp;U:3"&amp;&lt;G&gt;J&lt;G5A-CZD&gt;'Q!'%"1!!5!!1!#!!-!"!!&amp;!UUS-1!T!0(E5CN&amp;!!!!!2*4&gt;'&amp;U:3"&amp;&lt;G&gt;J&lt;G5A-CZD&gt;'Q!'%"1!!5!!1!#!!-!"!!&amp;!UUS.!!M!0%!!!!!!!!!!1V4&gt;'&amp;U:3"145=O9X2M!":!5!!%!!!!"A!(!!A$5%V(!!%!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
