@@ -1,18 +1,18 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
-	<Property Name="varPersistentID:{07841C0D-5AEB-4933-9D33-F989D7CF9A8A}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/DO_ARRAY</Property>
-	<Property Name="varPersistentID:{0C9E6741-05F6-44D0-98C4-97B4B7DC2501}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/DI_ARRAY</Property>
-	<Property Name="varPersistentID:{0E2D81D7-569C-406D-B5BC-C267509F4830}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/STATE_PMG</Property>
-	<Property Name="varPersistentID:{16B0F10F-DEBE-4A34-95E7-5724E97FECDB}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/STATE</Property>
-	<Property Name="varPersistentID:{2E981632-612E-4E8B-A33B-ED0B028250D3}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/NV_2_DATA</Property>
-	<Property Name="varPersistentID:{61208B3F-C073-45CC-9259-3BC0C6BCDC18}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/AO_ARRAY</Property>
-	<Property Name="varPersistentID:{69D4F517-98FC-4AA4-A1CB-943602D8D373}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/NV_2_SETTING</Property>
-	<Property Name="varPersistentID:{6F976847-62FB-4F35-9A63-1C892E821DA7}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/CommCounter</Property>
-	<Property Name="varPersistentID:{8E18605F-8307-43A9-A02A-540B1ACC1E43}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/NV_1_DATA</Property>
-	<Property Name="varPersistentID:{94E662A4-66EF-4FE6-BAFD-57DB5908E859}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/CALIBRATION_DATA</Property>
-	<Property Name="varPersistentID:{EFB1F824-23E2-4C58-8AB0-649AE9F833AC}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/AI_ARRAY</Property>
-	<Property Name="varPersistentID:{F0B05030-B6A0-48FB-9ED2-3A213DFA0A18}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/PMG_SETTING</Property>
-	<Property Name="varPersistentID:{F74AB67A-8F45-4F5B-975F-233682C4A3C9}" Type="Ref">/My Computer/RT_Shared_Variables.lvlib/NV_1_SETTING</Property>
+	<Property Name="varPersistentID:{07841C0D-5AEB-4933-9D33-F989D7CF9A8A}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/DO_ARRAY</Property>
+	<Property Name="varPersistentID:{0C9E6741-05F6-44D0-98C4-97B4B7DC2501}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/DI_ARRAY</Property>
+	<Property Name="varPersistentID:{0E2D81D7-569C-406D-B5BC-C267509F4830}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/STATE_PMG</Property>
+	<Property Name="varPersistentID:{16B0F10F-DEBE-4A34-95E7-5724E97FECDB}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/STATE</Property>
+	<Property Name="varPersistentID:{2E981632-612E-4E8B-A33B-ED0B028250D3}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/NV_2_DATA</Property>
+	<Property Name="varPersistentID:{61208B3F-C073-45CC-9259-3BC0C6BCDC18}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/AO_ARRAY</Property>
+	<Property Name="varPersistentID:{69D4F517-98FC-4AA4-A1CB-943602D8D373}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/NV_2_SETTING</Property>
+	<Property Name="varPersistentID:{6F976847-62FB-4F35-9A63-1C892E821DA7}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/CommCounter</Property>
+	<Property Name="varPersistentID:{8E18605F-8307-43A9-A02A-540B1ACC1E43}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/NV_1_DATA</Property>
+	<Property Name="varPersistentID:{94E662A4-66EF-4FE6-BAFD-57DB5908E859}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/CALIBRATION_DATA</Property>
+	<Property Name="varPersistentID:{EFB1F824-23E2-4C58-8AB0-649AE9F833AC}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/AI_ARRAY</Property>
+	<Property Name="varPersistentID:{F0B05030-B6A0-48FB-9ED2-3A213DFA0A18}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/PMG_SETTING</Property>
+	<Property Name="varPersistentID:{F74AB67A-8F45-4F5B-975F-233682C4A3C9}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/NV_1_SETTING</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -61,6 +61,11 @@
 			<Item Name="GUI.lvclass" Type="LVClass" URL="../GUI_class/GUI.lvclass"/>
 			<Item Name="GUI_Report.lvclass" Type="LVClass" URL="../GUI_Report_class/GUI_Report.lvclass"/>
 		</Item>
+		<Item Name="Libs" Type="Folder">
+			<Item Name="hashlib.lvlib" Type="Library" URL="../Neosoft Technologies/NeoDB for PostgreSQL/Postgres Connector/hashlib/hashlib/hashlib.lvlib"/>
+			<Item Name="PG_LIB.lvlib" Type="Library" URL="../Neosoft Technologies/PG_LIB.lvlib"/>
+			<Item Name="RT_Shared_Variables.lvlib" Type="Library" URL="../Libs/RT_Shared_Variables.lvlib"/>
+		</Item>
 		<Item Name="Signals" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="AI.lvclass" Type="LVClass" URL="../AI_class/AI.lvclass"/>
@@ -84,9 +89,11 @@
 			<Item Name="Const - Cannel Names.vi" Type="VI" URL="../subvis/Const - Cannel Names.vi"/>
 			<Item Name="Const Variable to Save.vi" Type="VI" URL="../Stand_class/private/Const Variable to Save.vi"/>
 			<Item Name="ConvertTimeStampFormatLvToDb.vi" Type="VI" URL="../subvis/ConvertTimeStampFormatLvToDb.vi"/>
+			<Item Name="Corect Pressure Block.vi" Type="VI" URL="../TypeDef/Corect Pressure Block.vi"/>
 			<Item Name="Create Do Cmd.vi" Type="VI" URL="../FPGA/SubVI/Create Do Cmd.vi"/>
 			<Item Name="deleteStep.vi" Type="VI" URL="../subvis/Script/deleteStep.vi"/>
 			<Item Name="DisableControls.vim" Type="VI" URL="../subvis/DisableControls.vim"/>
+			<Item Name="Draw Object Tree.vi" Type="VI" URL="../subvis/Draw Object Tree.vi"/>
 			<Item Name="Edit Step.vi" Type="VI" URL="../subvis/Script/Edit Step.vi"/>
 			<Item Name="Events to table.vi" Type="VI" URL="../subvis/Events to table.vi"/>
 			<Item Name="GUI Get Paths.vi" Type="VI" URL="../subvis/GUI Get Paths.vi"/>
@@ -141,12 +148,7 @@
 			<Item Name="Step_Name.ctl" Type="VI" URL="../TypeDef/Step_Name.ctl"/>
 			<Item Name="valveState.ctl" Type="VI" URL="../FPGA/TypeDef/valveState.ctl"/>
 		</Item>
-		<Item Name="Corect Pressure Block.vi" Type="VI" URL="../TypeDef/Corect Pressure Block.vi"/>
-		<Item Name="Draw Object Tree.vi" Type="VI" URL="../subvis/Draw Object Tree.vi"/>
-		<Item Name="hashlib.lvlib" Type="Library" URL="../Neosoft Technologies/NeoDB for PostgreSQL/Postgres Connector/hashlib/hashlib/hashlib.lvlib"/>
 		<Item Name="MAIN_UI.vi" Type="VI" URL="../MAIN_UI.vi"/>
-		<Item Name="PG_LIB.lvlib" Type="Library" URL="../Neosoft Technologies/PG_LIB.lvlib"/>
-		<Item Name="RT_Shared_Variables.lvlib" Type="Library" URL="../Libs/RT_Shared_Variables.lvlib"/>
 		<Item Name="rutune.txt" Type="Document" URL="../rutune.txt"/>
 		<Item Name="Stand.lvclass" Type="LVClass" URL="../Stand_class/Stand.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
