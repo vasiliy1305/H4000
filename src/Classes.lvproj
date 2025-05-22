@@ -56,6 +56,7 @@
 			<Item Name="GUI Script Viewer.lvclass" Type="LVClass" URL="../GUI Script Viewer_class/GUI Script Viewer.lvclass"/>
 			<Item Name="GUI Sensor Lib.lvclass" Type="LVClass" URL="../GUI Sensor Lib/GUI Sensor Lib.lvclass"/>
 			<Item Name="GUI Setting.lvclass" Type="LVClass" URL="../GUI Setting_class/GUI Setting.lvclass"/>
+			<Item Name="GUI Test Channels.lvclass" Type="LVClass" URL="../GUI Test Channels_class/GUI Test Channels.lvclass"/>
 			<Item Name="GUI Test HIPRESS.lvclass" Type="LVClass" URL="../GUI Test HIPRESS_class/GUI Test HIPRESS.lvclass"/>
 			<Item Name="GUI.lvclass" Type="LVClass" URL="../GUI_class/GUI.lvclass"/>
 			<Item Name="GUI_Report.lvclass" Type="LVClass" URL="../GUI_Report_class/GUI_Report.lvclass"/>
@@ -64,8 +65,10 @@
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="AI.lvclass" Type="LVClass" URL="../AI_class/AI.lvclass"/>
 			<Item Name="AnalogComparator.lvclass" Type="LVClass" URL="../AnalogComparator_class/AnalogComparator.lvclass"/>
+			<Item Name="AO.lvclass" Type="LVClass" URL="../AO_class/AO.lvclass"/>
 			<Item Name="DA.lvclass" Type="LVClass" URL="../DA_class/DA.lvclass"/>
 			<Item Name="DI.lvclass" Type="LVClass" URL="../DI_class/DI.lvclass"/>
+			<Item Name="DO.lvclass" Type="LVClass" URL="../DO_class/DO.lvclass"/>
 			<Item Name="Scale.lvclass" Type="LVClass" URL="../Scale_class/Scale.lvclass"/>
 			<Item Name="Scale_PiecedLinear.lvclass" Type="LVClass" URL="../PiecedLinearScale_class/Scale_PiecedLinear.lvclass"/>
 			<Item Name="Signal.lvclass" Type="LVClass" URL="../Signal_class/Signal.lvclass"/>
@@ -140,7 +143,6 @@
 		</Item>
 		<Item Name="Corect Pressure Block.vi" Type="VI" URL="../TypeDef/Corect Pressure Block.vi"/>
 		<Item Name="Draw Object Tree.vi" Type="VI" URL="../subvis/Draw Object Tree.vi"/>
-		<Item Name="GUI Test Channels.lvclass" Type="LVClass" URL="../GUI Test Channels_class/GUI Test Channels.lvclass"/>
 		<Item Name="hashlib.lvlib" Type="Library" URL="../Neosoft Technologies/NeoDB for PostgreSQL/Postgres Connector/hashlib/hashlib/hashlib.lvlib"/>
 		<Item Name="MAIN_UI.vi" Type="VI" URL="../MAIN_UI.vi"/>
 		<Item Name="PG_LIB.lvlib" Type="Library" URL="../Neosoft Technologies/PG_LIB.lvlib"/>
@@ -280,6 +282,11 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
+				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="main.rtm" Type="Document" URL="../main.rtm"/>
