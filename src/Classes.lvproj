@@ -4,15 +4,16 @@
 	<Property Name="varPersistentID:{0C9E6741-05F6-44D0-98C4-97B4B7DC2501}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/DI_ARRAY</Property>
 	<Property Name="varPersistentID:{0E2D81D7-569C-406D-B5BC-C267509F4830}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/STATE_PMG</Property>
 	<Property Name="varPersistentID:{16B0F10F-DEBE-4A34-95E7-5724E97FECDB}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/STATE</Property>
-	<Property Name="varPersistentID:{2E981632-612E-4E8B-A33B-ED0B028250D3}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/NV_2_DATA</Property>
+	<Property Name="varPersistentID:{2E981632-612E-4E8B-A33B-ED0B028250D3}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/NV2_DATA</Property>
 	<Property Name="varPersistentID:{61208B3F-C073-45CC-9259-3BC0C6BCDC18}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/AO_ARRAY</Property>
-	<Property Name="varPersistentID:{69D4F517-98FC-4AA4-A1CB-943602D8D373}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/NV_2_SETTING</Property>
+	<Property Name="varPersistentID:{69D4F517-98FC-4AA4-A1CB-943602D8D373}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/NV2_SETTING</Property>
 	<Property Name="varPersistentID:{6F976847-62FB-4F35-9A63-1C892E821DA7}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/CommCounter</Property>
-	<Property Name="varPersistentID:{8E18605F-8307-43A9-A02A-540B1ACC1E43}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/NV_1_DATA</Property>
+	<Property Name="varPersistentID:{8E18605F-8307-43A9-A02A-540B1ACC1E43}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/NV1_DATA</Property>
 	<Property Name="varPersistentID:{94E662A4-66EF-4FE6-BAFD-57DB5908E859}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/CALIBRATION_DATA</Property>
+	<Property Name="varPersistentID:{D933DE7F-E72C-4974-97DD-8C220A78C508}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/CURRENT_ALARMS</Property>
 	<Property Name="varPersistentID:{EFB1F824-23E2-4C58-8AB0-649AE9F833AC}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/AI_ARRAY</Property>
 	<Property Name="varPersistentID:{F0B05030-B6A0-48FB-9ED2-3A213DFA0A18}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/PMG_SETTING</Property>
-	<Property Name="varPersistentID:{F74AB67A-8F45-4F5B-975F-233682C4A3C9}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/NV_1_SETTING</Property>
+	<Property Name="varPersistentID:{F74AB67A-8F45-4F5B-975F-233682C4A3C9}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/NV1_SETTING</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -55,6 +56,7 @@
 		<Item Name="GUI" Type="Folder">
 			<Item Name="GUI Alarm Setting.lvclass" Type="LVClass" URL="../GUI Alarm Setting/GUI Alarm Setting.lvclass"/>
 			<Item Name="GUI Data Viewer.lvclass" Type="LVClass" URL="../GUI Data Viewer_class/GUI Data Viewer.lvclass"/>
+			<Item Name="GUI HIPRESS.lvclass" Type="LVClass" URL="../GUI HIPRESS_class/GUI HIPRESS.lvclass"/>
 			<Item Name="GUI NV.lvclass" Type="LVClass" URL="../GUI NV class/GUI NV.lvclass"/>
 			<Item Name="GUI PumpMotorGroup.lvclass" Type="LVClass" URL="../PumpMotorGroup_class/GUI PumpMotorGroup.lvclass"/>
 			<Item Name="GUI Script Editor.lvclass" Type="LVClass" URL="../GUI Script Editor_class/GUI Script Editor.lvclass"/>
@@ -102,6 +104,7 @@
 			<Item Name="Draw Object Tree.vi" Type="VI" URL="../subvis/Draw Object Tree.vi"/>
 			<Item Name="Edit Step.vi" Type="VI" URL="../subvis/Script/Edit Step.vi"/>
 			<Item Name="Events to table.vi" Type="VI" URL="../subvis/Events to table.vi"/>
+			<Item Name="GUI Alarms Tbl.vi" Type="VI" URL="../subvis/GUI Alarms Tbl.vi"/>
 			<Item Name="GUI Get Paths.vi" Type="VI" URL="../subvis/GUI Get Paths.vi"/>
 			<Item Name="GUI Step to RT Step.vi" Type="VI" URL="../subvis/Script/GUI Step to RT Step.vi"/>
 			<Item Name="InsertStep.vi" Type="VI" URL="../subvis/Script/InsertStep.vi"/>
@@ -237,6 +240,7 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 				<Item Name="Master Function Definition.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Master Function Definition/Master Function Definition.lvclass"/>
 				<Item Name="MD5Checksum core.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum core.vi"/>
 				<Item Name="MD5Checksum format message-digest.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum format message-digest.vi"/>
