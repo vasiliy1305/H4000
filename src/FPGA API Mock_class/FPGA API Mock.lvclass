@@ -144,6 +144,15 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
+	<Item Name="Simulation.vi" Type="VI" URL="../Simulation.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Z!!!!#1!S1(!!(A!!&amp;R6'5%&gt;")%&amp;133".&lt;W.L,GRW9WRB=X-!%%:12U%A16"*)%VP9WMA;7Y!!!1!!!!S1(!!(A!!&amp;R6'5%&gt;")%&amp;133".&lt;W.L,GRW9WRB=X-!%5:12U%A16"*)%VP9WMA&lt;X6U!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!#"!5!!$!!-!"!!&amp;%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;E"1!!-!!Q!%!!5*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!1!"!!%!!A!"!!%!!1!"!!%!!1!'!!%!!1!"!!=$!!%)!!#1!!!!!!!!!!!!!!!!!!!!D1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
 	<Item Name="Write Do.vi" Type="VI" URL="../Write Do.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;K!!!!$!!M1(!!(A!!&amp;R6'5%&gt;")%&amp;133".&lt;W.L,GRW9WRB=X-!#U:12U%A16"*)'FO!!1!!!!O1(!!(A!!&amp;R6'5%&gt;")%&amp;133".&lt;W.L,GRW9WRB=X-!$%:12U%A16"*)'^V&gt;!!!)A$RZ%JQ*Q!!!!%-2%]A;7ZE:8AO9X2M!!V!"1!$)U20!!J!)16W97RV:1!01!=!#62J&lt;75A&gt;6.F9Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!'!!=!#".F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!":!5!!$!!9!"Q!)#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!1!"!!)!!Q!"!!1!!1!&amp;!!%!#1!"!!%!!1!+!Q!"#!!!E!!!!!!!!!!!!!!!!!!!!)U!!!!3!!!!!!!!!")!!!!!!!!!%!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!#1!!!!!"!!M!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

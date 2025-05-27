@@ -42,10 +42,9 @@ CREATE TABLE IF NOT EXISTS events_dir
 (
     event_id SERIAL PRIMARY KEY, -- Уникальный идентификатор события
     event_tag varchar(32), -- Уникальный тег события
-    event_type VARCHAR(50) NOT NULL, -- Значение события
     event_desc text, -- Описание события
     obj_tag varchar(100) NOT NULL, -- Ссылка на устройство
-    CONSTRAINT unique_constraint_my UNIQUE (event_tag, event_type), -- Уникальность по тегу и значению события
+    CONSTRAINT unique_constraint_my UNIQUE (event_tag), -- Уникальность по тегу 
     CONSTRAINT fk_obj_tag FOREIGN KEY (obj_tag) REFERENCES objects_dir (obj_tag) -- Связь с устройствами
 );
 

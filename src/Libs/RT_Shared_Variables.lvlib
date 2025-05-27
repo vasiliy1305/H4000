@@ -77,7 +77,7 @@
 		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">4</Property>
+		<Property Name="numTypedefs" Type="UInt">3</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">AlarmType.ctl</Property>
 		<Property Name="typedefName2" Type="Str">Logger.lvclass:Current Alarms.ctl</Property>
@@ -87,7 +87,7 @@
 		<Property Name="typedefPath2" Type="PathRel">../../Logger_class/Current Alarms.ctl</Property>
 		<Property Name="typedefPath3" Type="PathRel">../../Logger_class/EventData.ctl</Property>
 		<Property Name="typedefPath4" Type="PathRel">../../Logger_class/EventType.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(M[!%!!"E!A!!!!!!-!""!-0````](&lt;W*K8X2B:Q!31$$`````#76W:7ZU8X2B:Q!51$$`````#U2F=W.S;8"U;7^O!(A!]1!!!!!!!!!#$ERP:W&gt;F=CZM&gt;G.M98.T$56W:7ZU6(FQ:3ZD&gt;'Q!5U!7!!M&amp;2%F@4%]&amp;2%F@3%E&amp;2%^@4%]&amp;2%^@3%E&amp;2%&amp;@4%]&amp;2%&amp;@3%E&amp;15&amp;@4%]&amp;15&amp;@3%E$1UV%!U635A*46!!!#E6725Z5)&amp;2:5%5!!%-!]1!!!!!!!!!"$5&amp;M98*N6(FQ:3ZD&gt;'Q!,5!7!!-'4G^S&lt;7&amp;M"V&gt;B=GZJ&lt;G=&amp;17RB=GU!!!J"4%&amp;343"576"&amp;!!!01!I!#6:B&lt;(6F)%2#4!!01!-!#6:B&lt;(6F)%F/6!!31$$`````#6:B&lt;(6F)&amp;.55A!31&amp;1!"AJ5;7VF)&amp;.U97VQ!!"(!0%!!!!!!!!!!AZ-&lt;W&gt;H:8)O&lt;(:D&lt;'&amp;T=QV&amp;&gt;G6O&gt;%2B&gt;'%O9X2M!#*!5!!*!!!!!1!#!!-!"!!&amp;!!9!"Q!)"56W:7ZU!"2!1!!"`````Q!*"G&amp;M98*N=Q!!2A$R!!!!!!!!!!)/4'^H:W6S,GRW9WRB=X-31X6S=G6O&gt;#""&lt;'&amp;S&lt;8-O9X2M!"R!5!!"!!I/1X6S=G6O&gt;#""&lt;'&amp;S&lt;8-!!!%!#Q!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;S&lt;A%!!"E!A!!!!!!,!""!-0````](&lt;W*K8X2B:Q!31$$`````#76W:7ZU8X2B:Q!51$$`````#U2F=W.S;8"U;7^O!%-!]1!!!!!!!!!"$5&amp;M98*N6(FQ:3ZD&gt;'Q!,5!7!!-'4G^S&lt;7&amp;M"V&gt;B=GZJ&lt;G=&amp;17RB=GU!!!J"4%&amp;343"576"&amp;!!!01!I!#6:B&lt;(6F)%2#4!!01!-!#6:B&lt;(6F)%F/6!!31$$`````#6:B&lt;(6F)&amp;.55A!31&amp;1!"AJ5;7VF)&amp;.U97VQ!!"&amp;!0%!!!!!!!!!!AZ-&lt;W&gt;H:8)O&lt;(:D&lt;'&amp;T=QV&amp;&gt;G6O&gt;%2B&gt;'%O9X2M!#"!5!!)!!!!!1!#!!-!"!!&amp;!!9!"Q6&amp;&gt;G6O&gt;!!51%!!!@````]!#!:B&lt;'&amp;S&lt;8-!!%9!]1!!!!!!!!!#$ERP:W&gt;F=CZM&gt;G.M98.T%E.V=H*F&lt;H1A17RB=GVT,G.U&lt;!!=1&amp;!!!1!*$E.V=H*F&lt;H1A17RB=GVT!!!"!!I!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="DI_ARRAY" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
