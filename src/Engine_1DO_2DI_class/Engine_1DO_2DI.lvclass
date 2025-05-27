@@ -88,15 +88,6 @@
 		</Item>
 	</Item>
 	<Item Name="TypeDef" Type="Folder">
-		<Item Name="Config.ctl" Type="VI" URL="../Config.ctl">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!W!!!!!1!O!0%!!!!!!!!!!B.797RW:4&amp;%4T&amp;%33ZM&gt;G.M98.T#5.P&lt;H2S&lt;WQA-1!)!!!!!1!!!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">5242880</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
-		</Item>
 		<Item Name="DIO.ctl" Type="VI" URL="../DIO.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!Z!!!!!1!R!0%!!!!!!!!!!B:&amp;&lt;G&gt;J&lt;G6@-5208T*%33ZM&gt;G.M98.T#5.P&lt;H2S&lt;WQA-A!)!!!!!1!!!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

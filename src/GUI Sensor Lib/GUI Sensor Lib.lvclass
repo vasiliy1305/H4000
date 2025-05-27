@@ -39,15 +39,6 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1350574592</Property>
 	</Item>
-	<Item Name="set color waveform.vi" Type="VI" URL="../set color waveform.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$6!!!!"Q!:1!I!%F*"6S"6&lt;(2S93"';7RU:8*F:!!!%!"!!!,``````````Q!!!#"!=!!)!!%!!1!8!!!16W&amp;W:7:P=GV$;'&amp;S&gt;#"J&lt;A!!"!!!!!N!!Q!%=WF[:1!!#5!$!!-D9WA!&lt;!$Q!"!!!A!$!!-!!Q!$!!1!!Q!&amp;!!-!!Q!$!!-!!Q!$!!-!!Q-!!1A!!"!!!!!!!!!!!!!!!!!!!!!!!!!!%A!!!!!!!!!3!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!'!!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">160</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1074266640</Property>
-	</Item>
 	<Item Name="UI.vi" Type="VI" URL="../UI.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;$!!!!#1!G1(!!(A!!'":(65EA5W6O=W^S)%RJ9CZM&gt;G.M98.T!!!$2V6*!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!#!!-!"".F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!9&amp;E&gt;633"4:7ZT&lt;X)A4'FC,GRW9WRB=X-!!!VS:7:F=G6O9W5A&lt;X6U!":!5!!$!!)!!Q!%#76S=G^S)'^V&gt;!#%!0!!&amp;!!!!!%!!1!"!!%!"1!"!!%!!1!"!!%!!1!"!!%!"A!"!!%!!1!"!!=$!!%1!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)U!!!!!!!!!!!!!!!!!!!!!!!!!#1!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
