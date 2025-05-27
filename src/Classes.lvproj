@@ -104,6 +104,7 @@
 			<Item Name="Draw Object Tree.vi" Type="VI" URL="../subvis/Draw Object Tree.vi"/>
 			<Item Name="Edit Step.vi" Type="VI" URL="../subvis/Script/Edit Step.vi"/>
 			<Item Name="Events to table.vi" Type="VI" URL="../subvis/Events to table.vi"/>
+			<Item Name="GlobalStop.vi" Type="VI" URL="../Stand_class/GlobalStop.vi"/>
 			<Item Name="GUI Alarms Tbl.vi" Type="VI" URL="../subvis/GUI Alarms Tbl.vi"/>
 			<Item Name="GUI Get Paths.vi" Type="VI" URL="../subvis/GUI Get Paths.vi"/>
 			<Item Name="GUI Step to RT Step.vi" Type="VI" URL="../subvis/Script/GUI Step to RT Step.vi"/>

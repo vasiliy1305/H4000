@@ -1,6 +1,9 @@
-1 - насос моторная группа
-	GUI
-	RT
+events 
+1. stst
+2. error with description
+3. команды оператора
+
+
 
 2 - alarm engine
 
