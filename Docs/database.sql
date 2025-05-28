@@ -30,10 +30,11 @@ CREATE TABLE IF NOT EXISTS signals_dir
 -- Таблица для хранения измерений сигналов
 CREATE TABLE IF NOT EXISTS signals
 (
-    signal_record_id SERIAL PRIMARY KEY, -- Уникальный идентификатор записи
-    signal_time TIMESTAMP NOT NULL, -- Время записи сигнала
+    signal_record_id SERIAL , -- Уникальный идентификатор записи
+    signal_time TIMESTAMPTZ NOT NULL, -- Время записи сигнала
     signal_id INT, -- Ссылка на сигнал
     signal_value DOUBLE PRECISION NOT NULL, -- Значение сигнала
+	PRIMARY KEY (signal_record_id, signal_time), -- Составной первичный ключ
     CONSTRAINT fk_signal_id FOREIGN KEY(signal_id) REFERENCES signals_dir(signal_id) -- Связь с сигналами
 );
 
@@ -51,13 +52,14 @@ CREATE TABLE IF NOT EXISTS events_dir
 -- Таблица для хранения записей событий
 CREATE TABLE IF NOT EXISTS events
 (
-    event_record_id SERIAL PRIMARY KEY, -- Уникальный идентификатор записи события
-    event_time timestamp without time zone NOT NULL, -- Время записи события
-    event_id INT, -- Ссылка на событие
-	val_int INT NOT NULL, -- Значение события
-    val_dbl double precision NOT NULL, -- Значение события
-	val_str text, -- Значение события
-    CONSTRAINT fk_event_id FOREIGN KEY (event_id) REFERENCES events_dir (event_id) -- Связь с описанием событий
+    event_record_id SERIAL, 
+    event_time TIMESTAMPTZ NOT NULL, 
+    event_id INT, 
+	val_int INT NOT NULL, 
+    val_dbl double precision NOT NULL, 
+	val_str text, 
+	PRIMARY KEY (event_record_id, event_time), 
+    CONSTRAINT fk_event_id FOREIGN KEY (event_id) REFERENCES events_dir (event_id)
 );
 
 -- Индексы и создание hypertable для signals
