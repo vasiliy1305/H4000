@@ -210,7 +210,7 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">GUI Setting PMG.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/GUI Setting PMG.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'3DA%!!"E!A!!!!!!,!"&gt;!#A!16'6N=#"5&gt;8*O)%^/)%US.!!!&amp;U!+!"&amp;5:7VQ)&amp;2V=GYA4U:')%US.!!:1!I!%V2F&lt;8!A4X"F&lt;C"8982F=C".-D1!'U!+!"25:7VQ)%.M&lt;X.F)&amp;&gt;B&gt;'6S)%US.!!!'5!+!".5:7VQ)%^Q:7YA6W&amp;U:8)A44)R!"N!#A!56'6N=#"$&lt;'^T:3"8982F=C".-D%!!"6!#A!/3&amp;]V-6^P&lt;C!I9W^P&lt;#E!!"6!#A!04&amp;]V-6^P:G9A+'.P&lt;WQJ!"6!#A!/3&amp;]V-F^P:G9A+'^J&lt;#E!!".!#A!.4&amp;]V-F^P&lt;C!I&lt;WFM+1"'!0(E4XMG!!!!!2.(65EA5W6U&gt;'FO:S"145=O9X2M!#J!5!!+!!!!!1!#!!-!"!!&amp;!!9!"Q!)!!E,5W6U&gt;'FO:S"145=!!1!+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;+2A%!!"E!A!!!!!!*!"&gt;!#A!16'6N=#"5&gt;8*O)%^/)%US.!!!&amp;U!+!"&amp;5:7VQ)&amp;2V=GYA4U:')%US.!!:1!I!%V2F&lt;8!A4X"F&lt;C"8982F=C".-D%!'U!+!"25:7VQ)%.M&lt;X.F)&amp;&gt;B&gt;'6S)%US-1!!&amp;5!+!!Z)8T5R8W^O)#BD&lt;W^M+1!!&amp;5!+!!^-8T5R8W^G:C!I9W^P&lt;#E!&amp;5!+!!Z)8T5S8W^G:C!I&lt;WFM+1!!%U!+!!V-8T5S8W^O)#BP;7QJ!%)!]?2=@+-!!!!"%U&gt;633"4:82U;7ZH)&amp;".2SZD&gt;'Q!*E"1!!A!!!!"!!)!!Q!%!!5!"A!(#V.F&gt;(2J&lt;G=A5%V(!!%!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="STATE" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
