@@ -4,15 +4,16 @@
 	<Property Name="varPersistentID:{0C9E6741-05F6-44D0-98C4-97B4B7DC2501}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/DI_ARRAY</Property>
 	<Property Name="varPersistentID:{0E2D81D7-569C-406D-B5BC-C267509F4830}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/STATE_PMG</Property>
 	<Property Name="varPersistentID:{16B0F10F-DEBE-4A34-95E7-5724E97FECDB}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/STATE</Property>
-	<Property Name="varPersistentID:{2E981632-612E-4E8B-A33B-ED0B028250D3}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV_2_DATA</Property>
+	<Property Name="varPersistentID:{365FA713-041A-439D-8673-DCDE995C0816}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV1_SETTING</Property>
+	<Property Name="varPersistentID:{529A4C3B-0376-4E36-A4F1-A397CB18FECA}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV2_DATA</Property>
+	<Property Name="varPersistentID:{5780B1E5-AB3D-43B2-AB04-165F3068A1A9}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/CURRENT_ALARMS</Property>
 	<Property Name="varPersistentID:{61208B3F-C073-45CC-9259-3BC0C6BCDC18}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/AO_ARRAY</Property>
-	<Property Name="varPersistentID:{69D4F517-98FC-4AA4-A1CB-943602D8D373}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV_2_SETTING</Property>
 	<Property Name="varPersistentID:{6F976847-62FB-4F35-9A63-1C892E821DA7}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/CommCounter</Property>
-	<Property Name="varPersistentID:{8E18605F-8307-43A9-A02A-540B1ACC1E43}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV_1_DATA</Property>
 	<Property Name="varPersistentID:{94E662A4-66EF-4FE6-BAFD-57DB5908E859}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/CALIBRATION_DATA</Property>
+	<Property Name="varPersistentID:{B1304F4C-1E22-4A6F-8716-B48FAFA6E712}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV1_DATA</Property>
+	<Property Name="varPersistentID:{D47004A3-C868-42CF-BAD7-5860F665904D}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV2_SETTING</Property>
 	<Property Name="varPersistentID:{EFB1F824-23E2-4C58-8AB0-649AE9F833AC}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/AI_ARRAY</Property>
 	<Property Name="varPersistentID:{F0B05030-B6A0-48FB-9ED2-3A213DFA0A18}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/PMG_SETTING</Property>
-	<Property Name="varPersistentID:{F74AB67A-8F45-4F5B-975F-233682C4A3C9}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV_1_SETTING</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -1399,6 +1400,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
 				<Item Name="Device Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Data Model/Device Data Model.lvclass"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="Generate UUID.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/Generate UUID.vi"/>
 				<Item Name="IP Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/IP/IP Data Unit.lvclass"/>
 				<Item Name="Is Value Changed.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Is Value Changed.vim"/>
@@ -1406,6 +1408,7 @@ AddOutputFilter chunkFilter
 				<Item Name="JKI Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/Core/JKI Serialization.lvlib"/>
 				<Item Name="JKI Unicode.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Unicode/JKI Unicode.lvlib"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
+				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 				<Item Name="Master Function Definition.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Master Function Definition/Master Function Definition.lvclass"/>
 				<Item Name="MD5Checksum core.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum core.vi"/>
 				<Item Name="MD5Checksum format message-digest.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum format message-digest.vi"/>
@@ -1432,6 +1435,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Set Difference.vim" Type="VI" URL="/&lt;vilib&gt;/set operations/Set Difference.vim"/>
 				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 				<Item Name="Standard Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Data Model/Standard Data Model/Standard Data Model.lvclass"/>
+				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="TCP Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/TCP/TCP Master.lvclass"/>
 				<Item Name="TCP Shared Components.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/TCP Shared Components/TCP Shared Components.lvlib"/>
 				<Item Name="TCP Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/TCP/TCP Slave.lvclass"/>
@@ -1449,14 +1453,22 @@ AddOutputFilter chunkFilter
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
+			<Item Name="Active Motor.ctl" Type="VI" URL="../TypeDef/Active Motor.ctl"/>
 			<Item Name="AI_Data_Array.ctl" Type="VI" URL="../TypeDef/AI_Data_Array.ctl"/>
 			<Item Name="AO.lvclass" Type="LVClass" URL="../AO_class/AO.lvclass"/>
+			<Item Name="Corect Pressure Block.vi" Type="VI" URL="../TypeDef/Corect Pressure Block.vi"/>
 			<Item Name="DO.lvclass" Type="LVClass" URL="../DO_class/DO.lvclass"/>
+			<Item Name="FPGA API Concrete.lvclass" Type="LVClass" URL="../FPGA API Concrete_class/FPGA API Concrete.lvclass"/>
+			<Item Name="FPGA API Mock.lvclass" Type="LVClass" URL="../FPGA API Mock_class/FPGA API Mock.lvclass"/>
+			<Item Name="GlobalStop.vi" Type="VI" URL="../Stand_class/GlobalStop.vi"/>
+			<Item Name="GUI Alarms Tbl.vi" Type="VI" URL="../subvis/GUI Alarms Tbl.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MAIN_FPGA.lvbitx" Type="Document" URL="../FPGA Bitfiles/MAIN_FPGA.lvbitx"/>
+			<Item Name="Motor N.ctl" Type="VI" URL="../TypeDef/Motor N.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Setting Stand.ctl" Type="VI" URL="../TypeDef/Setting Stand.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Real-Time Application" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
