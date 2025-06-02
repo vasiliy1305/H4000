@@ -24,7 +24,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Corect Pressure Block.vi" Type="VI" URL="../TypeDef/Corect Pressure Block.vi"/>
 		<Item Name="rutune.txt" Type="Document" URL="../rutune.txt"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
@@ -112,6 +111,8 @@ AddOutputFilter chunkFilter
 			<Item Name="ConfigJSON.lvclass" Type="LVClass" URL="../ConfigJSON_class/ConfigJSON.lvclass"/>
 			<Item Name="Database_Postgress.lvclass" Type="LVClass" URL="../Database_Postgress_class/Database_Postgress.lvclass"/>
 			<Item Name="DatabaseInterface.lvclass" Type="LVClass" URL="../DatabaseInterface_class/DatabaseInterface.lvclass"/>
+			<Item Name="FPGA API Concrete.lvclass" Type="LVClass" URL="../FPGA API Concrete_class/FPGA API Concrete.lvclass"/>
+			<Item Name="FPGA API Mock.lvclass" Type="LVClass" URL="../FPGA API Mock_class/FPGA API Mock.lvclass"/>
 			<Item Name="FPGA API.lvclass" Type="LVClass" URL="../FPGA_API_class/FPGA API.lvclass"/>
 			<Item Name="Logger.lvclass" Type="LVClass" URL="../Logger_class/Logger.lvclass"/>
 			<Item Name="MB_ENGINE.lvclass" Type="LVClass" URL="../modbus engine custom/MB_ENGINE_class/MB_ENGINE.lvclass"/>
@@ -140,8 +141,10 @@ AddOutputFilter chunkFilter
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="AI.lvclass" Type="LVClass" URL="../AI_class/AI.lvclass"/>
 			<Item Name="AnalogComparator.lvclass" Type="LVClass" URL="../AnalogComparator_class/AnalogComparator.lvclass"/>
+			<Item Name="AO.lvclass" Type="LVClass" URL="../AO_class/AO.lvclass"/>
 			<Item Name="DA.lvclass" Type="LVClass" URL="../DA_class/DA.lvclass"/>
 			<Item Name="DI.lvclass" Type="LVClass" URL="../DI_class/DI.lvclass"/>
+			<Item Name="DO.lvclass" Type="LVClass" URL="../DO_class/DO.lvclass"/>
 			<Item Name="Scale.lvclass" Type="LVClass" URL="../Scale_class/Scale.lvclass"/>
 			<Item Name="Scale_PiecedLinear.lvclass" Type="LVClass" URL="../PiecedLinearScale_class/Scale_PiecedLinear.lvclass"/>
 			<Item Name="Signal.lvclass" Type="LVClass" URL="../Signal_class/Signal.lvclass"/>
@@ -156,8 +159,11 @@ AddOutputFilter chunkFilter
 			<Item Name="ConfigFolder.vi" Type="VI" URL="../Stand_class/private/ConfigFolder.vi"/>
 			<Item Name="Const Variable to Save.vi" Type="VI" URL="../Stand_class/private/Const Variable to Save.vi"/>
 			<Item Name="ConvertTimeStampFormatLvToDb.vi" Type="VI" URL="../subvis/ConvertTimeStampFormatLvToDb.vi"/>
+			<Item Name="Corect Pressure Block.vi" Type="VI" URL="../TypeDef/Corect Pressure Block.vi"/>
 			<Item Name="Create Do Cmd.vi" Type="VI" URL="../FPGA/SubVI/Create Do Cmd.vi"/>
 			<Item Name="Events to table.vi" Type="VI" URL="../subvis/Events to table.vi"/>
+			<Item Name="GlobalStop.vi" Type="VI" URL="../Stand_class/GlobalStop.vi"/>
+			<Item Name="GUI Alarms Tbl.vi" Type="VI" URL="../subvis/GUI Alarms Tbl.vi"/>
 			<Item Name="Objects to table.vi" Type="VI" URL="../subvis/Objects to table.vi"/>
 			<Item Name="SHaredVariableSaver.vi" Type="VI" URL="../subvis/SHaredVariableSaver.vi"/>
 			<Item Name="Tick Count (ms) with inout.vim" Type="VI" URL="../subvis/Tick Count (ms) with inout.vim"/>
@@ -165,9 +171,11 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Typedef" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="Active Motor.ctl" Type="VI" URL="../TypeDef/Active Motor.ctl"/>
 			<Item Name="AI index.ctl" Type="VI" URL="../FPGA/TypeDef/AI index.ctl"/>
 			<Item Name="AI Statistics Data.ctl" Type="VI" URL="../TypeDef/AI Statistics Data.ctl"/>
 			<Item Name="AI_Data.ctl" Type="VI" URL="../TypeDef/AI_Data.ctl"/>
+			<Item Name="AI_Data_Array.ctl" Type="VI" URL="../TypeDef/AI_Data_Array.ctl"/>
 			<Item Name="AlarmType.ctl" Type="VI" URL="../TypeDef/AlarmType.ctl"/>
 			<Item Name="bool_data.ctl" Type="VI" URL="../TypeDef/bool_data.ctl"/>
 			<Item Name="bool_setting.ctl" Type="VI" URL="../TypeDef/bool_setting.ctl"/>
@@ -182,10 +190,12 @@ AddOutputFilter chunkFilter
 			<Item Name="GUI AI Ranges.ctl" Type="VI" URL="../TypeDef/GUI AI Ranges.ctl"/>
 			<Item Name="GUI Setting Channel.ctl" Type="VI" URL="../TypeDef/GUI Setting Channel.ctl"/>
 			<Item Name="GUI Setting PMG.ctl" Type="VI" URL="../TypeDef/GUI Setting PMG.ctl"/>
+			<Item Name="Motor N.ctl" Type="VI" URL="../TypeDef/Motor N.ctl"/>
 			<Item Name="Needle Valve Data.ctl" Type="VI" URL="../TypeDef/Needle Valve Data.ctl"/>
 			<Item Name="Needle Valve Settings.ctl" Type="VI" URL="../TypeDef/Needle Valve Settings.ctl"/>
 			<Item Name="Needle Valve State.ctl" Type="VI" URL="../TypeDef/Needle Valve State.ctl"/>
 			<Item Name="PMG Mode.ctl" Type="VI" URL="../TypeDef/PMG Mode.ctl"/>
+			<Item Name="Setting Stand.ctl" Type="VI" URL="../TypeDef/Setting Stand.ctl"/>
 			<Item Name="State Engine 2.ctl" Type="VI" URL="../TypeDef/State Engine 2.ctl"/>
 			<Item Name="State Engine.ctl" Type="VI" URL="../TypeDef/State Engine.ctl"/>
 			<Item Name="State PMG.ctl" Type="VI" URL="../TypeDef/State PMG.ctl"/>
@@ -1453,22 +1463,11 @@ AddOutputFilter chunkFilter
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
-			<Item Name="Active Motor.ctl" Type="VI" URL="../TypeDef/Active Motor.ctl"/>
-			<Item Name="AI_Data_Array.ctl" Type="VI" URL="../TypeDef/AI_Data_Array.ctl"/>
-			<Item Name="AO.lvclass" Type="LVClass" URL="../AO_class/AO.lvclass"/>
-			<Item Name="Corect Pressure Block.vi" Type="VI" URL="../TypeDef/Corect Pressure Block.vi"/>
-			<Item Name="DO.lvclass" Type="LVClass" URL="../DO_class/DO.lvclass"/>
-			<Item Name="FPGA API Concrete.lvclass" Type="LVClass" URL="../FPGA API Concrete_class/FPGA API Concrete.lvclass"/>
-			<Item Name="FPGA API Mock.lvclass" Type="LVClass" URL="../FPGA API Mock_class/FPGA API Mock.lvclass"/>
-			<Item Name="GlobalStop.vi" Type="VI" URL="../Stand_class/GlobalStop.vi"/>
-			<Item Name="GUI Alarms Tbl.vi" Type="VI" URL="../subvis/GUI Alarms Tbl.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MAIN_FPGA.lvbitx" Type="Document" URL="../FPGA Bitfiles/MAIN_FPGA.lvbitx"/>
-			<Item Name="Motor N.ctl" Type="VI" URL="../TypeDef/Motor N.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Setting Stand.ctl" Type="VI" URL="../TypeDef/Setting Stand.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Real-Time Application" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
