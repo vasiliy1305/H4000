@@ -76,6 +76,7 @@
 		</Item>
 		<Item Name="Signals" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="AbruptChange.lvclass" Type="LVClass" URL="../AbruptChange_class/AnalogComparator_class/AbruptChange.lvclass"/>
 			<Item Name="AI.lvclass" Type="LVClass" URL="../AI_class/AI.lvclass"/>
 			<Item Name="AnalogComparator.lvclass" Type="LVClass" URL="../AnalogComparator_class/AnalogComparator.lvclass"/>
 			<Item Name="AO.lvclass" Type="LVClass" URL="../AO_class/AO.lvclass"/>
@@ -161,6 +162,7 @@
 			<Item Name="valveState.ctl" Type="VI" URL="../FPGA/TypeDef/valveState.ctl"/>
 		</Item>
 		<Item Name="checks.txt" Type="Document" URL="../checks.txt"/>
+		<Item Name="GuiLogIn.vi" Type="VI" URL="../subvis/GuiLogIn.vi"/>
 		<Item Name="MAIN_UI.vi" Type="VI" URL="../MAIN_UI.vi"/>
 		<Item Name="rutune.txt" Type="Document" URL="../rutune.txt"/>
 		<Item Name="Setting Stand.ctl" Type="VI" URL="../TypeDef/Setting Stand.ctl"/>
