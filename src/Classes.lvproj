@@ -109,6 +109,7 @@
 			<Item Name="GUI Alarms Tbl.vi" Type="VI" URL="../subvis/GUI Alarms Tbl.vi"/>
 			<Item Name="GUI Get Paths.vi" Type="VI" URL="../subvis/GUI Get Paths.vi"/>
 			<Item Name="GUI Step to RT Step.vi" Type="VI" URL="../subvis/Script/GUI Step to RT Step.vi"/>
+			<Item Name="GuiLogIn.vi" Type="VI" URL="../subvis/GuiLogIn.vi"/>
 			<Item Name="InsertStep.vi" Type="VI" URL="../subvis/Script/InsertStep.vi"/>
 			<Item Name="Objects to table.vi" Type="VI" URL="../subvis/Objects to table.vi"/>
 			<Item Name="range.vi" Type="VI" URL="../subvis/Script/range.vi"/>
@@ -154,6 +155,7 @@
 			<Item Name="Needle Valve State.ctl" Type="VI" URL="../TypeDef/Needle Valve State.ctl"/>
 			<Item Name="PMG Mode.ctl" Type="VI" URL="../TypeDef/PMG Mode.ctl"/>
 			<Item Name="Script.ctl" Type="VI" URL="../TypeDef/Script.ctl"/>
+			<Item Name="Setting Stand.ctl" Type="VI" URL="../TypeDef/Setting Stand.ctl"/>
 			<Item Name="State Engine 2.ctl" Type="VI" URL="../TypeDef/State Engine 2.ctl"/>
 			<Item Name="State Engine.ctl" Type="VI" URL="../TypeDef/State Engine.ctl"/>
 			<Item Name="State PMG.ctl" Type="VI" URL="../TypeDef/State PMG.ctl"/>
@@ -162,10 +164,8 @@
 			<Item Name="valveState.ctl" Type="VI" URL="../FPGA/TypeDef/valveState.ctl"/>
 		</Item>
 		<Item Name="checks.txt" Type="Document" URL="../checks.txt"/>
-		<Item Name="GuiLogIn.vi" Type="VI" URL="../subvis/GuiLogIn.vi"/>
 		<Item Name="MAIN_UI.vi" Type="VI" URL="../MAIN_UI.vi"/>
 		<Item Name="rutune.txt" Type="Document" URL="../rutune.txt"/>
-		<Item Name="Setting Stand.ctl" Type="VI" URL="../TypeDef/Setting Stand.ctl"/>
 		<Item Name="Stand.lvclass" Type="LVClass" URL="../Stand_class/Stand.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
