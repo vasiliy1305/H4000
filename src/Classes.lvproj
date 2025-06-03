@@ -4,6 +4,7 @@
 	<Property Name="varPersistentID:{0C9E6741-05F6-44D0-98C4-97B4B7DC2501}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/DI_ARRAY</Property>
 	<Property Name="varPersistentID:{0E2D81D7-569C-406D-B5BC-C267509F4830}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/STATE_PMG</Property>
 	<Property Name="varPersistentID:{16B0F10F-DEBE-4A34-95E7-5724E97FECDB}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/STATE</Property>
+	<Property Name="varPersistentID:{2532334B-C348-44D7-85F8-10EBC12B22E0}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/ERROR_BD</Property>
 	<Property Name="varPersistentID:{2E981632-612E-4E8B-A33B-ED0B028250D3}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/NV2_DATA</Property>
 	<Property Name="varPersistentID:{61208B3F-C073-45CC-9259-3BC0C6BCDC18}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/AO_ARRAY</Property>
 	<Property Name="varPersistentID:{69D4F517-98FC-4AA4-A1CB-943602D8D373}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/NV2_SETTING</Property>
@@ -143,6 +144,7 @@
 			<Item Name="Direction.ctl" Type="VI" URL="../TypeDef/Direction.ctl"/>
 			<Item Name="DO index.ctl" Type="VI" URL="../FPGA/TypeDef/DO index.ctl"/>
 			<Item Name="engineering units.ctl" Type="VI" URL="../TypeDef/engineering units.ctl"/>
+			<Item Name="error.ctl" Type="VI" URL="../TypeDef/error.ctl"/>
 			<Item Name="GUI AI Ranges.ctl" Type="VI" URL="../TypeDef/GUI AI Ranges.ctl"/>
 			<Item Name="GUI Data Motor.ctl" Type="VI" URL="../TypeDef/GUI Data Motor.ctl"/>
 			<Item Name="GUI Paths.ctl" Type="VI" URL="../TypeDef/GUI Paths.ctl"/>

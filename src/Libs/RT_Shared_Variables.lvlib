@@ -117,6 +117,17 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"#0A!!!"E!A!!!!!!#!!R!)1&gt;#&lt;W^M:7&amp;O!"Z!1!!"`````Q!!%%&amp;S=G&amp;Z)'^G)%*P&lt;WRF97Y!!!%!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="ERROR_BD" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">error.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/error.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"M;!!!!"E!A!!!!!!%!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!#A!]1!!!!!!!!!"#76S=G^S,G.U&lt;!!71&amp;!!!Q!!!!%!!A6F=H*P=A!"!!-!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="NV1_DATA" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:SingleWriter" Type="Str">False</Property>
@@ -210,7 +221,7 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">GUI Setting PMG.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/GUI Setting PMG.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'5E!%!!"E!A!!!!!!,!"&gt;!#A!16'6N=#"5&gt;8*O)%^/)%US.!!!&amp;U!+!"&amp;5:7VQ)&amp;2V=GYA4U:')%US.!!:1!I!%V2F&lt;8!A4X"F&lt;C"8982F=C".-D%!'U!+!"25:7VQ)%.M&lt;X.F)&amp;&gt;B&gt;'6S)%US-1!!&amp;5!+!!Z)8T5R8W^O)#BD&lt;W^M+1!!&amp;5!+!!^-8T5R8W^G:C!I9W^P&lt;#E!&amp;5!+!!Z)8T5S8W^G:C!I&lt;WFM+1!!%U!+!!V-8T5S8W^O)#BP;7QJ!"V!#A!8:GFM&lt;'FO:S"P;7QA:'6M&gt;'%A&lt;'6W:7Q!'5!+!"*G;7RM;7ZH)'^J&lt;#"U;7VP&gt;81!!%9!]?2=VN!!!!!"%U&gt;633"4:82U;7ZH)&amp;".2SZD&gt;'Q!+E"1!!I!!!!"!!)!!Q!%!!5!"A!(!!A!#1N4:82U;7ZH)&amp;".2Q!"!!I!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;+2A%!!"E!A!!!!!!*!"&gt;!#A!16'6N=#"5&gt;8*O)%^/)%US.!!!&amp;U!+!"&amp;5:7VQ)&amp;2V=GYA4U:')%US.!!:1!I!%V2F&lt;8!A4X"F&lt;C"8982F=C".-D%!'U!+!"25:7VQ)%.M&lt;X.F)&amp;&gt;B&gt;'6S)%US-1!!&amp;5!+!!Z)8T5R8W^O)#BD&lt;W^M+1!!&amp;5!+!!^-8T5R8W^G:C!I9W^P&lt;#E!&amp;5!+!!Z)8T5S8W^G:C!I&lt;WFM+1!!%U!+!!V-8T5S8W^O)#BP;7QJ!%)!]?2E=1M!!!!"%U&gt;633"4:82U;7ZH)&amp;".2SZD&gt;'Q!*E"1!!A!!!!"!!)!!Q!%!!5!"A!(#V.F&gt;(2J&lt;G=A5%V(!!%!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="STATE" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
