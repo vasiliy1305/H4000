@@ -81,6 +81,7 @@
 			<Item Name="Step.ctl" Type="VI" URL="../TypeDef/Step.ctl"/>
 			<Item Name="Step_Name.ctl" Type="VI" URL="../TypeDef/Step_Name.ctl"/>
 		</Item>
+		<Item Name="ExpFitter.lvclass" Type="LVClass" URL="../ExpFitter/ExpFitter.lvclass"/>
 		<Item Name="MAIN_UI.vi" Type="VI" URL="../MAIN_UI.vi"/>
 		<Item Name="rutune.txt" Type="Document" URL="../rutune.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">

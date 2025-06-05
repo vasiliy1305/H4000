@@ -112,6 +112,7 @@ AddOutputFilter chunkFilter
 			<Item Name="ConfigJSON.lvclass" Type="LVClass" URL="../ConfigJSON_class/ConfigJSON.lvclass"/>
 			<Item Name="Database_Postgress.lvclass" Type="LVClass" URL="../Database_Postgress_class/Database_Postgress.lvclass"/>
 			<Item Name="DatabaseInterface.lvclass" Type="LVClass" URL="../DatabaseInterface_class/DatabaseInterface.lvclass"/>
+			<Item Name="ExpFitter.lvclass" Type="LVClass" URL="../ExpFitter/ExpFitter.lvclass"/>
 			<Item Name="FPGA API Concrete.lvclass" Type="LVClass" URL="../FPGA API Concrete_class/FPGA API Concrete.lvclass"/>
 			<Item Name="FPGA API Mock.lvclass" Type="LVClass" URL="../FPGA API Mock_class/FPGA API Mock.lvclass"/>
 			<Item Name="FPGA API.lvclass" Type="LVClass" URL="../FPGA_API_class/FPGA API.lvclass"/>
