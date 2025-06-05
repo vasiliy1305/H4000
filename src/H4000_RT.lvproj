@@ -4,15 +4,13 @@
 	<Property Name="varPersistentID:{0C9E6741-05F6-44D0-98C4-97B4B7DC2501}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/DI_ARRAY</Property>
 	<Property Name="varPersistentID:{0E2D81D7-569C-406D-B5BC-C267509F4830}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/STATE_PMG</Property>
 	<Property Name="varPersistentID:{11595D16-73CF-486D-9832-15142E7AD52C}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/ERROR_BD</Property>
-	<Property Name="varPersistentID:{16B0F10F-DEBE-4A34-95E7-5724E97FECDB}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/STATE</Property>
-	<Property Name="varPersistentID:{2C42E814-6EFE-4CE9-A6FE-E0C9587DB2A0}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/STEP</Property>
 	<Property Name="varPersistentID:{365FA713-041A-439D-8673-DCDE995C0816}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV1_SETTING</Property>
 	<Property Name="varPersistentID:{529A4C3B-0376-4E36-A4F1-A397CB18FECA}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV2_DATA</Property>
 	<Property Name="varPersistentID:{5780B1E5-AB3D-43B2-AB04-165F3068A1A9}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/CURRENT_ALARMS</Property>
 	<Property Name="varPersistentID:{61208B3F-C073-45CC-9259-3BC0C6BCDC18}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/AO_ARRAY</Property>
 	<Property Name="varPersistentID:{6F976847-62FB-4F35-9A63-1C892E821DA7}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/CommCounter</Property>
 	<Property Name="varPersistentID:{94E662A4-66EF-4FE6-BAFD-57DB5908E859}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/CALIBRATION_DATA</Property>
-	<Property Name="varPersistentID:{9F835FB7-6DAD-420A-A80E-1F4A83558CFB}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/SP</Property>
+	<Property Name="varPersistentID:{9F835FB7-6DAD-420A-A80E-1F4A83558CFB}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/DATA_STAND</Property>
 	<Property Name="varPersistentID:{B1304F4C-1E22-4A6F-8716-B48FAFA6E712}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV1_DATA</Property>
 	<Property Name="varPersistentID:{D47004A3-C868-42CF-BAD7-5860F665904D}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV2_SETTING</Property>
 	<Property Name="varPersistentID:{EFB1F824-23E2-4C58-8AB0-649AE9F833AC}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/AI_ARRAY</Property>
@@ -133,6 +131,7 @@ AddOutputFilter chunkFilter
 			<Item Name="NeedleValve.lvclass" Type="LVClass" URL="../NeedleValve_class/NeedleValve.lvclass"/>
 			<Item Name="PM_Group.lvclass" Type="LVClass" URL="../PM_Group_class/PM_Group.lvclass"/>
 			<Item Name="Proccess.lvclass" Type="LVClass" URL="../Proccess_class/Proccess.lvclass"/>
+			<Item Name="Stand.lvclass" Type="LVClass" URL="../Stand_class/Stand.lvclass"/>
 			<Item Name="Valve_2DO_2DI.lvclass" Type="LVClass" URL="../Valve_2DO_2DI_class/Valve_2DO_2DI.lvclass"/>
 		</Item>
 		<Item Name="Libs" Type="Folder">
@@ -1369,8 +1368,8 @@ AddOutputFilter chunkFilter
 			</Item>
 		</Item>
 		<Item Name="Current Alarms FGV.vi" Type="VI" URL="../Logger_class/Current Alarms FGV.vi"/>
+		<Item Name="Data Stand.ctl" Type="VI" URL="../TypeDef/Data Stand.ctl"/>
 		<Item Name="MAIN_RT.vi" Type="VI" URL="../MAIN_RT.vi"/>
-		<Item Name="Stand.lvclass" Type="LVClass" URL="../Stand_class/Stand.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>

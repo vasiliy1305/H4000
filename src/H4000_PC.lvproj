@@ -205,6 +205,7 @@
 			<Item Name="Active Motor.ctl" Type="VI" URL="../TypeDef/Active Motor.ctl"/>
 			<Item Name="AlarmType.ctl" Type="VI" URL="../TypeDef/AlarmType.ctl"/>
 			<Item Name="Current Alarms.ctl" Type="VI" URL="../Logger_class/Current Alarms.ctl"/>
+			<Item Name="Data Stand.ctl" Type="VI" URL="../TypeDef/Data Stand.ctl"/>
 			<Item Name="error.ctl" Type="VI" URL="../TypeDef/error.ctl"/>
 			<Item Name="EventData.ctl" Type="VI" URL="../Logger_class/EventData.ctl"/>
 			<Item Name="GUI Alarms Tbl.vi" Type="VI" URL="../subvis/GUI Alarms Tbl.vi"/>

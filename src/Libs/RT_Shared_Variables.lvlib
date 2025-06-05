@@ -89,6 +89,24 @@
 		<Property Name="typedefPath4" Type="PathRel">../../Logger_class/EventType.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;55!%!!"E!A!!!!!!,!""!-0````](&lt;W*K8X2B:Q!31$$`````#76W:7ZU8X2B:Q!51$$`````#U2F=W.S;8"U;7^O!%-!]1!!!!!!!!!"$5&amp;M98*N6(FQ:3ZD&gt;'Q!,5!7!!-'4G^S&lt;7&amp;M"V&gt;B=GZJ&lt;G=&amp;17RB=GU!!!J"4%&amp;343"576"&amp;!!!01!I!#6:B&lt;(6F)%2#4!!01!-!#6:B&lt;(6F)%F/6!!31$$`````#6:B&lt;(6F)&amp;.55A!31&amp;1!"AJ5;7VF)&amp;.U97VQ!!!W!0%!!!!!!!!!!1V&amp;&gt;G6O&gt;%2B&gt;'%O9X2M!#"!5!!)!!!!!1!#!!-!"!!&amp;!!9!"Q6&amp;&gt;G6O&gt;!!51%!!!@````]!#!:B&lt;'&amp;S&lt;8-!!$=!]1!!!!!!!!!"%E.V=H*F&lt;H1A17RB=GVT,G.U&lt;!!=1&amp;!!!1!*$E.V=H*F&lt;H1A17RB=GVT!!!"!!I!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="DATA_STAND" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">3</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">Data Stand.ctl</Property>
+		<Property Name="typedefName2" Type="Str">Direction.ctl</Property>
+		<Property Name="typedefName3" Type="Str">Step_Name.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/Data Stand.ctl</Property>
+		<Property Name="typedefPath2" Type="PathRel">../../TypeDef/Direction.ctl</Property>
+		<Property Name="typedefPath3" Type="PathRel">../../TypeDef/Step_Name.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*#0A)!!"E!A!!!!!!'!"&amp;!#!!,1W^N&lt;5.P&gt;7ZU:8)!%5!+!!N1=G6T=X6S:3"45!!81!I!%%*F:WFO2GFM;7ZH4'6W:7Q!!$U!]1!!!!!!!!!"$52J=G6D&gt;'FP&lt;CZD&gt;'Q!*U!7!!-%4G^O:1&gt;$;'&amp;N9G6S!U266!!!#52J=G6D&gt;'FP&lt;A&amp;F!0%!!!!!!!!!!1V4&gt;'6Q8UZB&lt;75O9X2M!5^!&amp;A!1"%Z04E5,2GFM&lt;'FO:S"%66102GFM&lt;'FO:S"$;'&amp;N9G6S$V"S:8.T&gt;8*F)&amp;6Q)%266"N"9H*V=(1A5(*F=X.V=G5A5G6M:7&amp;T:3"%661&lt;5WVP&lt;X2I)&amp;"S:8.T&gt;8*F)&amp;*F&lt;'6B=W5A2&amp;65%V"S:8.T&gt;8*F)&amp;6Q)%.I97VC:8)@17*S&gt;8"U)&amp;"S:8.T&gt;8*F)&amp;*F&lt;'6B=W5A1WBB&lt;7*F=B^4&lt;7^P&gt;'AA5(*F=X.V=G5A5G6M:7&amp;T:3"$;'&amp;N9G6S(5VF98.V=GFO:S"M:7&amp;L97&gt;F)(.F&lt;H.P=C!U-3YT(%VF98.V=GFO:S"M:7&amp;L97&gt;F)'*V=G6U&gt;'5A.$)14'^X)&amp;"S:8.T&gt;8*F)%266"2-&lt;X=A5(*F=X.V=G5A1WBB&lt;7*F=B"-&lt;X=A5(*F=X.V=G5A3&amp;"1"5&amp;-16*.#%^Q:7YA17FS!!246%61!!!X!0%!!!!!!!!!!1Z%982B)&amp;.U97ZE,G.U&lt;!!A1&amp;!!"1!!!!%!!A!$!!1+2'&amp;U93"4&gt;'&amp;O:!!!!1!&amp;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="DI_ARRAY" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
 		<Property Name="Network:SingleWriter" Type="Str">False</Property>
@@ -220,34 +238,12 @@
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">GUI Setting PMG.ctl</Property>
+		<Property Name="typedefName2" Type="Str">Direction.ctl</Property>
+		<Property Name="typedefName3" Type="Str">Step_Name.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/GUI Setting PMG.ctl</Property>
+		<Property Name="typedefPath2" Type="PathRel">../../TypeDef/Direction.ctl</Property>
+		<Property Name="typedefPath3" Type="PathRel">../../TypeDef/Step_Name.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;+2A%!!"E!A!!!!!!*!"&gt;!#A!16'6N=#"5&gt;8*O)%^/)%US.!!!&amp;U!+!"&amp;5:7VQ)&amp;2V=GYA4U:')%US.!!:1!I!%V2F&lt;8!A4X"F&lt;C"8982F=C".-D%!'U!+!"25:7VQ)%.M&lt;X.F)&amp;&gt;B&gt;'6S)%US-1!!&amp;5!+!!Z)8T5R8W^O)#BD&lt;W^M+1!!&amp;5!+!!^-8T5R8W^G:C!I9W^P&lt;#E!&amp;5!+!!Z)8T5S8W^G:C!I&lt;WFM+1!!%U!+!!V-8T5S8W^O)#BP;7QJ!%)!]?2E=1M!!!!"%U&gt;633"4:82U;7ZH)&amp;".2SZD&gt;'Q!*E"1!!A!!!!"!!)!!Q!%!!5!"A!(#V.F&gt;(2J&lt;G=A5%V(!!%!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="SP" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"E!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="STATE" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">1</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typedefName1" Type="Str">Logger.lvclass:State.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../../Logger_class/State.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"K:A!!!"E!A!!!!!!"!&amp;1!]1!!!!!!!!!#$ERP:W&gt;F=CZM&gt;G.M98.T#6.U982F,G.U&lt;!!T1"9!"!&gt;$&lt;WZO:7.U#%FO;82J982F"EBB&lt;G2M:1F%;8.D&lt;WZF9X1!"6.U982F!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="STATE_PMG" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
@@ -271,21 +267,5 @@
 		<Property Name="typedefPath3" Type="PathRel">../../TypeDef/State Engine.ctl</Property>
 		<Property Name="typedefPath4" Type="PathRel">../../TypeDef/State PMG.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'NK1%!!"E!A!!!!!!+!%!!]1!!!!!!!!!"$&amp;".2S".&lt;W2F,G.U&lt;!!L1"9!!Q2*:'6M"U:J&lt;'RJ&lt;G=)5(*F=X.V=G5!#&amp;".2S".&lt;W2F!!"3!0%!!!!!!!!!!2"4&gt;'&amp;U:3"&amp;&lt;G&gt;J&lt;G5O9X2M!$F!&amp;A!&amp;"V6O;WZP&gt;WY$4W:G#62V='ZJ&lt;G&gt;0&lt;A*0&lt;AJ5&gt;8*O;7ZH4W:G!!B&amp;&lt;G&gt;4&gt;'&amp;U:1!!$%!B"E&amp;D&gt;'FW:1!!$E!B#5.P&lt;H2B9X2P=A!)1#%$1UV%!!R!)1&gt;"&gt;82P&lt;7&amp;U!$-!]?23+U5!!!!"%F.U982F)%6O:WFO:3!S,G.U&lt;!!91&amp;!!"1!"!!)!!Q!%!!5$44%S!$-!]?23+U5!!!!"%F.U982F)%6O:WFO:3!S,G.U&lt;!!91&amp;!!"1!"!!)!!Q!%!!5$44)R!$-!]?23+U5!!!!"%F.U982F)%6O:WFO:3!S,G.U&lt;!!91&amp;!!"1!"!!)!!Q!%!!5$44)U!#Q!]1!!!!!!!!!"$6.U982F)&amp;".2SZD&gt;'Q!&amp;E"1!!1!!!!'!!=!#!.145=!!1!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="STEP" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">1</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typedefName1" Type="Str">Step_Name.ctl</Property>
-		<Property Name="typedefName2" Type="Str">Step.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/Step_Name.ctl</Property>
-		<Property Name="typedefPath2" Type="PathRel">../../TypeDef/Step.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;X=Q%!!"E!A!!!!!!"!7%!]1!!!!!!!!!"$6.U:8"@4G&amp;N:3ZD&gt;'Q"3U!7!!]%4E^/21N';7RM;7ZH)%266!^';7RM;7ZH)%.I97VC:8)05(*F=X.V=G5A68!A2&amp;65'U&amp;C=H6Q&gt;#"1=G6T=X6S:3"3:7RF98.F)%266"N4&lt;7^P&gt;'AA5(*F=X.V=G5A5G6M:7&amp;T:3"%66145(*F=X.V=G5A68!A1WBB&lt;7*F=B^"9H*V=(1A5(*F=X.V=G5A5G6M:7&amp;T:3"$;'&amp;N9G6S(V.N&lt;W^U;#"1=G6T=X6S:3"3:7RF98.F)%.I97VC:8)&gt;476B=X6S;7ZH)'RF97NB:W5A=W6O=W^S)$1R,D-=476B=X6S;7ZH)'RF97NB:W5A9H6S:82U:3!U-B"-&lt;X=A5(*F=X.V=G5A2&amp;65&amp;%RP&gt;S"1=G6T=X6S:3"$;'&amp;N9G6S%%RP&gt;S"1=G6T=X6S:3")5&amp;!&amp;15R"5EU!!!BT&gt;'6Q4G&amp;N:1!!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
