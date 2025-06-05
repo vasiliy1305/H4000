@@ -5,12 +5,14 @@
 	<Property Name="varPersistentID:{0E2D81D7-569C-406D-B5BC-C267509F4830}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/STATE_PMG</Property>
 	<Property Name="varPersistentID:{11595D16-73CF-486D-9832-15142E7AD52C}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/ERROR_BD</Property>
 	<Property Name="varPersistentID:{16B0F10F-DEBE-4A34-95E7-5724E97FECDB}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/STATE</Property>
+	<Property Name="varPersistentID:{2C42E814-6EFE-4CE9-A6FE-E0C9587DB2A0}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/STEP</Property>
 	<Property Name="varPersistentID:{365FA713-041A-439D-8673-DCDE995C0816}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV1_SETTING</Property>
 	<Property Name="varPersistentID:{529A4C3B-0376-4E36-A4F1-A397CB18FECA}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV2_DATA</Property>
 	<Property Name="varPersistentID:{5780B1E5-AB3D-43B2-AB04-165F3068A1A9}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/CURRENT_ALARMS</Property>
 	<Property Name="varPersistentID:{61208B3F-C073-45CC-9259-3BC0C6BCDC18}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/AO_ARRAY</Property>
 	<Property Name="varPersistentID:{6F976847-62FB-4F35-9A63-1C892E821DA7}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/CommCounter</Property>
 	<Property Name="varPersistentID:{94E662A4-66EF-4FE6-BAFD-57DB5908E859}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/CALIBRATION_DATA</Property>
+	<Property Name="varPersistentID:{9F835FB7-6DAD-420A-A80E-1F4A83558CFB}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/SP</Property>
 	<Property Name="varPersistentID:{B1304F4C-1E22-4A6F-8716-B48FAFA6E712}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV1_DATA</Property>
 	<Property Name="varPersistentID:{D47004A3-C868-42CF-BAD7-5860F665904D}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV2_SETTING</Property>
 	<Property Name="varPersistentID:{EFB1F824-23E2-4C58-8AB0-649AE9F833AC}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/AI_ARRAY</Property>
@@ -156,6 +158,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Average.vi" Type="VI" URL="../subvis/Average.vi"/>
 			<Item Name="bool_change.vi" Type="VI" URL="../subvis/bool_change.vi"/>
 			<Item Name="Check Folder or Create.vi" Type="VI" URL="../subvis/Check Folder or Create.vi"/>
+			<Item Name="CheckLatinAlfabet.vi" Type="VI" URL="../subvis/CheckLatinAlfabet.vi"/>
 			<Item Name="ClassNotDefineError.vi" Type="VI" URL="../subvis/ClassNotDefineError.vi"/>
 			<Item Name="ConfigFolder.vi" Type="VI" URL="../Stand_class/private/ConfigFolder.vi"/>
 			<Item Name="Const Variable to Save.vi" Type="VI" URL="../Stand_class/private/Const Variable to Save.vi"/>
