@@ -193,6 +193,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Current Alarms.ctl" Type="VI" URL="../Logger_class/Current Alarms.ctl"/>
 			<Item Name="Data Avr.ctl" Type="VI" URL="../subvis/Data Avr.ctl"/>
 			<Item Name="Data Stand.ctl" Type="VI" URL="../TypeDef/Data Stand.ctl"/>
+			<Item Name="DataExpFit.ctl" Type="VI" URL="../TypeDef/DataExpFit.ctl"/>
 			<Item Name="DI index.ctl" Type="VI" URL="../FPGA/TypeDef/DI index.ctl"/>
 			<Item Name="Direction.ctl" Type="VI" URL="../TypeDef/Direction.ctl"/>
 			<Item Name="DO index.ctl" Type="VI" URL="../FPGA/TypeDef/DO index.ctl"/>
@@ -1372,7 +1373,6 @@ AddOutputFilter chunkFilter
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="DataExpFit.ctl" Type="VI" URL="../TypeDef/DataExpFit.ctl"/>
 		<Item Name="MAIN_RT.vi" Type="VI" URL="../MAIN_RT.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
