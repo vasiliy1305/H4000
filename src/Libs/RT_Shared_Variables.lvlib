@@ -60,18 +60,6 @@
 		<Property Name="typedefPath4" Type="PathRel">../../TypeDef/SensorCalibrationData.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'\NQ%!!"E!A!!!!!!5!!Z!-0````]%4G&amp;N:1!!#%!B!EB*!!!+1#%%3%F)31!!#%!B!ER0!!!+1#%%4%^-4Q!!$U!+!!B)35B*)&amp;:"4!!!$5!+!!:)33"715Q!!!V!#A!'4%]A6E&amp;-!!!01!I!#%R04%]A6E&amp;-!!!.1!I!"UV"7#"316=!$5!+!!&gt;.35YA5E&amp;8!"&amp;!#A!+45&amp;9)&amp;.$15R&amp;2!!!%5!+!!J.35YA5U."4%6%!!"'!0(E/`V3!!!!!2&amp;(65EA15EA5G&amp;O:W6T,G.U&lt;!!M1&amp;!!$!!"!!)!!Q!%!!5!"A!(!!A!#1!+!!M!$!F"33"397ZH:8-!"U!+!!&amp;9!!Z!1!!"`````Q!/!6A!$E"!!!(`````!!Y"71"'!0%!!!!!!!!!!2&gt;(65EA5W6U&gt;'FO:S"$;'&amp;O&lt;G6M,G.U&lt;!!G1&amp;!!"!!!!!U!$Q!1%U&gt;633"$;'&amp;O&lt;G6M)&amp;.F&gt;(2J&lt;G=!&amp;E"!!!(`````!"%)1WBB&lt;GZF&lt;(-!!$A!]1!!!!!!!!!"%U.B&lt;'FC=G&amp;U;7^O2'&amp;U93ZD&gt;'Q!(%"1!!%!%A^$97RJ9H*B&gt;'FP&lt;E2B&gt;'%!!1!4!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="CommCounter" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"E!A!!!!!!"!!V!#!!'65FO&gt;$9U!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="CURRENT_ALARMS" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:SingleWriter" Type="Str">False</Property>
