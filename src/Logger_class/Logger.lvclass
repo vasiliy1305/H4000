@@ -302,6 +302,15 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082929664</Property>
 	</Item>
+	<Item Name="Test Connection.vi" Type="VI" URL="../Test Connection.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"Y!!!!!A!%!!!!&lt;!$Q!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-!!1A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!"!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1073741827</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074541072</Property>
+	</Item>
 	<Item Name="WriteEvent.vi" Type="VI" URL="../WriteEvent.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)H!!!!%A!I1(!!(A!!%!Z-&lt;W&gt;H:8)O&lt;(:D&lt;'&amp;T=Q!!$(*F:G6S:7ZD:3"J&lt;A!!"!!!!#B!=!!?!!!1$ERP:W&gt;F=CZM&gt;G.M98.T!!!.=G6G:8*F&lt;G.F)'^V&gt;!!11$$`````"W^C;F^U97=!%E!Q`````QFF&gt;G6O&gt;&amp;^U97=!&amp;%!Q`````QN%:8.D=GFQ&gt;'FP&lt;A"$!0%!!!!!!!!!!1V"&lt;'&amp;S&lt;62Z='5O9X2M!#V!&amp;A!$"EZP=GVB&lt;!&gt;898*O;7ZH"5&amp;M98*N!!!+15R"5EUA6&amp;F121!!$U!+!!F797RV:3"%1EQ!$U!$!!F797RV:3"*4F1!%E!Q`````QF797RV:3"46&amp;)!%E"5!!9+6'FN:3"4&gt;'&amp;N=!!!.A$R!!!!!!!!!!%.28:F&lt;H2%982B,G.U&lt;!!A1&amp;!!#!!$!!1!"1!'!!=!#!!*!!I&amp;28:F&lt;H1!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!)%"1!!-!$!!.!!Y4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!71&amp;!!!Q!-!!U!$AFF=H*P=C"P&gt;81!@1$Q!"!!!!!"!!%!!1!#!!M!!1!"!!%!!1!"!!]!!1!"!!%!%!-!!1A!!"!!!!!!!!!!!!!!!!!!!!!.!!!!%A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!U,!"%!!!!!!1!!!!!!!!!!!!!!!!!"!"%!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

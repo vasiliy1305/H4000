@@ -1,55 +1,54 @@
 CREATE EXTENSION IF NOT EXISTS timescaledb;
 
--- Таблица для хранения типов объектов
+
 CREATE TABLE IF NOT EXISTS obj_type_dir
 (
-    obj_type VARCHAR(50) PRIMARY KEY, -- Название типа объекта и первичный ключ
-    obj_type_desc text -- Описание типа объекта
+    obj_type VARCHAR(50) PRIMARY KEY, 
+    obj_type_desc text 
 );
 
--- Таблица для описания объектов
+
 CREATE TABLE IF NOT EXISTS objects_dir
 (
-    obj_tag varchar(100) PRIMARY KEY, -- Уникальный тег объекта и первичный ключ
-    obj_desc text, -- Описание объекта
-    parent_obj_tag varchar(100), -- Ссылка на родительский объект (если есть)
-    obj_type VARCHAR(50), -- Тип объекта
-    CONSTRAINT fk_obj_type FOREIGN KEY (obj_type) REFERENCES obj_type_dir (obj_type) -- Связь с типами объектов
+    obj_tag varchar(100) PRIMARY KEY, 
+    obj_desc text, 
+    parent_obj_tag varchar(100), 
+    obj_type VARCHAR(50), 
+    CONSTRAINT fk_obj_type FOREIGN KEY (obj_type) REFERENCES obj_type_dir (obj_type) 
 );
 
--- Таблица для описания сигналов
+
 CREATE TABLE IF NOT EXISTS signals_dir
 (
-    signal_id SERIAL PRIMARY KEY, -- Уникальный идентификатор сигнала
-    signal_tag varchar(100) UNIQUE NOT NULL, -- Уникальный тег сигнала
-    obj_tag varchar(100), -- Ссылка на объект, к которому относится сигнал
-    signal_desc text, -- Описание сигнала
-    CONSTRAINT fk_obj_id FOREIGN KEY(obj_tag) REFERENCES objects_dir(obj_tag) -- Связь с объектами
+    signal_id SERIAL PRIMARY KEY, 
+    signal_tag varchar(100) UNIQUE NOT NULL,
+    obj_tag varchar(100), 
+    signal_desc text, 
+    CONSTRAINT fk_obj_id FOREIGN KEY(obj_tag) REFERENCES objects_dir(obj_tag) 
 );
 
--- Таблица для хранения измерений сигналов
+
 CREATE TABLE IF NOT EXISTS signals
 (
-    signal_record_id SERIAL , -- Уникальный идентификатор записи
-    signal_time TIMESTAMPTZ NOT NULL, -- Время записи сигнала
-    signal_id INT, -- Ссылка на сигнал
-    signal_value DOUBLE PRECISION NOT NULL, -- Значение сигнала
-	PRIMARY KEY (signal_record_id, signal_time), -- Составной первичный ключ
-    CONSTRAINT fk_signal_id FOREIGN KEY(signal_id) REFERENCES signals_dir(signal_id) -- Связь с сигналами
+    signal_record_id SERIAL , 
+    signal_time TIMESTAMPTZ NOT NULL, 
+    signal_id INT, 
+    signal_value DOUBLE PRECISION NOT NULL, 
+	PRIMARY KEY (signal_record_id, signal_time), ч
+    CONSTRAINT fk_signal_id FOREIGN KEY(signal_id) REFERENCES signals_dir(signal_id) 
 );
 
--- Таблица для описания событий
 CREATE TABLE IF NOT EXISTS events_dir
 (
-    event_id SERIAL PRIMARY KEY, -- Уникальный идентификатор события
-    event_tag varchar(32), -- Уникальный тег события
-    event_desc text, -- Описание события
-    obj_tag varchar(100) NOT NULL, -- Ссылка на устройство
-    CONSTRAINT unique_constraint_my UNIQUE (event_tag), -- Уникальность по тегу 
-    CONSTRAINT fk_obj_tag FOREIGN KEY (obj_tag) REFERENCES objects_dir (obj_tag) -- Связь с устройствами
+    event_id SERIAL PRIMARY KEY, 
+    event_tag varchar(32),
+    event_desc text, 
+    obj_tag varchar(100) NOT NULL, 
+    CONSTRAINT unique_constraint_my UNIQUE (event_tag), 
+    CONSTRAINT fk_obj_tag FOREIGN KEY (obj_tag) REFERENCES objects_dir (obj_tag) 
 );
 
--- Таблица для хранения записей событий
+
 CREATE TABLE IF NOT EXISTS events
 (
     event_record_id SERIAL, 
@@ -62,13 +61,13 @@ CREATE TABLE IF NOT EXISTS events
     CONSTRAINT fk_event_id FOREIGN KEY (event_id) REFERENCES events_dir (event_id)
 );
 
--- Индексы и создание hypertable для signals
+
 CREATE INDEX IF NOT EXISTS signals_record_id_idx ON signals(signal_record_id);
 CREATE INDEX IF NOT EXISTS signals_time_id_idx ON signals(signal_time, signal_id);
 CREATE INDEX IF NOT EXISTS signals_id_time_idx ON signals (signal_id, signal_time DESC);
 SELECT create_hypertable('signals', 'signal_time');
 
--- Индексы и создание hypertable для events
+
 CREATE INDEX IF NOT EXISTS event_record_id_idx ON events(event_record_id);
 CREATE INDEX IF NOT EXISTS events_time_id_idx ON events(event_time, event_id);
 CREATE INDEX IF NOT EXISTS events_id_time_idx ON events(event_id, event_time DESC);
