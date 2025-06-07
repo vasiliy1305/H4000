@@ -123,6 +123,7 @@ AddOutputFilter chunkFilter
 			<Item Name="MessageAMC.lvclass" Type="LVClass" URL="../MessageAMC_class/MessageAMC.lvclass"/>
 			<Item Name="MessageInterface.lvclass" Type="LVClass" URL="../MessageInterface_class/MessageInterface.lvclass"/>
 			<Item Name="ModbusSp.lvclass" Type="LVClass" URL="../Modbus_class/ModbusSp.lvclass"/>
+			<Item Name="OWEN HMI.lvclass" Type="LVClass" URL="../OWEN HMI/OWEN HMI.lvclass"/>
 			<Item Name="SharedVariableWrapper.lvclass" Type="LVClass" URL="../SV_Wrap/SharedVariableWrapper.lvclass"/>
 			<Item Name="SV_Publisher.lvclass" Type="LVClass" URL="../SV_Puplisher_class/SV_Publisher.lvclass"/>
 		</Item>
