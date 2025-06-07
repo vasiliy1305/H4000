@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -39,6 +40,7 @@
 			<Item Name="GUI Setting.lvclass" Type="LVClass" URL="../GUI Setting_class/GUI Setting.lvclass"/>
 			<Item Name="GUI Test Channels.lvclass" Type="LVClass" URL="../GUI Test Channels_class/GUI Test Channels.lvclass"/>
 			<Item Name="GUI Test HIPRESS.lvclass" Type="LVClass" URL="../GUI Test HIPRESS_class/GUI Test HIPRESS.lvclass"/>
+			<Item Name="GUI Work Windows.lvclass" Type="LVClass" URL="../GUI Work Windows_class/GUI Work Windows.lvclass"/>
 			<Item Name="GUI.lvclass" Type="LVClass" URL="../GUI_class/GUI.lvclass"/>
 			<Item Name="GUI_Report.lvclass" Type="LVClass" URL="../GUI_Report_class/GUI_Report.lvclass"/>
 		</Item>
@@ -84,6 +86,7 @@
 			</Item>
 			<Item Name="Check Folder or Create.vi" Type="VI" URL="../subvis/Check Folder or Create.vi"/>
 			<Item Name="ClassNotDefineError.vi" Type="VI" URL="../subvis/ClassNotDefineError.vi"/>
+			<Item Name="Close GUIs.vi" Type="VI" URL="../subvis/Close GUIs.vi"/>
 			<Item Name="Const - Cannel Names.vi" Type="VI" URL="../subvis/Const - Cannel Names.vi"/>
 			<Item Name="ConvertTimeStampFormatLvToDb.vi" Type="VI" URL="../subvis/ConvertTimeStampFormatLvToDb.vi"/>
 			<Item Name="deleteStep.vi" Type="VI" URL="../subvis/Script/deleteStep.vi"/>
@@ -93,6 +96,7 @@
 			<Item Name="GUI Alarms Tbl.vi" Type="VI" URL="../subvis/GUI Alarms Tbl.vi"/>
 			<Item Name="GUI Get Paths.vi" Type="VI" URL="../subvis/GUI Get Paths.vi"/>
 			<Item Name="GUI Step to RT Step.vi" Type="VI" URL="../subvis/Script/GUI Step to RT Step.vi"/>
+			<Item Name="Init GUIs.vi" Type="VI" URL="../subvis/Init GUIs.vi"/>
 			<Item Name="InsertStep.vi" Type="VI" URL="../subvis/Script/InsertStep.vi"/>
 			<Item Name="Loop Time Const.vi" Type="VI" URL="../subvis/Loop Time Const.vi"/>
 			<Item Name="range.vi" Type="VI" URL="../subvis/Script/range.vi"/>
@@ -107,6 +111,7 @@
 			<Item Name="Variant To Str.vi" Type="VI" URL="../MessageInterface_class/Variant To Str.vi"/>
 		</Item>
 		<Item Name="MAIN_UI.vi" Type="VI" URL="../MAIN_UI.vi"/>
+		<Item Name="Windows.ctl" Type="VI" URL="../TypeDef/Windows.ctl"/>
 		<Item Name="rutune.txt" Type="Document" URL="../rutune.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
