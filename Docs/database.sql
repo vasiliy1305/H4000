@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS signals
     signal_time TIMESTAMPTZ NOT NULL, 
     signal_id INT, 
     signal_value DOUBLE PRECISION NOT NULL, 
-	PRIMARY KEY (signal_record_id, signal_time), ч
+	PRIMARY KEY (signal_record_id, signal_time), 
     CONSTRAINT fk_signal_id FOREIGN KEY(signal_id) REFERENCES signals_dir(signal_id) 
 );
 

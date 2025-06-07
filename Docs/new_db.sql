@@ -1,9 +1,8 @@
--- в терминале
--- sudo locale-gen ru_RU.CP1251
--- sudo update-locale
-
- CREATE DATABASE h4000_db
- WITH ENCODING 'WIN1251'
- LC_COLLATE 'ru_RU.CP1251'
- LC_CTYPE 'ru_RU.CP1251'
- TEMPLATE template0;
+CREATE DATABASE hdb
+WITH 
+OWNER = postgres
+ENCODING = 'WIN1251'
+LC_COLLATE = 'Russian_Russia.1251'
+LC_CTYPE = 'Russian_Russia.1251'
+TEMPLATE = template0
+CONNECTION LIMIT = -1;
