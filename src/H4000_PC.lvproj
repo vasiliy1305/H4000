@@ -27,6 +27,7 @@
 			<Item Name="DatabaseInterface.lvclass" Type="LVClass" URL="../DatabaseInterface_class/DatabaseInterface.lvclass"/>
 			<Item Name="Database_Postgress.lvclass" Type="LVClass" URL="../Database_Postgress_class/Database_Postgress.lvclass"/>
 			<Item Name="SV_Publisher.lvclass" Type="LVClass" URL="../SV_Puplisher_class/SV_Publisher.lvclass"/>
+			<Item Name="OWEN HMI.lvclass" Type="LVClass" URL="../OWEN HMI/OWEN HMI.lvclass"/>
 		</Item>
 		<Item Name="GUIs" Type="Folder">
 			<Item Name="GUI Alarm Setting.lvclass" Type="LVClass" URL="../GUI Alarm Setting/GUI Alarm Setting.lvclass"/>
