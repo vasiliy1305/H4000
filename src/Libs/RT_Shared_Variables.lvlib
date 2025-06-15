@@ -46,19 +46,19 @@
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">3</Property>
+		<Property Name="numTypedefs" Type="UInt">4</Property>
 		<Property Name="Path" Type="Str">/H4000_RT.lvproj/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/</Property>
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">CalibrationData.ctl</Property>
 		<Property Name="typedefName2" Type="Str">GUI AI Ranges.ctl</Property>
 		<Property Name="typedefName3" Type="Str">GUI Setting Channel.ctl</Property>
-		<Property Name="typedefName4" Type="Str">SensorCalibrationData.ctl</Property>
+		<Property Name="typedefName4" Type="Str">Scale Data.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/CalibrationData.ctl</Property>
 		<Property Name="typedefPath2" Type="PathRel">../../TypeDef/GUI AI Ranges.ctl</Property>
 		<Property Name="typedefPath3" Type="PathRel">../../TypeDef/GUI Setting Channel.ctl</Property>
-		<Property Name="typedefPath4" Type="PathRel">../../TypeDef/SensorCalibrationData.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'\NQ%!!"E!A!!!!!!5!!Z!-0````]%4G&amp;N:1!!#%!B!EB*!!!+1#%%3%F)31!!#%!B!ER0!!!+1#%%4%^-4Q!!$U!+!!B)35B*)&amp;:"4!!!$5!+!!:)33"715Q!!!V!#A!'4%]A6E&amp;-!!!01!I!#%R04%]A6E&amp;-!!!.1!I!"UV"7#"316=!$5!+!!&gt;.35YA5E&amp;8!"&amp;!#A!+45&amp;9)&amp;.$15R&amp;2!!!%5!+!!J.35YA5U."4%6%!!"'!0(E/`V3!!!!!2&amp;(65EA15EA5G&amp;O:W6T,G.U&lt;!!M1&amp;!!$!!"!!)!!Q!%!!5!"A!(!!A!#1!+!!M!$!F"33"397ZH:8-!"U!+!!&amp;9!!Z!1!!"`````Q!/!6A!$E"!!!(`````!!Y"71"'!0%!!!!!!!!!!2&gt;(65EA5W6U&gt;'FO:S"$;'&amp;O&lt;G6M,G.U&lt;!!G1&amp;!!"!!!!!U!$Q!1%U&gt;633"$;'&amp;O&lt;G6M)&amp;.F&gt;(2J&lt;G=!&amp;E"!!!(`````!"%)1WBB&lt;GZF&lt;(-!!$A!]1!!!!!!!!!"%U.B&lt;'FC=G&amp;U;7^O2'&amp;U93ZD&gt;'Q!(%"1!!%!%A^$97RJ9H*B&gt;'FP&lt;E2B&gt;'%!!1!4!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefPath4" Type="PathRel">../../TypeDef/Scale Data.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)E)!)!!"E!A!!!!!!9!!Z!-0````]%4G&amp;N:1!!#%!B!EB*!!!+1#%%3%F)31!!#%!B!ER0!!!+1#%%4%^-4Q!!$U!+!!B)35B*)&amp;:"4!!!$5!+!!:)33"715Q!!!V!#A!'4%]A6E&amp;-!!!01!I!#%R04%]A6E&amp;-!!!.1!I!"UV"7#"316=!$5!+!!&gt;.35YA5E&amp;8!"&amp;!#A!+45&amp;9)&amp;.$15R&amp;2!!!%5!+!!J.35YA5U."4%6%!!"'!0(E/`V3!!!!!2&amp;(65EA15EA5G&amp;O:W6T,G.U&lt;!!M1&amp;!!$!!"!!)!!Q!%!!5!"A!(!!A!#1!+!!M!$!F"33"397ZH:8-!%5!(!!J49W&amp;M:5FO:'6Y!!"%!0%!!!!!!!!!!2&gt;(65EA5W6U&gt;'FO:S"$;'&amp;O&lt;G6M,G.U&lt;!!E1&amp;!!!Q!!!!U!$B.(65EA1WBB&lt;GZF&lt;#"4:82U;7ZH!":!1!!"`````Q!0#%.I97ZO:7RT!!!,1!-!"7FO:'6Y!!&gt;!#A!"7!!/1%!!!@````]!%A&amp;9!!Z!1!!"`````Q!3!6E!.1$R!!!!!!!!!!%/5W.B&lt;'5A2'&amp;U93ZD&gt;'Q!(E"1!!1!%1!!!"-!&amp;!J49W&amp;M:3"%982B!!!51%!!!@````]!&amp;1:49W&amp;M:8-!!$I!]1!!!!!!!!!"%U.B&lt;'FC=G&amp;U;7^O2'&amp;U93ZD&gt;'Q!(E"1!!)!%!!7$U.B&lt;'FC=G&amp;U;7^O2'&amp;U91!"!"=!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="CURRENT_ALARMS" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
