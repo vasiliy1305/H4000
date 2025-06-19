@@ -34,6 +34,7 @@
 			<Item Name="ConfigJSON.lvclass" Type="LVClass" URL="../ConfigJSON_class/ConfigJSON.lvclass"/>
 			<Item Name="Database_Postgress.lvclass" Type="LVClass" URL="../Database_Postgress_class/Database_Postgress.lvclass"/>
 			<Item Name="DatabaseInterface.lvclass" Type="LVClass" URL="../DatabaseInterface_class/DatabaseInterface.lvclass"/>
+			<Item Name="ExpFitter.lvclass" Type="LVClass" URL="../ExpFitter/ExpFitter.lvclass"/>
 			<Item Name="FPGA API Concrete.lvclass" Type="LVClass" URL="../FPGA API Concrete_class/FPGA API Concrete.lvclass"/>
 			<Item Name="FPGA API Mock.lvclass" Type="LVClass" URL="../FPGA API Mock_class/FPGA API Mock.lvclass"/>
 			<Item Name="FPGA API.lvclass" Type="LVClass" URL="../FPGA_API_class/FPGA API.lvclass"/>
@@ -43,6 +44,7 @@
 			<Item Name="MessageAMC.lvclass" Type="LVClass" URL="../MessageAMC_class/MessageAMC.lvclass"/>
 			<Item Name="MessageInterface.lvclass" Type="LVClass" URL="../MessageInterface_class/MessageInterface.lvclass"/>
 			<Item Name="ModbusSp.lvclass" Type="LVClass" URL="../Modbus_class/ModbusSp.lvclass"/>
+			<Item Name="OWEN HMI.lvclass" Type="LVClass" URL="../OWEN HMI/OWEN HMI.lvclass"/>
 			<Item Name="SharedVariableWrapper.lvclass" Type="LVClass" URL="../SV_Wrap/SharedVariableWrapper.lvclass"/>
 			<Item Name="SV_Publisher.lvclass" Type="LVClass" URL="../SV_Puplisher_class/SV_Publisher.lvclass"/>
 		</Item>
@@ -69,6 +71,7 @@
 			<Item Name="GUI Setting.lvclass" Type="LVClass" URL="../GUI Setting_class/GUI Setting.lvclass"/>
 			<Item Name="GUI Test Channels.lvclass" Type="LVClass" URL="../GUI Test Channels_class/GUI Test Channels.lvclass"/>
 			<Item Name="GUI Test HIPRESS.lvclass" Type="LVClass" URL="../GUI Test HIPRESS_class/GUI Test HIPRESS.lvclass"/>
+			<Item Name="GUI Work Windows.lvclass" Type="LVClass" URL="../GUI Work Windows_class/GUI Work Windows.lvclass"/>
 			<Item Name="GUI.lvclass" Type="LVClass" URL="../GUI_class/GUI.lvclass"/>
 			<Item Name="GUI_Report.lvclass" Type="LVClass" URL="../GUI_Report_class/GUI_Report.lvclass"/>
 		</Item>
@@ -97,6 +100,7 @@
 			<Item Name="bool_change.vi" Type="VI" URL="../subvis/bool_change.vi"/>
 			<Item Name="Check Folder or Create.vi" Type="VI" URL="../subvis/Check Folder or Create.vi"/>
 			<Item Name="ClassNotDefineError.vi" Type="VI" URL="../subvis/ClassNotDefineError.vi"/>
+			<Item Name="Close GUIs.vi" Type="VI" URL="../subvis/Close GUIs.vi"/>
 			<Item Name="ConfigFolder.vi" Type="VI" URL="../Stand_class/private/ConfigFolder.vi"/>
 			<Item Name="Const - Cannel Names.vi" Type="VI" URL="../subvis/Const - Cannel Names.vi"/>
 			<Item Name="Const Variable to Save.vi" Type="VI" URL="../Stand_class/private/Const Variable to Save.vi"/>
@@ -113,7 +117,9 @@
 			<Item Name="GUI Get Paths.vi" Type="VI" URL="../subvis/GUI Get Paths.vi"/>
 			<Item Name="GUI Step to RT Step.vi" Type="VI" URL="../subvis/Script/GUI Step to RT Step.vi"/>
 			<Item Name="GuiLogIn.vi" Type="VI" URL="../subvis/GuiLogIn.vi"/>
+			<Item Name="Init GUIs.vi" Type="VI" URL="../subvis/Init GUIs.vi"/>
 			<Item Name="InsertStep.vi" Type="VI" URL="../subvis/Script/InsertStep.vi"/>
+			<Item Name="Loop Time Const.vi" Type="VI" URL="../subvis/Loop Time Const.vi"/>
 			<Item Name="Objects to table.vi" Type="VI" URL="../subvis/Objects to table.vi"/>
 			<Item Name="range.vi" Type="VI" URL="../subvis/Script/range.vi"/>
 			<Item Name="RT to GUI Step.vi" Type="VI" URL="../subvis/Script/RT to GUI Step.vi"/>
@@ -141,12 +147,16 @@
 			<Item Name="CalibrationData.ctl" Type="VI" URL="../TypeDef/CalibrationData.ctl"/>
 			<Item Name="Cluster_Connection_Info.ctl" Type="VI" URL="../Neosoft Technologies/NeoDB for PostgreSQL/Postgres Connector/Ctrls/Cluster_Connection_Info.ctl"/>
 			<Item Name="ConfigAnalogComp.ctl" Type="VI" URL="../TypeDef/ConfigAnalogComp.ctl"/>
+			<Item Name="Current Alarms.ctl" Type="VI" URL="../Logger_class/Current Alarms.ctl"/>
 			<Item Name="Data Avr.ctl" Type="VI" URL="../subvis/Data Avr.ctl"/>
+			<Item Name="Data Stand.ctl" Type="VI" URL="../TypeDef/Data Stand.ctl"/>
+			<Item Name="DataExpFit.ctl" Type="VI" URL="../TypeDef/DataExpFit.ctl"/>
 			<Item Name="DI index.ctl" Type="VI" URL="../FPGA/TypeDef/DI index.ctl"/>
 			<Item Name="Direction.ctl" Type="VI" URL="../TypeDef/Direction.ctl"/>
 			<Item Name="DO index.ctl" Type="VI" URL="../FPGA/TypeDef/DO index.ctl"/>
 			<Item Name="engineering units.ctl" Type="VI" URL="../TypeDef/engineering units.ctl"/>
 			<Item Name="error.ctl" Type="VI" URL="../TypeDef/error.ctl"/>
+			<Item Name="EventData.ctl" Type="VI" URL="../Logger_class/EventData.ctl"/>
 			<Item Name="GUI AI Ranges.ctl" Type="VI" URL="../TypeDef/GUI AI Ranges.ctl"/>
 			<Item Name="GUI Data Motor.ctl" Type="VI" URL="../TypeDef/GUI Data Motor.ctl"/>
 			<Item Name="GUI Paths.ctl" Type="VI" URL="../TypeDef/GUI Paths.ctl"/>
@@ -167,6 +177,7 @@
 			<Item Name="Step.ctl" Type="VI" URL="../TypeDef/Step.ctl"/>
 			<Item Name="Step_Name.ctl" Type="VI" URL="../TypeDef/Step_Name.ctl"/>
 			<Item Name="valveState.ctl" Type="VI" URL="../FPGA/TypeDef/valveState.ctl"/>
+			<Item Name="Windows.ctl" Type="VI" URL="../TypeDef/Windows.ctl"/>
 		</Item>
 		<Item Name="checks.txt" Type="Document" URL="../checks.txt"/>
 		<Item Name="MAIN_RT.vi" Type="VI" URL="../MAIN_RT.vi"/>
@@ -316,21 +327,10 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
-			<Item Name="Close GUIs.vi" Type="VI" URL="../subvis/Close GUIs.vi"/>
-			<Item Name="Current Alarms.ctl" Type="VI" URL="../Logger_class/Current Alarms.ctl"/>
-			<Item Name="Data Stand.ctl" Type="VI" URL="../TypeDef/Data Stand.ctl"/>
-			<Item Name="DataExpFit.ctl" Type="VI" URL="../TypeDef/DataExpFit.ctl"/>
-			<Item Name="EventData.ctl" Type="VI" URL="../Logger_class/EventData.ctl"/>
-			<Item Name="ExpFitter.lvclass" Type="LVClass" URL="../ExpFitter/ExpFitter.lvclass"/>
-			<Item Name="GUI Work Windows.lvclass" Type="LVClass" URL="../GUI Work Windows_class/GUI Work Windows.lvclass"/>
-			<Item Name="Init GUIs.vi" Type="VI" URL="../subvis/Init GUIs.vi"/>
-			<Item Name="Loop Time Const.vi" Type="VI" URL="../subvis/Loop Time Const.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="OWEN HMI.lvclass" Type="LVClass" URL="../OWEN HMI/OWEN HMI.lvclass"/>
-			<Item Name="Windows.ctl" Type="VI" URL="../TypeDef/Windows.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
