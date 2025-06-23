@@ -50,41 +50,43 @@
 			<Item Name="PG_LIB.lvlib" Type="Library" URL="../Neosoft Technologies/PG_LIB.lvlib"/>
 		</Item>
 		<Item Name="Sandbox" Type="Folder"/>
+		<Item Name="Typedef" Type="Folder">
+			<Item Name="Active Motor.ctl" Type="VI" URL="../TypeDef/Active Motor.ctl"/>
+			<Item Name="AI Statistics Data.ctl" Type="VI" URL="../TypeDef/AI Statistics Data.ctl"/>
+			<Item Name="AI_Data.ctl" Type="VI" URL="../TypeDef/AI_Data.ctl"/>
+			<Item Name="AI_Data_Array.ctl" Type="VI" URL="../TypeDef/AI_Data_Array.ctl"/>
+			<Item Name="AlarmType.ctl" Type="VI" URL="../TypeDef/AlarmType.ctl"/>
+			<Item Name="blue screan PMG.ctl" Type="VI" URL="../FPGA/TypeDef/blue screan PMG.ctl"/>
+			<Item Name="CalibrationData.ctl" Type="VI" URL="../TypeDef/CalibrationData.ctl"/>
+			<Item Name="Cluster_Connection_Info.ctl" Type="VI" URL="../Neosoft Technologies/NeoDB for PostgreSQL/Postgres Connector/Ctrls/Cluster_Connection_Info.ctl"/>
+			<Item Name="Current Alarms.ctl" Type="VI" URL="../Logger_class/Current Alarms.ctl"/>
+			<Item Name="Data Stand.ctl" Type="VI" URL="../TypeDef/Data Stand.ctl"/>
+			<Item Name="DataExpFit.ctl" Type="VI" URL="../TypeDef/DataExpFit.ctl"/>
+			<Item Name="Direction.ctl" Type="VI" URL="../TypeDef/Direction.ctl"/>
+			<Item Name="engineering units.ctl" Type="VI" URL="../TypeDef/engineering units.ctl"/>
+			<Item Name="error.ctl" Type="VI" URL="../TypeDef/error.ctl"/>
+			<Item Name="EventData.ctl" Type="VI" URL="../Logger_class/EventData.ctl"/>
+			<Item Name="GUI AI Ranges.ctl" Type="VI" URL="../TypeDef/GUI AI Ranges.ctl"/>
+			<Item Name="GUI Data Motor.ctl" Type="VI" URL="../TypeDef/GUI Data Motor.ctl"/>
+			<Item Name="GUI Paths.ctl" Type="VI" URL="../TypeDef/GUI Paths.ctl"/>
+			<Item Name="GUI Setting Channel.ctl" Type="VI" URL="../TypeDef/GUI Setting Channel.ctl"/>
+			<Item Name="GUI Setting PMG.ctl" Type="VI" URL="../TypeDef/GUI Setting PMG.ctl"/>
+			<Item Name="GUI Step.ctl" Type="VI" URL="../TypeDef/GUI Step.ctl"/>
+			<Item Name="Motor N.ctl" Type="VI" URL="../TypeDef/Motor N.ctl"/>
+			<Item Name="Needle Valve Data.ctl" Type="VI" URL="../TypeDef/Needle Valve Data.ctl"/>
+			<Item Name="Needle Valve Settings.ctl" Type="VI" URL="../TypeDef/Needle Valve Settings.ctl"/>
+			<Item Name="Needle Valve State.ctl" Type="VI" URL="../TypeDef/Needle Valve State.ctl"/>
+			<Item Name="PMG Mode.ctl" Type="VI" URL="../TypeDef/PMG Mode.ctl"/>
+			<Item Name="Script.ctl" Type="VI" URL="../TypeDef/Script.ctl"/>
+			<Item Name="State Engine 2.ctl" Type="VI" URL="../TypeDef/State Engine 2.ctl"/>
+			<Item Name="State Engine.ctl" Type="VI" URL="../TypeDef/State Engine.ctl"/>
+			<Item Name="State PMG.ctl" Type="VI" URL="../TypeDef/State PMG.ctl"/>
+			<Item Name="Step.ctl" Type="VI" URL="../TypeDef/Step.ctl"/>
+			<Item Name="Step_Name.ctl" Type="VI" URL="../TypeDef/Step_Name.ctl"/>
+			<Item Name="Windows.ctl" Type="VI" URL="../TypeDef/Windows.ctl"/>
+			<Item Name="Scale Data.ctl" Type="VI" URL="../TypeDef/Scale Data.ctl"/>
+		</Item>
 		<Item Name="Subvis" Type="Folder">
-			<Item Name="Typedef" Type="Folder">
-				<Item Name="Active Motor.ctl" Type="VI" URL="../TypeDef/Active Motor.ctl"/>
-				<Item Name="AI Statistics Data.ctl" Type="VI" URL="../TypeDef/AI Statistics Data.ctl"/>
-				<Item Name="AI_Data.ctl" Type="VI" URL="../TypeDef/AI_Data.ctl"/>
-				<Item Name="AI_Data_Array.ctl" Type="VI" URL="../TypeDef/AI_Data_Array.ctl"/>
-				<Item Name="AlarmType.ctl" Type="VI" URL="../TypeDef/AlarmType.ctl"/>
-				<Item Name="blue screan PMG.ctl" Type="VI" URL="../FPGA/TypeDef/blue screan PMG.ctl"/>
-				<Item Name="CalibrationData.ctl" Type="VI" URL="../TypeDef/CalibrationData.ctl"/>
-				<Item Name="Cluster_Connection_Info.ctl" Type="VI" URL="../Neosoft Technologies/NeoDB for PostgreSQL/Postgres Connector/Ctrls/Cluster_Connection_Info.ctl"/>
-				<Item Name="Current Alarms.ctl" Type="VI" URL="../Logger_class/Current Alarms.ctl"/>
-				<Item Name="Data Stand.ctl" Type="VI" URL="../TypeDef/Data Stand.ctl"/>
-				<Item Name="DataExpFit.ctl" Type="VI" URL="../TypeDef/DataExpFit.ctl"/>
-				<Item Name="Direction.ctl" Type="VI" URL="../TypeDef/Direction.ctl"/>
-				<Item Name="engineering units.ctl" Type="VI" URL="../TypeDef/engineering units.ctl"/>
-				<Item Name="error.ctl" Type="VI" URL="../TypeDef/error.ctl"/>
-				<Item Name="EventData.ctl" Type="VI" URL="../Logger_class/EventData.ctl"/>
-				<Item Name="GUI AI Ranges.ctl" Type="VI" URL="../TypeDef/GUI AI Ranges.ctl"/>
-				<Item Name="GUI Data Motor.ctl" Type="VI" URL="../TypeDef/GUI Data Motor.ctl"/>
-				<Item Name="GUI Paths.ctl" Type="VI" URL="../TypeDef/GUI Paths.ctl"/>
-				<Item Name="GUI Setting Channel.ctl" Type="VI" URL="../TypeDef/GUI Setting Channel.ctl"/>
-				<Item Name="GUI Setting PMG.ctl" Type="VI" URL="../TypeDef/GUI Setting PMG.ctl"/>
-				<Item Name="GUI Step.ctl" Type="VI" URL="../TypeDef/GUI Step.ctl"/>
-				<Item Name="Motor N.ctl" Type="VI" URL="../TypeDef/Motor N.ctl"/>
-				<Item Name="Needle Valve Data.ctl" Type="VI" URL="../TypeDef/Needle Valve Data.ctl"/>
-				<Item Name="Needle Valve Settings.ctl" Type="VI" URL="../TypeDef/Needle Valve Settings.ctl"/>
-				<Item Name="Needle Valve State.ctl" Type="VI" URL="../TypeDef/Needle Valve State.ctl"/>
-				<Item Name="PMG Mode.ctl" Type="VI" URL="../TypeDef/PMG Mode.ctl"/>
-				<Item Name="Script.ctl" Type="VI" URL="../TypeDef/Script.ctl"/>
-				<Item Name="State Engine 2.ctl" Type="VI" URL="../TypeDef/State Engine 2.ctl"/>
-				<Item Name="State Engine.ctl" Type="VI" URL="../TypeDef/State Engine.ctl"/>
-				<Item Name="State PMG.ctl" Type="VI" URL="../TypeDef/State PMG.ctl"/>
-				<Item Name="Step.ctl" Type="VI" URL="../TypeDef/Step.ctl"/>
-				<Item Name="Step_Name.ctl" Type="VI" URL="../TypeDef/Step_Name.ctl"/>
-			</Item>
 			<Item Name="Check Folder or Create.vi" Type="VI" URL="../subvis/Check Folder or Create.vi"/>
 			<Item Name="ClassNotDefineError.vi" Type="VI" URL="../subvis/ClassNotDefineError.vi"/>
 			<Item Name="Close GUIs.vi" Type="VI" URL="../subvis/Close GUIs.vi"/>
@@ -112,7 +114,6 @@
 			<Item Name="Variant To Str.vi" Type="VI" URL="../MessageInterface_class/Variant To Str.vi"/>
 		</Item>
 		<Item Name="MAIN_UI.vi" Type="VI" URL="../MAIN_UI.vi"/>
-		<Item Name="Windows.ctl" Type="VI" URL="../TypeDef/Windows.ctl"/>
 		<Item Name="rutune.txt" Type="Document" URL="../rutune.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -237,6 +238,7 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="LVStringsAndValuesArrayTypeDef_U16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U16.ctl"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
