@@ -284,4 +284,31 @@
 		<Property Name="typedefPath4" Type="PathRel">../../TypeDef/State PMG.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'NK1%!!"E!A!!!!!!+!%!!]1!!!!!!!!!"$&amp;".2S".&lt;W2F,G.U&lt;!!L1"9!!Q2*:'6M"U:J&lt;'RJ&lt;G=)5(*F=X.V=G5!#&amp;".2S".&lt;W2F!!"3!0%!!!!!!!!!!2"4&gt;'&amp;U:3"&amp;&lt;G&gt;J&lt;G5O9X2M!$F!&amp;A!&amp;"V6O;WZP&gt;WY$4W:G#62V='ZJ&lt;G&gt;0&lt;A*0&lt;AJ5&gt;8*O;7ZH4W:G!!B&amp;&lt;G&gt;4&gt;'&amp;U:1!!$%!B"E&amp;D&gt;'FW:1!!$E!B#5.P&lt;H2B9X2P=A!)1#%$1UV%!!R!)1&gt;"&gt;82P&lt;7&amp;U!$-!]?23+U5!!!!"%F.U982F)%6O:WFO:3!S,G.U&lt;!!91&amp;!!"1!"!!)!!Q!%!!5$44%S!$-!]?23+U5!!!!"%F.U982F)%6O:WFO:3!S,G.U&lt;!!91&amp;!!"1!"!!)!!Q!%!!5$44)R!$-!]?23+U5!!!!"%F.U982F)%6O:WFO:3!S,G.U&lt;!!91&amp;!!"1!"!!)!!Q!%!!5$44)U!#Q!]1!!!!!!!!!"$6.U982F)&amp;".2SZD&gt;'Q!&amp;E"1!!1!!!!'!!=!#!.145=!!1!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="VLV_44_1_STATE" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">valveState.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../FPGA/TypeDef/valveState.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"K:A!!!"E!A!!!!!!"!&amp;1!]1!!!!!!!!!"$H:B&lt;(:F5X2B&gt;'5O9X2M!$V!&amp;A!&amp;"V6O;WZP&gt;WY'1WRP=W6E"U^Q:7ZJ&lt;G='4X"F&lt;G6E"U.M&lt;X.J&lt;G=!#H:B&lt;(:F5X2B&gt;'5!!!%!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="VLV_44_2_STATE" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">valveState.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../FPGA/TypeDef/valveState.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"K:A!!!"E!A!!!!!!"!&amp;1!]1!!!!!!!!!"$H:B&lt;(:F5X2B&gt;'5O9X2M!$V!&amp;A!&amp;"V6O;WZP&gt;WY'1WRP=W6E"U^Q:7ZJ&lt;G='4X"F&lt;G6E"U.M&lt;X.J&lt;G=!#H:B&lt;(:F5X2B&gt;'5!!!%!!!!!!!!!!!!!!!!</Property>
+	</Item>
 </Library>
