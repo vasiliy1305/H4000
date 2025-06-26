@@ -205,6 +205,7 @@ AddOutputFilter chunkFilter
 			<Item Name="GUI AI Ranges.ctl" Type="VI" URL="../TypeDef/GUI AI Ranges.ctl"/>
 			<Item Name="GUI Setting Channel.ctl" Type="VI" URL="../TypeDef/GUI Setting Channel.ctl"/>
 			<Item Name="GUI Setting PMG.ctl" Type="VI" URL="../TypeDef/GUI Setting PMG.ctl"/>
+			<Item Name="MB CMD.ctl" Type="VI" URL="../TypeDef/MB CMD.ctl"/>
 			<Item Name="Motor N.ctl" Type="VI" URL="../TypeDef/Motor N.ctl"/>
 			<Item Name="Needle Valve Data.ctl" Type="VI" URL="../TypeDef/Needle Valve Data.ctl"/>
 			<Item Name="Needle Valve Settings.ctl" Type="VI" URL="../TypeDef/Needle Valve Settings.ctl"/>
