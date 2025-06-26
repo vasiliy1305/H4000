@@ -146,12 +146,14 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Signals" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="AbruptChange.lvclass" Type="LVClass" URL="../AbruptChange_class/AnalogComparator_class/AbruptChange.lvclass"/>
 			<Item Name="AI.lvclass" Type="LVClass" URL="../AI_class/AI.lvclass"/>
 			<Item Name="AnalogComparator.lvclass" Type="LVClass" URL="../AnalogComparator_class/AnalogComparator.lvclass"/>
 			<Item Name="AO.lvclass" Type="LVClass" URL="../AO_class/AO.lvclass"/>
 			<Item Name="DA.lvclass" Type="LVClass" URL="../DA_class/DA.lvclass"/>
 			<Item Name="DI.lvclass" Type="LVClass" URL="../DI_class/DI.lvclass"/>
 			<Item Name="DO.lvclass" Type="LVClass" URL="../DO_class/DO.lvclass"/>
+			<Item Name="dY_dX_Calculator.lvclass" Type="LVClass" URL="../dY_dX_Calculator/dY_dX_Calculator.lvclass"/>
 			<Item Name="Scale.lvclass" Type="LVClass" URL="../Scale_class/Scale.lvclass"/>
 			<Item Name="Scale_PiecedLinear.lvclass" Type="LVClass" URL="../PiecedLinearScale_class/Scale_PiecedLinear.lvclass"/>
 			<Item Name="Signal.lvclass" Type="LVClass" URL="../Signal_class/Signal.lvclass"/>
@@ -1480,7 +1482,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
-			<Item Name="AbruptChange.lvclass" Type="LVClass" URL="../AbruptChange_class/AnalogComparator_class/AbruptChange.lvclass"/>
 			<Item Name="error.ctl" Type="VI" URL="../TypeDef/error.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MAIN_FPGA.lvbitx" Type="Document" URL="../FPGA Bitfiles/MAIN_FPGA.lvbitx"/>
