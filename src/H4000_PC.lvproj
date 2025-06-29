@@ -86,6 +86,7 @@
 			<Item Name="Windows.ctl" Type="VI" URL="../TypeDef/Windows.ctl"/>
 			<Item Name="Scale Data.ctl" Type="VI" URL="../TypeDef/Scale Data.ctl"/>
 			<Item Name="valveState.ctl" Type="VI" URL="../FPGA/TypeDef/valveState.ctl"/>
+			<Item Name="Haskel Settings.ctl" Type="VI" URL="../TypeDef/Haskel Settings.ctl"/>
 		</Item>
 		<Item Name="Subvis" Type="Folder">
 			<Item Name="Check Folder or Create.vi" Type="VI" URL="../subvis/Check Folder or Create.vi"/>
@@ -243,6 +244,7 @@
 				<Item Name="LVStringsAndValuesArrayTypeDef_U16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U16.ctl"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="DATA Oscill.ctl" Type="VI" URL="../OscillationClass/DATA Oscill.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

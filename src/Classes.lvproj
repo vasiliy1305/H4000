@@ -11,6 +11,8 @@
 	<Property Name="varPersistentID:{69D4F517-98FC-4AA4-A1CB-943602D8D373}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/NV2_SETTING</Property>
 	<Property Name="varPersistentID:{8E18605F-8307-43A9-A02A-540B1ACC1E43}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/NV1_DATA</Property>
 	<Property Name="varPersistentID:{94E662A4-66EF-4FE6-BAFD-57DB5908E859}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/CALIBRATION_DATA</Property>
+	<Property Name="varPersistentID:{B0190DF5-C5B9-4633-9B6D-89B79643111F}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/VLV_44_1_STATE</Property>
+	<Property Name="varPersistentID:{B6C995D5-73D5-4357-9CDE-86551120F024}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/VLV_44_2_STATE</Property>
 	<Property Name="varPersistentID:{B89841E0-925E-4816-B8B3-A2F631EE3046}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/EXP_FIT_CHMBR</Property>
 	<Property Name="varPersistentID:{D933DE7F-E72C-4974-97DD-8C220A78C508}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/CURRENT_ALARMS</Property>
 	<Property Name="varPersistentID:{EFB1F824-23E2-4C58-8AB0-649AE9F833AC}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/AI_ARRAY</Property>
@@ -89,6 +91,7 @@
 			<Item Name="DA.lvclass" Type="LVClass" URL="../DA_class/DA.lvclass"/>
 			<Item Name="DI.lvclass" Type="LVClass" URL="../DI_class/DI.lvclass"/>
 			<Item Name="DO.lvclass" Type="LVClass" URL="../DO_class/DO.lvclass"/>
+			<Item Name="OscillationDetector.lvclass" Type="LVClass" URL="../OscillationClass/OscillationDetector.lvclass"/>
 			<Item Name="Scale.lvclass" Type="LVClass" URL="../Scale_class/Scale.lvclass"/>
 			<Item Name="Scale_PiecedLinear.lvclass" Type="LVClass" URL="../PiecedLinearScale_class/Scale_PiecedLinear.lvclass"/>
 			<Item Name="Signal.lvclass" Type="LVClass" URL="../Signal_class/Signal.lvclass"/>
@@ -321,13 +324,13 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
-				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
-				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
-				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
-				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
+			<Item Name="DATA Oscill.ctl" Type="VI" URL="../OscillationClass/DATA Oscill.ctl"/>
+			<Item Name="dY_dX_Calculator.lvclass" Type="LVClass" URL="../dY_dX_Calculator/dY_dX_Calculator.lvclass"/>
+			<Item Name="Haskel Settings.ctl" Type="VI" URL="../TypeDef/Haskel Settings.ctl"/>
+			<Item Name="LinealFitting.lvclass" Type="LVClass" URL="../LinealFitting/LinealFitting.lvclass"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="MB CMD.ctl" Type="VI" URL="../TypeDef/MB CMD.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
