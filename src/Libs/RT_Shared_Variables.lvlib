@@ -261,7 +261,7 @@
 		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/GUI Setting PMG.ctl</Property>
 		<Property Name="typedefPath2" Type="PathRel">../../TypeDef/Direction.ctl</Property>
 		<Property Name="typedefPath3" Type="PathRel">../../TypeDef/Step_Name.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$LZQ!!!"E!A!!!!!!'!"&gt;!#A!16'6N=#"5&gt;8*O)%^/)%US.!!!&amp;U!+!"&amp;5:7VQ)&amp;2V=GYA4U:')%US.!!:1!I!%V2F&lt;8!A4X"F&lt;C"8982F=C".-D%!'U!+!"25:7VQ)%.M&lt;X.F)&amp;&gt;B&gt;'6S)%US-1!!%5!+!!NE:7RU93"M:8:F&lt;!!]!0(EAIG4!!!!!2.(65EA5W6U&gt;'FO:S"145=O9X2M!#"!5!!&amp;!!!!!1!#!!-!"!N4:82U;7ZH)&amp;".2Q!"!!5!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%R,1%!!"E!A!!!!!!)!"&gt;!#A!16'6N=#"5&gt;8*O)%^/)%US.!!!&amp;U!+!"&amp;5:7VQ)&amp;2V=GYA4U:')%US.!!:1!I!%V2F&lt;8!A4X"F&lt;C"8982F=C".-D%!'U!+!"25:7VQ)%.M&lt;X.F)&amp;&gt;B&gt;'6S)%US-1!!%5!+!!NE:7RU93"M:8:F&lt;!!81!I!%':J&lt;'FM;7ZH)'RF&gt;G6M)#5!!"N!#A!5:GFM;7RJ&lt;G=A&gt;G^M&gt;'&amp;H:3"&lt;6FU!!%!!]?3)-&gt;Q!!!!"%U&gt;633"4:82U;7ZH)&amp;".2SZD&gt;'Q!*%"1!!=!!!!"!!)!!Q!%!!5!"AN4:82U;7ZH)&amp;".2Q!"!!=!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="STATE_PMG" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
