@@ -244,6 +244,41 @@
 		<Property Name="typedefPath2" Type="PathRel">../../TypeDef/Needle Valve Settings.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(BX1%!!"E!A!!!!!!-!".!!Q!-98:F=G&amp;H:3"T;8JF!!!21!9!#G^Q:7YA:G^S9W5!!"&amp;!"A!,9WRP=W5A:G^S9W5!'5!'!"."1U-A5X2F=(-A5'6S)&amp;.F9VYS!"F!"A!42%6$)&amp;.U:8"T)&amp;"F=C"4:7.?-A!@1!9!'5VJ&lt;C"7:7RP=WFU?3"4&gt;'6Q)&amp;"F=C"4:7-!(U!'!"F.98AA6G6M&lt;X.J&gt;(EA5X2F=#"1:8)A5W6D!!^!"A!*47FD=G^4&gt;'6Q!%E!]?3'HHA!!!!#%5V#8U6/2UF/23ZM&gt;G.M98.T$&amp;.F&gt;(2J&lt;G&gt;T,G.U&lt;!!C1&amp;!!"1!$!!1!"1!'!!=.&lt;X"F&lt;C"T:82U;7ZH=Q",!0(EBJZY!!!!!B&amp;.1F^&amp;4E&gt;*4E5O&lt;(:D&lt;'&amp;T=QR4:82U;7ZH=SZD&gt;'Q!*%"1!!5!!Q!%!!5!"A!($G.M&lt;X.F)(.F&gt;(2J&lt;G&gt;T!!!41!I!$%^G:H.F&gt;#"B&lt;G&gt;M:1!!4A$RZ);?IQ!!!!%:4G6F:'RF)&amp;:B&lt;(:F)&amp;.F&gt;(2J&lt;G&gt;T,G.U&lt;!!M1&amp;!!"A!!!!%!!A!)!!E!#B6/:76E&lt;'5A6G&amp;M&gt;G5A5W6U&gt;'FO:X-!!1!,!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="P_CHMBR_MB" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">3</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">AI Statistics Data.ctl</Property>
+		<Property Name="typedefName2" Type="Str">AI_Data.ctl</Property>
+		<Property Name="typedefName3" Type="Str">DATA Oscill.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/AI Statistics Data.ctl</Property>
+		<Property Name="typedefPath2" Type="PathRel">../../TypeDef/AI_Data.ctl</Property>
+		<Property Name="typedefPath3" Type="PathRel">../../OscillationClass/DATA Oscill.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!-I*!-!!"E!A!!!!!!&lt;!!^!#A!)=G&amp;X)'VF97Y!!!^!#A!)=W.M)'VF97Y!!".!#A!-=G&amp;X)'VF97YA-5B[!!!41!I!$(.D&lt;#"N:7&amp;O)$&amp;)?A!!/Q$RZ)&lt;JW!!!!!%715EA5X2B&gt;'FT&gt;'FD=S"%982B,G.U&lt;!!=1&amp;!!"!!!!!%!!A!$#6.U981A2'&amp;U91!31#%.4X6U4W:397ZH:5VB?!!31#%.4X6U4W:397ZH:5VJ&lt;A!+1#%%3%F)31!!#%!B!EB*!!!)1#%#4%]!!!J!)12-4UR0!!!*1!I!!V.641!.1!I!"U.065Z526)!$U!+!!B.16AA1V635A!!$U!+!!B.35YA1V635A!!#5!+!!."6F)!#5!+!!..16A!#5!+!!..35Y!$U!+!!F%25R513""6F)!$U!+!!F%25R513".16A!$U!+!!F%25R513".35Y!$5!+!!:126**4U1!!%!!]?3'\8)!!!!"$U2"6%%A4X.D;7RM,G.U&lt;!!I1&amp;!!#Q!,!!Q!$1!/!!]!%!!2!")!%Q!5!"5'2%&amp;513"/!!"%!0(EBOVS!!!!!1^%162")%^T9WFM&lt;#ZD&gt;'Q!,%"1!!M!#Q!-!!U!$A!0!"!!%1!3!"-!&amp;!!6#U2"6%%A5%6335^%!!^!#A!)66"126)A6%A!!!^!#A!)4%^826)A6%A!!$Q!]?3']RE!!!!"#U&amp;*8U2B&gt;'%O9X2M!#B!5!!,!!1!"1!'!!=!#!!*!!I!&amp;A!8!"A!'1&gt;"36^%982B!!%!'A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="P_DUT_MB" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">3</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">AI Statistics Data.ctl</Property>
+		<Property Name="typedefName2" Type="Str">AI_Data.ctl</Property>
+		<Property Name="typedefName3" Type="Str">DATA Oscill.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/AI Statistics Data.ctl</Property>
+		<Property Name="typedefPath2" Type="PathRel">../../TypeDef/AI_Data.ctl</Property>
+		<Property Name="typedefPath3" Type="PathRel">../../OscillationClass/DATA Oscill.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!-I*!-!!"E!A!!!!!!&lt;!!^!#A!)=G&amp;X)'VF97Y!!!^!#A!)=W.M)'VF97Y!!".!#A!-=G&amp;X)'VF97YA-5B[!!!41!I!$(.D&lt;#"N:7&amp;O)$&amp;)?A!!/Q$RZ)&lt;JW!!!!!%715EA5X2B&gt;'FT&gt;'FD=S"%982B,G.U&lt;!!=1&amp;!!"!!!!!%!!A!$#6.U981A2'&amp;U91!31#%.4X6U4W:397ZH:5VB?!!31#%.4X6U4W:397ZH:5VJ&lt;A!+1#%%3%F)31!!#%!B!EB*!!!)1#%#4%]!!!J!)12-4UR0!!!*1!I!!V.641!.1!I!"U.065Z526)!$U!+!!B.16AA1V635A!!$U!+!!B.35YA1V635A!!#5!+!!."6F)!#5!+!!..16A!#5!+!!..35Y!$U!+!!F%25R513""6F)!$U!+!!F%25R513".16A!$U!+!!F%25R513".35Y!$5!+!!:126**4U1!!%!!]?3'\8)!!!!"$U2"6%%A4X.D;7RM,G.U&lt;!!I1&amp;!!#Q!,!!Q!$1!/!!]!%!!2!")!%Q!5!"5'2%&amp;513"/!!"%!0(EBOVS!!!!!1^%162")%^T9WFM&lt;#ZD&gt;'Q!,%"1!!M!#Q!-!!U!$A!0!"!!%1!3!"-!&amp;!!6#U2"6%%A5%6335^%!!^!#A!)66"126)A6%A!!!^!#A!)4%^826)A6%A!!$Q!]?3']RE!!!!"#U&amp;*8U2B&gt;'%O9X2M!#B!5!!,!!1!"1!'!!=!#!!*!!I!&amp;A!8!"A!'1&gt;"36^%982B!!%!'A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="PMG_SETTING" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
