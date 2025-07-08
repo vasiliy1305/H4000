@@ -246,6 +246,7 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="DATA Oscill.ctl" Type="VI" URL="../OscillationClass/DATA Oscill.ctl"/>
+			<Item Name="Pressure PV  Source.ctl" Type="VI" URL="../TypeDef/Pressure PV  Source.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

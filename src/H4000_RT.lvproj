@@ -30,6 +30,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Do Done Template.vi" Type="VI" URL="../Stand_class/Do Done Template.vi"/>
+		<Item Name="DoDone Sandbox.vi" Type="VI" URL="../Stand_class/DoDone Sandbox.vi"/>
 		<Item Name="rutune.txt" Type="Document" URL="../rutune.txt"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
@@ -213,6 +215,7 @@ AddOutputFilter chunkFilter
 			<Item Name="GUI AI Ranges.ctl" Type="VI" URL="../TypeDef/GUI AI Ranges.ctl"/>
 			<Item Name="GUI Setting Channel.ctl" Type="VI" URL="../TypeDef/GUI Setting Channel.ctl"/>
 			<Item Name="GUI Setting PMG.ctl" Type="VI" URL="../TypeDef/GUI Setting PMG.ctl"/>
+			<Item Name="handleModeState.ctl" Type="VI" URL="../TypeDef/handleModeState.ctl"/>
 			<Item Name="Haskel Settings.ctl" Type="VI" URL="../TypeDef/Haskel Settings.ctl"/>
 			<Item Name="MB CMD.ctl" Type="VI" URL="../TypeDef/MB CMD.ctl"/>
 			<Item Name="Motor N.ctl" Type="VI" URL="../TypeDef/Motor N.ctl"/>
@@ -220,6 +223,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Needle Valve Settings.ctl" Type="VI" URL="../TypeDef/Needle Valve Settings.ctl"/>
 			<Item Name="Needle Valve State.ctl" Type="VI" URL="../TypeDef/Needle Valve State.ctl"/>
 			<Item Name="PMG Mode.ctl" Type="VI" URL="../TypeDef/PMG Mode.ctl"/>
+			<Item Name="Pressure PV  Source.ctl" Type="VI" URL="../TypeDef/Pressure PV  Source.ctl"/>
 			<Item Name="Scale Data.ctl" Type="VI" URL="../TypeDef/Scale Data.ctl"/>
 			<Item Name="Setting Stand.ctl" Type="VI" URL="../TypeDef/Setting Stand.ctl"/>
 			<Item Name="State Engine 2.ctl" Type="VI" URL="../TypeDef/State Engine 2.ctl"/>

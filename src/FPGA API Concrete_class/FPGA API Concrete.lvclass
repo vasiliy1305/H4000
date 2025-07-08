@@ -224,13 +224,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="SetPropValve.vi" Type="VI" URL="../SetPropValve.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;#!!!!#A!Q1(!!(A!!'RF'5%&gt;")%&amp;133"$&lt;WZD=G6U:3ZM&gt;G.M98.T!!N'5%&gt;")%&amp;133"J&lt;A!%!!!!-E"Q!"Y!!"M:2F"(13""5%EA1W^O9X*F&gt;'5O&lt;(:D&lt;'&amp;T=Q!-2F"(13""5%EA&lt;X6U!!!,1!I!"%&amp;0)$%!!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!#"!5!!$!!1!"1!'%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;E"1!!-!"!!&amp;!!9*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!1!"!!%!!A!$!!%!!1!"!!%!!1!(!!%!!1!"!!A$!!%)!!#1!!!!!!!!!!!!!!!!!!!!D1!!!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!#1!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;?!!!!$1!Q1(!!(A!!'RF'5%&gt;")%&amp;133"$&lt;WZD=G6U:3ZM&gt;G.M98.T!!N'5%&gt;")%&amp;133"J&lt;A!+1#%%37ZJ&gt;!!!"!!!!$*!=!!?!!!&lt;'5:12U%A16"*)%.P&lt;G.S:82F,GRW9WRB=X-!$%:12U%A16"*)'^V&gt;!!!#%!B!E2P!!!+1#%%2'^O:1!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!)%"1!!-!"A!(!!A4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!,1!I!"%&amp;0)$%!!":!5!!$!!9!"Q!)#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!A!#!!-!"!!&amp;!!)!!A!#!!)!#1!+!!)!!A!,!Q!"#!!!E!!!!")!!!!!!!!!!!!!!)U!!!!3!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!%A!!!!!!!!!!!!!!$1M!!!!"!!Q!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
 	<Item Name="Write Do.vi" Type="VI" URL="../Write Do.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;S!!!!$!!Q1(!!(A!!'RF'5%&gt;")%&amp;133"$&lt;WZD=G6U:3ZM&gt;G.M98.T!!N'5%&gt;")%&amp;133"J&lt;A!%!!!!-E"Q!"Y!!"M:2F"(13""5%EA1W^O9X*F&gt;'5O&lt;(:D&lt;'&amp;T=Q!-2F"(13""5%EA&lt;X6U!!!C!0(E3H!H!!!!!1R%4S"J&lt;G2F?#ZD&gt;'Q!$5!&amp;!!-D2%]!#E!B"8:B&lt;(6F!!^!"Q!*6'FN:3"V5W6D!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!#"!5!!$!!9!"Q!)%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;E"1!!-!"A!(!!A*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!1!"!!%!!A!$!!%!"!!"!!5!!1!*!!%!!1!"!!I$!!%)!!#1!!!!!!!!!!!!!!!!!!!!D1!!!")!!!!!!!!!%A!!!!!!!!!3!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!#Q!!!!!</Property>
