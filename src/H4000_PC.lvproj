@@ -81,11 +81,11 @@
 			<Item Name="State Engine.ctl" Type="VI" URL="../TypeDef/State Engine.ctl"/>
 			<Item Name="State PMG.ctl" Type="VI" URL="../TypeDef/State PMG.ctl"/>
 			<Item Name="Step.ctl" Type="VI" URL="../TypeDef/Step.ctl"/>
-			<Item Name="Step_Name.ctl" Type="VI" URL="../TypeDef/Step_Name.ctl"/>
 			<Item Name="Windows.ctl" Type="VI" URL="../TypeDef/Windows.ctl"/>
 			<Item Name="Scale Data.ctl" Type="VI" URL="../TypeDef/Scale Data.ctl"/>
 			<Item Name="valveState.ctl" Type="VI" URL="../FPGA/TypeDef/valveState.ctl"/>
 			<Item Name="Haskel Settings.ctl" Type="VI" URL="../TypeDef/Haskel Settings.ctl"/>
+			<Item Name="Setting Stand.ctl" Type="VI" URL="../TypeDef/Setting Stand.ctl"/>
 		</Item>
 		<Item Name="Subvis" Type="Folder">
 			<Item Name="Check Folder or Create.vi" Type="VI" URL="../subvis/Check Folder or Create.vi"/>
