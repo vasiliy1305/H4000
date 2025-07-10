@@ -49,7 +49,6 @@
 			<Item Name="hashlib.lvlib" Type="Library" URL="../Neosoft Technologies/NeoDB for PostgreSQL/Postgres Connector/hashlib/hashlib/hashlib.lvlib"/>
 			<Item Name="PG_LIB.lvlib" Type="Library" URL="../Neosoft Technologies/PG_LIB.lvlib"/>
 		</Item>
-		<Item Name="Sandbox" Type="Folder"/>
 		<Item Name="Typedef" Type="Folder">
 			<Item Name="Active Motor.ctl" Type="VI" URL="../TypeDef/Active Motor.ctl"/>
 			<Item Name="AI Statistics Data.ctl" Type="VI" URL="../TypeDef/AI Statistics Data.ctl"/>
