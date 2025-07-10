@@ -1,3 +1,146 @@
+Air: On
+Air: Off
+
+Pump Station: On (Filling Mode)
+Pump Station: On (Pressure Hold)
+Pump Station: Off
+
+Air Valves: Open (DUT Filling)
+Air Valves: Open (Chamber Filling)
+Air Valves: Fully Closed
+Air Valves: Open (Haskel Pressure – DUT)
+Air Valves: Open (Haskel Pressure – Chamber)
+Air Valves: Open (Pump Pressure – DUT)
+Air Valves: Open (Pump Pressure – Chamber)
+Air Valves: Close (Slow Release – DUT)
+Air Valves: Close (Slow Release – Chamber)
+Air Valves: Open (Fast Release – DUT)
+Air Valves: Open (Fast Release – Chamber)
+Air Valves: Open (Emergency Release – DUT & Chamber)
+Air Valves: Open (Leak Test – Pressure Sensor 41.3)
+Air Valves: Open (Leak Test – Burette 42)
+
+Haskel: Off (0)
+Haskel: Pressure Control (PI Regulator)
+Haskel: Measure T0
+
+Proportional Valve: Off (0)
+Proportional Valve: Pressure Control (PI Regulator)
+Proportional Valve: Measure T0
+
+Valve 44.1: Open
+Valve 44.1: Close
+Valve 44.2: Open
+Valve 44.2: Close
+
+Valve 37.1: Open
+Valve 37.1: Close
+Valve 37.2: Open
+Valve 37.2: Close
+
+Filling: Start
+Filling: In Progress
+
+Pressure Ramp: Start
+Slow Pressure Release: Standby
+
+
+шаг:
+
+Воздух: подача
+Воздух: отключение
+
+Насосная станция: включение режим заправки
+Насосная станция: включение режим подержания давления
+Насосная станция: выключение
+
+Воздушные клапаны: открытие режим заправки образца
+Воздушные клапаны: открытие режим заправки камеры
+Воздушные клапаны: полное закрытие
+Воздушные клапаны: открытие в режиме давление Haskel образец
+Воздушные клапаны: открытие в режиме давление Haskel камера
+Воздушные клапаны: открытие в режиме давление насосной станции образец
+Воздушные клапаны: открытие в режиме давление насосной станции камера
+Воздушные клапаны: закрытие в режиме плавный сброс образец
+Воздушные клапаны: закрытие в режиме плавный сброс камера
+Воздушные клапаны: Открытие в режиме резкий сброс давления в образце
+Воздушные клапаны: Открытие в режиме резкий сброс давления в камера
+Воздушные клапаны: Открытие в режиме аварийный сброс давления в образце и камере
+Воздушные клапаны: Открытие в режиме измерения утечек датчиком давления 41.3
+Воздушные клапаны: Открытие в режиме измерения утечек бюреткой 42
+
+Haskel: 0
+Haskel: Поддержание давление ПИ регулятором
+Haskel: Изменение T0 
+
+Пропорциональный клапан: 0
+Пропорциональный клапан: Поддержание давление ПИ регулятором
+Пропорциональный клапан: Изменение T0 
+
+Клапан  44.1: открытие
+Клапан  44.1: закрытие
+Клапан  44.2: открытие
+Клапан  44.2: закрытие
+
+Клапан 37.1: открытие
+Клапан 37.1: закрытие
+Клапан 37.2: открытие
+Клапан 37.2: закрытие
+
+Заправка: начало
+Заправка: в процессе
+
+Подъем давления: начало
+
+плавный сброс давления: ожидания
+
+
+
+
+
+
+клапанны 
+haskel
+dut
+chamber
+
+
+mode:
+1. заправка
+
+направление:
+- камера
+- образец
+
+2. поддержание низким давлением
+- камера мб
+- камера дд
+- образец мб
+- образец дд
+- хаскель
+
+3. поддержание высоким давлением
+- камера мб
+- камера дд
+- образец мб
+- образец дд
+- хаскель
+
+4. плавный сброс
+- образец мб
+- камера мб
+
+5. резкий сброс
+камера 
+образец
+оба
+
+6. измерения утечек
+- 
+
+
+
+
 0,4	0,36	18,39
 0,5 	0,47	24,68
 0,6	0,57	31,59

@@ -30,6 +30,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Action.ctl" Type="VI" URL="../TypeDef/Action.ctl"/>
 		<Item Name="Do Done Template.vi" Type="VI" URL="../Stand_class/Do Done Template.vi"/>
 		<Item Name="DoDone Sandbox.vi" Type="VI" URL="../Stand_class/DoDone Sandbox.vi"/>
 		<Item Name="rutune.txt" Type="Document" URL="../rutune.txt"/>
@@ -1489,6 +1490,7 @@ AddOutputFilter chunkFilter
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Action.ctl" Type="VI" URL="../TypeDef/Action.ctl"/>
 			<Item Name="error.ctl" Type="VI" URL="../TypeDef/error.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MAIN_FPGA.lvbitx" Type="Document" URL="../FPGA Bitfiles/MAIN_FPGA.lvbitx"/>
