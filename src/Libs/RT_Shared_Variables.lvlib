@@ -84,20 +84,20 @@
 		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">3</Property>
+		<Property Name="numTypedefs" Type="UInt">4</Property>
 		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
 		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typedefName1" Type="Str">Data Stand.ctl</Property>
-		<Property Name="typedefName2" Type="Str">Direction.ctl</Property>
-		<Property Name="typedefName3" Type="Str">Pressure PV  Source.ctl</Property>
-		<Property Name="typedefName4" Type="Str">Step_Name.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/Data Stand.ctl</Property>
-		<Property Name="typedefPath2" Type="PathRel">../../TypeDef/Direction.ctl</Property>
-		<Property Name="typedefPath3" Type="PathRel">../../TypeDef/Pressure PV  Source.ctl</Property>
-		<Property Name="typedefPath4" Type="PathRel">../../TypeDef/Step_Name.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!("P1%!!"E!A!!!!!!,!"&amp;!#!!,1W^N&lt;5.P&gt;7ZU:8)!%5!+!!N1=G6T=X6S:3"45!!81!I!%%*F:WFO2GFM;7ZH4'6W:7Q!!%%!]1!!!!!!!!!"$52J=G6D&gt;'FP&lt;CZD&gt;'Q!+U!7!!-%4G^O:1.%661(1WBB&lt;7*F=A!!$&amp;"S:8.T&gt;8*F)%2J=A!!&amp;E!B%%:J&lt;'RJ&lt;G=A2'^O:3"%661!!"B!)2*';7RM;7ZH)%2P&lt;G5A1UB.1F)!!!R!)1:3:7VP&gt;'5!!!V!#A!'5V!A2&amp;65!!!01!I!#&amp;.1)%.)45*3!!"N!0%!!!!!!!!!!2&gt;1=G6T=X6S:3"16C!A5W^V=G.F,G.U&lt;!".1"9!"1B"33!V)%B15!B"33!W)%266!J"33!X)%.)45*3"EV#)%266!B.1C"$3%V#5A!!%V"S:8.T&gt;8*F)&amp;"7)#"4&lt;X6S9W5!11$R!!!!!!!!!!%/2'&amp;U93"4&gt;'&amp;O:#ZD&gt;'Q!+E"1!!I!!!!"!!)!!Q!%!!5!"A!(!!A!#1J%982B)&amp;.U97ZE!!!"!!I!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">Action.ctl</Property>
+		<Property Name="typedefName2" Type="Str">Data Stand.ctl</Property>
+		<Property Name="typedefName3" Type="Str">Direction.ctl</Property>
+		<Property Name="typedefName4" Type="Str">Pressure PV  Source.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/Action.ctl</Property>
+		<Property Name="typedefPath2" Type="PathRel">../../TypeDef/Data Stand.ctl</Property>
+		<Property Name="typedefPath3" Type="PathRel">../../TypeDef/Direction.ctl</Property>
+		<Property Name="typedefPath4" Type="PathRel">../../TypeDef/Pressure PV  Source.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!:T&lt;Q9!!"E!A!!!!!!-!"&amp;!#!!,1W^N&lt;5.P&gt;7ZU:8)!%5!+!!N1=G6T=X6S:3"45!!81!I!%%*F:WFO2GFM;7ZH4'6W:7Q!!%%!]1!!!!!!!!!"$52J=G6D&gt;'FP&lt;CZD&gt;'Q!+U!7!!-%4G^O:1.%661(1WBB&lt;7*F=A!!$&amp;"S:8.T&gt;8*F)%2J=A!!&amp;E!B%%:J&lt;'RJ&lt;G=A2'^O:3"%661!!"B!)2*';7RM;7ZH)%2P&lt;G5A1UB.1F)!!!R!)1:3:7VP&gt;'5!!!V!#A!'5V!A2&amp;65!!!01!I!#&amp;.1)%.)45*3!!"N!0%!!!!!!!!!!2&gt;1=G6T=X6S:3"16C!A5W^V=G.F,G.U&lt;!".1"9!"1B"33!V)%B15!B"33!W)%266!J"33!X)%.)45*3"EV#)%266!B.1C"$3%V#5A!!%V"S:8.T&gt;8*F)&amp;"7)#"4&lt;X6S9W5%LA$R!!!!!!!!!!%+17.U;7^O,G.U&lt;!3&lt;1"9!*Q&gt;";8)[)%^O#%&amp;J=DIA4W:G(V"V&lt;8!A5X2B&gt;'FP&lt;DIA4WYA+%:J&lt;'RJ&lt;G=A47^E:3EA5(6N=#"4&gt;'&amp;U;7^O/C"0&lt;C!I5(*F=X.V=G5A47^E:3E25(6N=#"4&gt;'&amp;U;7^O/C"0:G9?17FS)&amp;:B&lt;(:F=TIA4X"F&lt;C!I2&amp;65)%:J&lt;'RJ&lt;G=J)E&amp;J=C"797RW:8-[)%^Q:7YA+%.I97VC:8)A2GFM&lt;'FO:SEG17FS)&amp;:B&lt;(:F=TIA4X"F&lt;C!I5(6N=#"1=G6T=X6S:3#7)%266#EK17FS)&amp;:B&lt;(:F=TIA4X"F&lt;C!I5(6N=#"1=G6T=X6S:3#7)%.I97VC:8)J+%&amp;J=C"797RW:8-[)%^Q:7YA+%BB=WNF&lt;#"1=G6T=X6S:3#7)%266#EM17FS)&amp;:B&lt;(:F=TIA4X"F&lt;C!I3'&amp;T;W6M)&amp;"S:8.T&gt;8*F)*9A1WBB&lt;7*F=CEF17FS)&amp;:B&lt;(:F=TIA4X"F&lt;C!I5WRP&gt;S"3:7RF98.F)*9A2&amp;65+3F";8)A6G&amp;M&gt;G6T/C"0='6O)#B4&lt;'^X)&amp;*F&lt;'6B=W5AFC"$;'&amp;N9G6S+36";8)A6G&amp;M&gt;G6T/C"0='6O)#B'98.U)&amp;*F&lt;'6B=W5AFC"%661J+5&amp;J=C"797RW:8-[)%^Q:7YA+%:B=X1A5G6M:7&amp;T:3#7)%.I97VC:8)J.%&amp;J=C"797RW:8-[)%^Q:7YA+%6N:8*H:7ZD?3"3:7RF98.F)*9A2&amp;65)#9A1WBB&lt;7*F=CET17FS)&amp;:B&lt;(:F=TIA4X"F&lt;C!I4'6B;S"5:8.U)*9A5(*F=X.V=G5A5W6O=W^S)$1R,D-J+5&amp;J=C"797RW:8-[)%^Q:7YA+%RF97MA6'6T&gt;##7)%*V=G6U&gt;'5A.$)J'%&amp;J=C"797RW:8-[)%:V&lt;'RZ)%.M&lt;X.F:!^)98.L:7Q[)%^G:C!I-#EH3'&amp;T;W6M/C"1=G6T=X6S:3"$&lt;WZU=G^M)#B133"3:7&gt;V&lt;'&amp;U&lt;X)J%EBB=WNF&lt;$IA476B=X6S:3"5-"N1=G^Q&lt;X*U;7^O97QA6G&amp;M&gt;G5[)%^G:C!I-#ET5(*P='^S&gt;'FP&lt;G&amp;M)&amp;:B&lt;(:F/C"1=G6T=X6S:3"$&lt;WZU=G^M)#B133"3:7&gt;V&lt;'&amp;U&lt;X)J(F"S&lt;X"P=H2J&lt;WZB&lt;#"797RW:4IA476B=X6S:3"5-""797RW:3!U.#YR/C"0='6O%6:B&lt;(:F)$1U,D%[)%.M&lt;X.F%&amp;:B&lt;(:F)$1U,D)[)%^Q:7Y26G&amp;M&gt;G5A.$1O-DIA1WRP=W516G&amp;M&gt;G5A-T=O-4IA4X"F&lt;B&amp;797RW:3!T.SYR/C"$&lt;'^T:2"797RW:3!T.SYS/C"0='6O%6:B&lt;(:F)$-X,D)[)%.M&lt;X.F&amp;%:J&lt;'RJ&lt;G=[)%FO)&amp;"S&lt;W&gt;S:8.T'6"S:8.T&gt;8*F)("S:3VM&lt;W&amp;E;7ZH/C"%661&gt;5(*F=X.V=G5A=(*F,7RP972J&lt;G=[)%.I97VC:8)I5WRP&gt;S"1=G6T=X6S:3"3:7RF98.F/C"*&lt;C"1=G^H=G6T=S!I2&amp;65+3R4&lt;'^X)&amp;"S:8.T&gt;8*F)&amp;*F&lt;'6B=W5[)%FO)&amp;"S&lt;W&gt;S:8.T)#B$;'&amp;N9G6S+12/4UZ&amp;!!:"9X2J&lt;WY!!%-!]1!!!!!!!!!"$E2B&gt;'%A5X2B&lt;G1O9X2M!#R!5!!,!!!!!1!#!!-!"!!&amp;!!9!"Q!)!!E!#AJ%982B)&amp;.U97ZE!!!"!!M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="DI_ARRAY" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
@@ -299,6 +299,20 @@
 		<Property Name="typedefPath2" Type="PathRel">../../TypeDef/Direction.ctl</Property>
 		<Property Name="typedefPath3" Type="PathRel">../../TypeDef/Step_Name.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%R,1%!!"E!A!!!!!!)!"&gt;!#A!16'6N=#"5&gt;8*O)%^/)%US.!!!&amp;U!+!"&amp;5:7VQ)&amp;2V=GYA4U:')%US.!!:1!I!%V2F&lt;8!A4X"F&lt;C"8982F=C".-D%!'U!+!"25:7VQ)%.M&lt;X.F)&amp;&gt;B&gt;'6S)%US-1!!%5!+!!NE:7RU93"M:8:F&lt;!!81!I!%':J&lt;'FM;7ZH)'RF&gt;G6M)#5!!"N!#A!5:GFM;7RJ&lt;G=A&gt;G^M&gt;'&amp;H:3"&lt;6FU!!%!!]?3)-&gt;Q!!!!"%U&gt;633"4:82U;7ZH)&amp;".2SZD&gt;'Q!*%"1!!=!!!!"!!)!!Q!%!!5!"AN4:82U;7ZH)&amp;".2Q!"!!=!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="SETTINGS_STAND" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">Setting Stand.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../TypeDef/Setting Stand.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&lt;6Q%!!"E!A!!!!!!+!"F!!Q!4:(1A=(*F=X.V=G5A:'^X&lt;C"N=Q!&lt;1!I!&amp;'21)("S:8.T&gt;8*F)'2P&gt;WYA46"B!!!41!I!$7218W25)&amp;N.5'&amp;@=VU!&amp;U!+!""")%BB=WNF&lt;#"&lt;46"B,V:&gt;!!!61!I!$E%A5(6N=#"&lt;46"B,V:&gt;!!!41!I!$61Q)%BB=WRF&lt;#"%661!&amp;5!+!!Z5-#")98.M:7QA1UV#5A!!%5!+!!N5-#"1&gt;7VQ)%266!!41!I!$&amp;1Q)&amp;"V&lt;8!A1UV#5A!!2!$R!!!!!!!!!!%25W6U&gt;'FO:S"4&gt;'&amp;O:#ZD&gt;'Q!+E"1!!E!!!!"!!)!!Q!%!!5!"A!(!!A.5W6U&gt;'FO:S"4&gt;'&amp;O:!!"!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="STATE_PMG" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>

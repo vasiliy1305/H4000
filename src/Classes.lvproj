@@ -8,9 +8,11 @@
 	<Property Name="varPersistentID:{2E981632-612E-4E8B-A33B-ED0B028250D3}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/NV2_DATA</Property>
 	<Property Name="varPersistentID:{4256B943-4A0A-4578-9619-D999CD27A18D}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/EXP_FIT_DUT</Property>
 	<Property Name="varPersistentID:{61208B3F-C073-45CC-9259-3BC0C6BCDC18}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/AO_ARRAY</Property>
+	<Property Name="varPersistentID:{688CEB24-263F-4190-AB06-8DCADCC8C54B}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/P_CHMBR_MB</Property>
 	<Property Name="varPersistentID:{69D4F517-98FC-4AA4-A1CB-943602D8D373}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/NV2_SETTING</Property>
 	<Property Name="varPersistentID:{8E18605F-8307-43A9-A02A-540B1ACC1E43}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/NV1_DATA</Property>
 	<Property Name="varPersistentID:{94E662A4-66EF-4FE6-BAFD-57DB5908E859}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/CALIBRATION_DATA</Property>
+	<Property Name="varPersistentID:{97FA0D78-1FA3-4DA2-A2F0-3D1E582DB30B}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/P_DUT_MB</Property>
 	<Property Name="varPersistentID:{B0190DF5-C5B9-4633-9B6D-89B79643111F}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/VLV_44_1_STATE</Property>
 	<Property Name="varPersistentID:{B6C995D5-73D5-4357-9CDE-86551120F024}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/VLV_44_2_STATE</Property>
 	<Property Name="varPersistentID:{B89841E0-925E-4816-B8B3-A2F631EE3046}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/EXP_FIT_CHMBR</Property>
@@ -325,15 +327,19 @@
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Action.ctl" Type="VI" URL="../TypeDef/Action.ctl"/>
+			<Item Name="Create Actions.vi" Type="VI" URL="../subvis/Create Actions.vi"/>
 			<Item Name="DATA Oscill.ctl" Type="VI" URL="../OscillationClass/DATA Oscill.ctl"/>
-			<Item Name="dY_dX_Calculator.lvclass" Type="LVClass" URL="../dY_dX_Calculator/dY_dX_Calculator.lvclass"/>
-			<Item Name="Haskel Settings.ctl" Type="VI" URL="../TypeDef/Haskel Settings.ctl"/>
+			<Item Name="delayValue.lvclass" Type="LVClass" URL="../dY_dX_Calculator/delayValue.lvclass"/>
 			<Item Name="LinealFitting.lvclass" Type="LVClass" URL="../LinealFitting/LinealFitting.lvclass"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MB CMD.ctl" Type="VI" URL="../TypeDef/MB CMD.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="PI_Controller.vi" Type="VI" URL="../Valve_2DO_2DI_class/PI_Controller.vi"/>
+			<Item Name="Pressure PV  Source.ctl" Type="VI" URL="../TypeDef/Pressure PV  Source.ctl"/>
+			<Item Name="ScriptName.ctl" Type="VI" URL="../TypeDef/ScriptName.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

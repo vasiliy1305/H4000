@@ -116,6 +116,7 @@
 			<Item Name="Variant To Str.vi" Type="VI" URL="../MessageInterface_class/Variant To Str.vi"/>
 			<Item Name="test do.vi" Type="VI" URL="../subvis/test do.vi"/>
 			<Item Name="linfit.vi" Type="VI" URL="../subvis/linfit.vi"/>
+			<Item Name="Create Actions.vi" Type="VI" URL="../subvis/Create Actions.vi"/>
 		</Item>
 		<Item Name="MAIN_UI.vi" Type="VI" URL="../MAIN_UI.vi"/>
 		<Item Name="rutune.txt" Type="Document" URL="../rutune.txt"/>
@@ -247,6 +248,8 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="DATA Oscill.ctl" Type="VI" URL="../OscillationClass/DATA Oscill.ctl"/>
 			<Item Name="Pressure PV  Source.ctl" Type="VI" URL="../TypeDef/Pressure PV  Source.ctl"/>
+			<Item Name="ScriptName.ctl" Type="VI" URL="../TypeDef/ScriptName.ctl"/>
+			<Item Name="Action.ctl" Type="VI" URL="../TypeDef/Action.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

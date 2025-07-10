@@ -14,6 +14,7 @@
 	<Property Name="varPersistentID:{94E662A4-66EF-4FE6-BAFD-57DB5908E859}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/CALIBRATION_DATA</Property>
 	<Property Name="varPersistentID:{9F835FB7-6DAD-420A-A80E-1F4A83558CFB}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/DATA_STAND</Property>
 	<Property Name="varPersistentID:{B1304F4C-1E22-4A6F-8716-B48FAFA6E712}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV1_DATA</Property>
+	<Property Name="varPersistentID:{CC68F618-87A1-44A8-9BD9-CE47445C47E5}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/SETTINGS_STAND</Property>
 	<Property Name="varPersistentID:{D47004A3-C868-42CF-BAD7-5860F665904D}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV2_SETTING</Property>
 	<Property Name="varPersistentID:{DAD40881-3D67-42CD-A1F1-AA0A39B610FC}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/VLV_44_2_STATE</Property>
 	<Property Name="varPersistentID:{E11EB44B-DDB0-44DA-9778-4A13EA1C22DE}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/EXP_FIT_CHMBR</Property>
