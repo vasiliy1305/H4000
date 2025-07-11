@@ -32,10 +32,21 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Action.ctl" Type="VI" URL="../TypeDef/Action.ctl"/>
+		<Item Name="Calc T0 A.vi" Type="VI" URL="../Stand_class/Calc T0 A.vi"/>
 		<Item Name="Do Done Template.vi" Type="VI" URL="../Stand_class/Do Done Template.vi"/>
 		<Item Name="DoDone Sandbox.vi" Type="VI" URL="../Stand_class/DoDone Sandbox.vi"/>
 		<Item Name="rutune.txt" Type="Document" URL="../rutune.txt"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Sandbox calc t0 a.vi" Type="VI" URL="../Stand_class/Sandbox calc t0 a.vi"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
+			</Item>
+			<Item Name="Calc Ip Iu dP.vi" Type="VI" URL="../Stand_class/Calc Ip Iu dP.vi"/>
+			<Item Name="Loop Time Const.vi" Type="VI" URL="../subvis/Loop Time Const.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Setting Pressure PI.ctl" Type="VI" URL="../TypeDef/Setting Pressure PI.ctl"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="RT CompactRIO Target" Type="RT CompactRIO">
@@ -49,6 +60,7 @@
 		<Property Name="host.TargetCPUID" Type="UInt">9</Property>
 		<Property Name="host.TargetOSID" Type="UInt">19</Property>
 		<Property Name="host.TargetUIEnabled" Type="Bool">false</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
@@ -171,6 +183,7 @@ AddOutputFilter chunkFilter
 			<Item Name="ArrayToSet.vim" Type="VI" URL="../subvis/ArrayToSet.vim"/>
 			<Item Name="Average.vi" Type="VI" URL="../subvis/Average.vi"/>
 			<Item Name="bool_change.vi" Type="VI" URL="../subvis/bool_change.vi"/>
+			<Item Name="Calc Ip Iu dP.vi" Type="VI" URL="../Stand_class/Calc Ip Iu dP.vi"/>
 			<Item Name="Check Folder or Create.vi" Type="VI" URL="../subvis/Check Folder or Create.vi"/>
 			<Item Name="CheckLatinAlfabet.vi" Type="VI" URL="../subvis/CheckLatinAlfabet.vi"/>
 			<Item Name="ClassNotDefineError.vi" Type="VI" URL="../subvis/ClassNotDefineError.vi"/>
@@ -229,6 +242,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Pressure PV  Source.ctl" Type="VI" URL="../TypeDef/Pressure PV  Source.ctl"/>
 			<Item Name="Scale Data.ctl" Type="VI" URL="../TypeDef/Scale Data.ctl"/>
 			<Item Name="ScriptName.ctl" Type="VI" URL="../TypeDef/ScriptName.ctl"/>
+			<Item Name="Setting Pressure PI.ctl" Type="VI" URL="../TypeDef/Setting Pressure PI.ctl"/>
 			<Item Name="Setting Stand.ctl" Type="VI" URL="../TypeDef/Setting Stand.ctl"/>
 			<Item Name="State Engine 2.ctl" Type="VI" URL="../TypeDef/State Engine 2.ctl"/>
 			<Item Name="State Engine.ctl" Type="VI" URL="../TypeDef/State Engine.ctl"/>
@@ -1498,6 +1512,7 @@ AddOutputFilter chunkFilter
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Calc T0 A.vi" Type="VI" URL="../Stand_class/Calc T0 A.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Real-Time Application" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
