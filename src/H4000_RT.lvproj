@@ -184,6 +184,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Average.vi" Type="VI" URL="../subvis/Average.vi"/>
 			<Item Name="bool_change.vi" Type="VI" URL="../subvis/bool_change.vi"/>
 			<Item Name="Calc Ip Iu dP.vi" Type="VI" URL="../Stand_class/Calc Ip Iu dP.vi"/>
+			<Item Name="Calc T0.vi" Type="VI" URL="../Stand_class/Calc T0.vi"/>
 			<Item Name="Check Folder or Create.vi" Type="VI" URL="../subvis/Check Folder or Create.vi"/>
 			<Item Name="CheckLatinAlfabet.vi" Type="VI" URL="../subvis/CheckLatinAlfabet.vi"/>
 			<Item Name="ClassNotDefineError.vi" Type="VI" URL="../subvis/ClassNotDefineError.vi"/>
@@ -1512,7 +1513,6 @@ AddOutputFilter chunkFilter
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Calc T0 A.vi" Type="VI" URL="../Stand_class/Calc T0 A.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Real-Time Application" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
