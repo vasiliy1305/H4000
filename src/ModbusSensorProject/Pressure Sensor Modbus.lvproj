@@ -364,6 +364,7 @@ AddOutputFilter chunkFilter
 			</Item>
 		</Item>
 		<Item Name="MAIN Modbus Test.vi" Type="VI" URL="../MAIN Modbus Test.vi"/>
+		<Item Name="Modbus DataType Conversation.lvlib" Type="Library" URL="../../Modbus Data Type Conversation/Modbus DataType Conversation.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="API Main.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Wrapper/API Main.lvlib"/>
@@ -420,7 +421,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{711BB80A-24C1-4AE9-B282-47009CAB2770}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>

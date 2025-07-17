@@ -246,7 +246,6 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="DATA Oscill.ctl" Type="VI" URL="../OscillationClass/DATA Oscill.ctl"/>
-			<Item Name="Pressure PV  Source.ctl" Type="VI" URL="../TypeDef/Pressure PV  Source.ctl"/>
 			<Item Name="ScriptName.ctl" Type="VI" URL="../TypeDef/ScriptName.ctl"/>
 			<Item Name="Action.ctl" Type="VI" URL="../TypeDef/Action.ctl"/>
 			<Item Name="Setting Pressure PI.ctl" Type="VI" URL="../TypeDef/Setting Pressure PI.ctl"/>
