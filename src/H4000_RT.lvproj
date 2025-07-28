@@ -13,6 +13,7 @@
 	<Property Name="varPersistentID:{883DA19A-D07F-4C8B-8B8E-8B07EFB92BE9}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/VLV_44_1_STATE</Property>
 	<Property Name="varPersistentID:{94E662A4-66EF-4FE6-BAFD-57DB5908E859}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/CALIBRATION_DATA</Property>
 	<Property Name="varPersistentID:{9F835FB7-6DAD-420A-A80E-1F4A83558CFB}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/DATA_STAND</Property>
+	<Property Name="varPersistentID:{A3358891-103A-453E-A4E5-C7AC970EB315}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/TCP_Connection_List</Property>
 	<Property Name="varPersistentID:{B1304F4C-1E22-4A6F-8716-B48FAFA6E712}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV1_DATA</Property>
 	<Property Name="varPersistentID:{CC68F618-87A1-44A8-9BD9-CE47445C47E5}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/SETTINGS_STAND</Property>
 	<Property Name="varPersistentID:{D47004A3-C868-42CF-BAD7-5860F665904D}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV2_SETTING</Property>
@@ -83,14 +84,16 @@
 		<Property Name="target.server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.tcp.access" Type="Str">+*</Property>
-		<Property Name="target.server.tcp.enabled" Type="Bool">false</Property>
+		<Property Name="target.server.tcp.enabled" Type="Bool">true</Property>
 		<Property Name="target.server.tcp.paranoid" Type="Bool">true</Property>
 		<Property Name="target.server.tcp.port" Type="Int">3363</Property>
-		<Property Name="target.server.tcp.serviceName" Type="Str">Main Application Instance/VI Server</Property>
+		<Property Name="target.server.tcp.serviceName" Type="Str"></Property>
 		<Property Name="target.server.tcp.serviceName.default" Type="Str">Main Application Instance/VI Server</Property>
 		<Property Name="target.server.vi.access" Type="Str">+*</Property>
 		<Property Name="target.server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.vi.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="target.server.viscripting.showScriptingOperationsInContextHelp" Type="Bool">false</Property>
+		<Property Name="target.server.viscripting.showScriptingOperationsInEditor" Type="Bool">false</Property>
 		<Property Name="target.WebServer.Config" Type="Str">Listen 8000
 
 NI.ServerName default
@@ -201,6 +204,7 @@ AddOutputFilter chunkFilter
 			<Item Name="FastForward.vi" Type="VI" URL="../subvis/FastForward.vi"/>
 			<Item Name="GlobalStop.vi" Type="VI" URL="../Stand_class/GlobalStop.vi"/>
 			<Item Name="GUI Alarms Tbl.vi" Type="VI" URL="../subvis/GUI Alarms Tbl.vi"/>
+			<Item Name="jitter.vi" Type="VI" URL="../subvis/jitter.vi"/>
 			<Item Name="Loop Time Const.vi" Type="VI" URL="../subvis/Loop Time Const.vi"/>
 			<Item Name="Objects to table.vi" Type="VI" URL="../subvis/Objects to table.vi"/>
 			<Item Name="PI_Controller.vi" Type="VI" URL="../Valve_2DO_2DI_class/PI_Controller.vi"/>
@@ -252,6 +256,8 @@ AddOutputFilter chunkFilter
 			<Item Name="State Engine 2.ctl" Type="VI" URL="../TypeDef/State Engine 2.ctl"/>
 			<Item Name="State Engine.ctl" Type="VI" URL="../TypeDef/State Engine.ctl"/>
 			<Item Name="State PMG.ctl" Type="VI" URL="../TypeDef/State PMG.ctl"/>
+			<Item Name="TCP Connection List.ctl" Type="VI" URL="../TypeDef/TCP Connection List.ctl"/>
+			<Item Name="Valve DIR.ctl" Type="VI" URL="../Stand_class/Valve DIR.ctl"/>
 			<Item Name="valveState.ctl" Type="VI" URL="../FPGA/TypeDef/valveState.ctl"/>
 		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
@@ -1534,7 +1540,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0B9BDCCE-B0BA-456F-9460-58F1BD4C2A01}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
