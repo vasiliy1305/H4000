@@ -247,11 +247,12 @@
 				<Item Name="LVStringsAndValuesArrayTypeDef_U16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U16.ctl"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="DATA Oscill.ctl" Type="VI" URL="../OscillationClass/DATA Oscill.ctl"/>
 			<Item Name="ScriptName.ctl" Type="VI" URL="../TypeDef/ScriptName.ctl"/>
 			<Item Name="Action.ctl" Type="VI" URL="../TypeDef/Action.ctl"/>
 			<Item Name="Setting Pressure PI.ctl" Type="VI" URL="../TypeDef/Setting Pressure PI.ctl"/>
 			<Item Name="TCP Connection List.ctl" Type="VI" URL="../TypeDef/TCP Connection List.ctl"/>
+			<Item Name="Mode.ctl" Type="VI" URL="../TypeDef/Mode.ctl"/>
+			<Item Name="ExecuteStepState.ctl" Type="VI" URL="../TypeDef/ExecuteStepState.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="H_400_MPa" Type="EXE">
