@@ -253,6 +253,7 @@
 			<Item Name="TCP Connection List.ctl" Type="VI" URL="../TypeDef/TCP Connection List.ctl"/>
 			<Item Name="Mode.ctl" Type="VI" URL="../TypeDef/Mode.ctl"/>
 			<Item Name="ExecuteStepState.ctl" Type="VI" URL="../TypeDef/ExecuteStepState.ctl"/>
+			<Item Name="AI index.ctl" Type="VI" URL="../FPGA/TypeDef/AI index.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="H_400_MPa" Type="EXE">
