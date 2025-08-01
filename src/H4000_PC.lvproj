@@ -256,6 +256,7 @@
 			<Item Name="ExecuteStepState.ctl" Type="VI" URL="../TypeDef/ExecuteStepState.ctl"/>
 			<Item Name="AI index.ctl" Type="VI" URL="../FPGA/TypeDef/AI index.ctl"/>
 			<Item Name="STS REG.ctl" Type="VI" URL="../Modbus_class/STS REG.ctl"/>
+			<Item Name="SP_TYPE.ctl" Type="VI" URL="../TypeDef/SP_TYPE.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="H_400_MPa" Type="EXE">
