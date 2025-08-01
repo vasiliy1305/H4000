@@ -85,6 +85,7 @@
 			<Item Name="Scale Data.ctl" Type="VI" URL="../TypeDef/Scale Data.ctl"/>
 			<Item Name="valveState.ctl" Type="VI" URL="../FPGA/TypeDef/valveState.ctl"/>
 			<Item Name="Haskel Settings.ctl" Type="VI" URL="../TypeDef/Haskel Settings.ctl"/>
+			<Item Name="CMD REG.ctl" Type="VI" URL="../Modbus_class/CMD REG.ctl"/>
 			<Item Name="Setting Stand.ctl" Type="VI" URL="../TypeDef/Setting Stand.ctl"/>
 		</Item>
 		<Item Name="Subvis" Type="Folder">
@@ -254,6 +255,7 @@
 			<Item Name="Mode.ctl" Type="VI" URL="../TypeDef/Mode.ctl"/>
 			<Item Name="ExecuteStepState.ctl" Type="VI" URL="../TypeDef/ExecuteStepState.ctl"/>
 			<Item Name="AI index.ctl" Type="VI" URL="../FPGA/TypeDef/AI index.ctl"/>
+			<Item Name="STS REG.ctl" Type="VI" URL="../Modbus_class/STS REG.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="H_400_MPa" Type="EXE">
