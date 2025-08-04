@@ -32,7 +32,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Direction.ctl" Type="VI" URL="../TypeDef/Direction.ctl"/>
 		<Item Name="rutune.txt" Type="Document" URL="../rutune.txt"/>
 		<Item Name="Sandbox Calc A P0.vi" Type="VI" URL="../Tests/Sandbox Calc A P0.vi"/>
 		<Item Name="Sandbox calc t0 a.vi" Type="VI" URL="../Stand_class/Sandbox calc t0 a.vi"/>
@@ -258,6 +257,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Setting Pressure PI.ctl" Type="VI" URL="../TypeDef/Setting Pressure PI.ctl"/>
 			<Item Name="Setting Stand.ctl" Type="VI" URL="../TypeDef/Setting Stand.ctl"/>
 			<Item Name="SP_TYPE.ctl" Type="VI" URL="../TypeDef/SP_TYPE.ctl"/>
+			<Item Name="State - BackPressure.ctl" Type="VI" URL="../TypeDef/State - BackPressure.ctl"/>
 			<Item Name="State - Pressure Down.ctl" Type="VI" URL="../TypeDef/State - Pressure Down.ctl"/>
 			<Item Name="State Engine 2.ctl" Type="VI" URL="../TypeDef/State Engine 2.ctl"/>
 			<Item Name="State Engine.ctl" Type="VI" URL="../TypeDef/State Engine.ctl"/>
@@ -1429,7 +1429,6 @@ AddOutputFilter chunkFilter
 			</Item>
 		</Item>
 		<Item Name="MAIN_RT.vi" Type="VI" URL="../MAIN_RT.vi"/>
-		<Item Name="State - BackPressure.ctl" Type="VI" URL="../TypeDef/State - BackPressure.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
