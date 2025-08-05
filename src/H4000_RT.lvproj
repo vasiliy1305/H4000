@@ -210,8 +210,10 @@ AddOutputFilter chunkFilter
 			<Item Name="Objects to table.vi" Type="VI" URL="../subvis/Objects to table.vi"/>
 			<Item Name="PI_Controller.vi" Type="VI" URL="../Valve_2DO_2DI_class/PI_Controller.vi"/>
 			<Item Name="Sandbox NV.vi" Type="VI" URL="../subvis/Sandbox NV.vi"/>
+			<Item Name="Set to Array.vim" Type="VI" URL="../subvis/Set to Array.vim"/>
 			<Item Name="SHaredVariableSaver.vi" Type="VI" URL="../subvis/SHaredVariableSaver.vi"/>
 			<Item Name="Tick Count (ms) with inout.vim" Type="VI" URL="../subvis/Tick Count (ms) with inout.vim"/>
+			<Item Name="Valve State Mode.vi" Type="VI" URL="../Stand_class/Valve State Mode.vi"/>
 			<Item Name="Variant To Str.vi" Type="VI" URL="../MessageInterface_class/Variant To Str.vi"/>
 		</Item>
 		<Item Name="Typedef" Type="Folder">
@@ -265,6 +267,7 @@ AddOutputFilter chunkFilter
 			<Item Name="STS REG.ctl" Type="VI" URL="../Modbus_class/STS REG.ctl"/>
 			<Item Name="TCP Connection List.ctl" Type="VI" URL="../TypeDef/TCP Connection List.ctl"/>
 			<Item Name="Valve DIR.ctl" Type="VI" URL="../Stand_class/Valve DIR.ctl"/>
+			<Item Name="Valve Mode.ctl" Type="VI" URL="../Stand_class/Valve Mode.ctl"/>
 			<Item Name="valveState.ctl" Type="VI" URL="../FPGA/TypeDef/valveState.ctl"/>
 		</Item>
 		<Item Name="Global" Type="Folder">
