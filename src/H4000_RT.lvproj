@@ -16,6 +16,7 @@
 	<Property Name="varPersistentID:{A3358891-103A-453E-A4E5-C7AC970EB315}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/TCP_Connection_List</Property>
 	<Property Name="varPersistentID:{B1304F4C-1E22-4A6F-8716-B48FAFA6E712}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV1_DATA</Property>
 	<Property Name="varPersistentID:{CC68F618-87A1-44A8-9BD9-CE47445C47E5}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/SETTINGS_STAND</Property>
+	<Property Name="varPersistentID:{D0FB0A40-E390-40FC-9E90-2BE523E853CB}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/duration</Property>
 	<Property Name="varPersistentID:{D47004A3-C868-42CF-BAD7-5860F665904D}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/NV2_SETTING</Property>
 	<Property Name="varPersistentID:{DAD40881-3D67-42CD-A1F1-AA0A39B610FC}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/VLV_44_2_STATE</Property>
 	<Property Name="varPersistentID:{E11EB44B-DDB0-44DA-9778-4A13EA1C22DE}" Type="Ref">/RT CompactRIO Target/Libs/RT_Shared_Variables.lvlib/EXP_FIT_CHMBR</Property>
@@ -229,6 +230,7 @@ AddOutputFilter chunkFilter
 			<Item Name="bool_setting.ctl" Type="VI" URL="../TypeDef/bool_setting.ctl"/>
 			<Item Name="CalibrationData.ctl" Type="VI" URL="../TypeDef/CalibrationData.ctl"/>
 			<Item Name="Cluster_Connection_Info.ctl" Type="VI" URL="../Neosoft Technologies/NeoDB for PostgreSQL/Postgres Connector/Ctrls/Cluster_Connection_Info.ctl"/>
+			<Item Name="CMD REG.ctl" Type="VI" URL="../Modbus_class/CMD REG.ctl"/>
 			<Item Name="ConfigAnalogComp.ctl" Type="VI" URL="../TypeDef/ConfigAnalogComp.ctl"/>
 			<Item Name="Current Alarms.ctl" Type="VI" URL="../Logger_class/Current Alarms.ctl"/>
 			<Item Name="Data Avr.ctl" Type="VI" URL="../subvis/Data Avr.ctl"/>
@@ -239,6 +241,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Direction.ctl" Type="VI" URL="../TypeDef/Direction.ctl"/>
 			<Item Name="DO index.ctl" Type="VI" URL="../FPGA/TypeDef/DO index.ctl"/>
 			<Item Name="engineering units.ctl" Type="VI" URL="../TypeDef/engineering units.ctl"/>
+			<Item Name="error.ctl" Type="VI" URL="../TypeDef/error.ctl"/>
 			<Item Name="EventData.ctl" Type="VI" URL="../Logger_class/EventData.ctl"/>
 			<Item Name="ExecuteStepState.ctl" Type="VI" URL="../TypeDef/ExecuteStepState.ctl"/>
 			<Item Name="GUI AI Ranges.ctl" Type="VI" URL="../TypeDef/GUI AI Ranges.ctl"/>
@@ -1530,13 +1533,11 @@ AddOutputFilter chunkFilter
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="JKI_BasicFPGA_Functions JKI_FPGA.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/FPGA_Basic_Components/JKI_BasicFPGA_Functions JKI_FPGA.lvlib"/>
 			</Item>
-			<Item Name="error.ctl" Type="VI" URL="../TypeDef/error.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="MAIN_FPGA.lvbitx" Type="Document" URL="../FPGA Bitfiles/MAIN_FPGA.lvbitx"/>
-			<Item Name="CMD REG.ctl" Type="VI" URL="../Modbus_class/CMD REG.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Real-Time Application" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -1555,7 +1556,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0B9BDCCE-B0BA-456F-9460-58F1BD4C2A01}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
