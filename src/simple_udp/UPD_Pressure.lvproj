@@ -11,6 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Data.ctl" Type="VI" URL="../Data.ctl"/>
+		<Item Name="Read FPGA.vi" Type="VI" URL="../Read FPGA.vi"/>
 		<Item Name="Receiver.vi" Type="VI" URL="../Receiver.vi"/>
 		<Item Name="Sender.vi" Type="VI" URL="../Sender.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
