@@ -5,8 +5,11 @@
 	<Property Name="varPersistentID:{0E2D81D7-569C-406D-B5BC-C267509F4830}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/STATE_PMG</Property>
 	<Property Name="varPersistentID:{165704B1-EF86-4EFE-91F6-CE469DF3B79A}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/DATA_STAND</Property>
 	<Property Name="varPersistentID:{2532334B-C348-44D7-85F8-10EBC12B22E0}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/ERROR_BD</Property>
+	<Property Name="varPersistentID:{27AA0B27-21C8-4A27-9856-7CD759976CFC}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/TCP_Connection_List</Property>
 	<Property Name="varPersistentID:{2E981632-612E-4E8B-A33B-ED0B028250D3}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/NV2_DATA</Property>
 	<Property Name="varPersistentID:{4256B943-4A0A-4578-9619-D999CD27A18D}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/EXP_FIT_DUT</Property>
+	<Property Name="varPersistentID:{56F83670-6EA8-43B2-9194-F1D9137E2C6F}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/duration</Property>
+	<Property Name="varPersistentID:{5F5EE749-0B62-4732-92E3-BE6160B42239}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/SETTINGS_STAND</Property>
 	<Property Name="varPersistentID:{61208B3F-C073-45CC-9259-3BC0C6BCDC18}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/AO_ARRAY</Property>
 	<Property Name="varPersistentID:{688CEB24-263F-4190-AB06-8DCADCC8C54B}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/P_CHMBR_MB</Property>
 	<Property Name="varPersistentID:{69D4F517-98FC-4AA4-A1CB-943602D8D373}" Type="Ref">/My Computer/Libs/RT_Shared_Variables.lvlib/NV2_SETTING</Property>
@@ -265,6 +268,7 @@
 				<Item Name="JKI JSON Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/JSON/JKI JSON Serialization.lvlib"/>
 				<Item Name="JKI Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/Core/JKI Serialization.lvlib"/>
 				<Item Name="JKI Unicode.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Unicode/JKI Unicode.lvlib"/>
+				<Item Name="JKI_BasicFPGA_Functions JKI_FPGA.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/FPGA_Basic_Components/JKI_BasicFPGA_Functions JKI_FPGA.lvlib"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
@@ -327,19 +331,31 @@
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Action.ctl" Type="VI" URL="../TypeDef/Action.ctl"/>
-			<Item Name="Create Actions.vi" Type="VI" URL="../subvis/Create Actions.vi"/>
+			<Item Name="CMD REG.ctl" Type="VI" URL="../Modbus_class/CMD REG.ctl"/>
 			<Item Name="DATA Oscill.ctl" Type="VI" URL="../OscillationClass/DATA Oscill.ctl"/>
 			<Item Name="delayValue.lvclass" Type="LVClass" URL="../dY_dX_Calculator/delayValue.lvclass"/>
-			<Item Name="LinealFitting.lvclass" Type="LVClass" URL="../LinealFitting/LinealFitting.lvclass"/>
+			<Item Name="ExecuteStepState.ctl" Type="VI" URL="../TypeDef/ExecuteStepState.ctl"/>
+			<Item Name="FastForward.vi" Type="VI" URL="../subvis/FastForward.vi"/>
+			<Item Name="Global Constant.vi" Type="VI" URL="../Global/Global Constant.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MB CMD.ctl" Type="VI" URL="../TypeDef/MB CMD.ctl"/>
+			<Item Name="Modbus DataType Conversation.lvlib" Type="Library" URL="../Modbus Data Type Conversation/Modbus DataType Conversation.lvlib"/>
+			<Item Name="Mode.ctl" Type="VI" URL="../TypeDef/Mode.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PI_Controller.vi" Type="VI" URL="../Valve_2DO_2DI_class/PI_Controller.vi"/>
-			<Item Name="Pressure PV  Source.ctl" Type="VI" URL="../TypeDef/Pressure PV  Source.ctl"/>
-			<Item Name="ScriptName.ctl" Type="VI" URL="../TypeDef/ScriptName.ctl"/>
+			<Item Name="Set to Array.vim" Type="VI" URL="../subvis/Set to Array.vim"/>
+			<Item Name="Setting Pressure PI.ctl" Type="VI" URL="../TypeDef/Setting Pressure PI.ctl"/>
+			<Item Name="SP_TYPE.ctl" Type="VI" URL="../TypeDef/SP_TYPE.ctl"/>
+			<Item Name="State - BackPressure.ctl" Type="VI" URL="../TypeDef/State - BackPressure.ctl"/>
+			<Item Name="State - Pressure Down.ctl" Type="VI" URL="../TypeDef/State - Pressure Down.ctl"/>
+			<Item Name="State 44-1-2.ctl" Type="VI" URL="../TypeDef/State 44-1-2.ctl"/>
+			<Item Name="STS REG.ctl" Type="VI" URL="../Modbus_class/STS REG.ctl"/>
+			<Item Name="TCP Connection List.ctl" Type="VI" URL="../TypeDef/TCP Connection List.ctl"/>
+			<Item Name="Valve DIR.ctl" Type="VI" URL="../Stand_class/Valve DIR.ctl"/>
+			<Item Name="Valve Mode.ctl" Type="VI" URL="../Stand_class/Valve Mode.ctl"/>
+			<Item Name="Valve State Mode.vi" Type="VI" URL="../Stand_class/Valve State Mode.vi"/>
+			<Item Name="Waveform Clear Hist.vim" Type="VI" URL="../subvis/Waveform Clear Hist.vim"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
