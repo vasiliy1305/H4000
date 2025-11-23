@@ -1396,6 +1396,7 @@ AddOutputFilter chunkFilter
 						<Item Name="niLvFpgaNotchCU(32-bit).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/measure/notch/templates/niLvFpgaNotchCU(32-bit).vi"/>
 						<Item Name="niFPGA I32xI32 MAC - FXP.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA I32xI32 MAC - FXP.vi"/>
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
+						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					</Item>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
@@ -1563,7 +1564,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0B9BDCCE-B0BA-456F-9460-58F1BD4C2A01}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">36</Property>
+				<Property Name="Bld_version.build" Type="Int">37</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
